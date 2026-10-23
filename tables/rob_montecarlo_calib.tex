@@ -1,0 +1,42 @@
+\begin{tabular}{lccccccc}
+\toprule
+ & & \multicolumn{3}{c}{Design A} & \multicolumn{3}{c}{Design B} \\
+\cmidrule(lr){3-5}\cmidrule(lr){6-8}
+ & True & Mean & RMSE & Cover. & Mean & RMSE & Cover. \\
+\midrule
+\multicolumn{8}{l}{\textit{DGP1: threshold, banking-state speeds}} \\
+Lower edge $\ell_m$ (bp) & -16.0 & -18.0 & 35.4 & & -16.2 & 19.6 & \\
+Upper edge $u_m$ (bp) & 16.0 & 27.5 & 41.9 & & 20.0 & 22.5 & \\
+$\kappa^+$, banks closed & 0.0025 & 0.0026 & 0.0005 & 0.92 & 0.0025 & 0.0006 & 0.93 \\
+$\kappa^+$, banks open & 0.0104 & 0.0077 & 0.0029 &  & 0.0072 & 0.0034 &  \\
+$\kappa^+$, BH increment & 0.0079 & 0.0051 & 0.0030 & 0.17 & 0.0047 & 0.0035 & 0.19 \\
+$\kappa^-$, banks closed & 0.0074 & 0.0054 & 0.0021 & 0.18 & 0.0051 & 0.0024 & 0.18 \\
+$\kappa^-$, banks open & 0.0097 & 0.0059 & 0.0039 &  & 0.0058 & 0.0042 &  \\
+$\kappa^+_{open}/\kappa^+_{closed}$, median & 4.20 & 2.95 & & & 2.86 & & \\
+In-band coefficient, col.\ (3) & 0.0000 & -0.0008 & 0.0010 & 0.89 & -0.0006 & 0.0007 & 0.83 \\
+\addlinespace
+\multicolumn{8}{l}{\textit{DGP3: threshold, same speed in both states}} \\
+Lower edge $\ell_m$ (bp) & -16.0 & -18.7 & 32.5 & & -16.5 & 18.4 & \\
+Upper edge $u_m$ (bp) & 16.0 & 30.0 & 40.9 & & 21.1 & 22.3 & \\
+$\kappa^+$, banks closed & 0.0054 & 0.0048 & 0.0009 & 0.74 & 0.0044 & 0.0012 & 0.59 \\
+$\kappa^+$, banks open & 0.0054 & 0.0043 & 0.0013 &  & 0.0041 & 0.0016 &  \\
+$\kappa^+$, BH increment & 0.0000 & -0.0005 & 0.0011 & 0.88 & -0.0004 & 0.0012 & 0.89 \\
+$\kappa^-$, banks closed & 0.0085 & 0.0061 & 0.0025 & 0.13 & 0.0057 & 0.0030 & 0.14 \\
+$\kappa^-$, banks open & 0.0085 & 0.0055 & 0.0031 &  & 0.0053 & 0.0034 &  \\
+$\kappa^+_{open}/\kappa^+_{closed}$, median & 1.00 & 0.90 & & & 0.92 & & \\
+In-band coefficient, col.\ (3) & 0.0000 & -0.0006 & 0.0009 & 0.91 & -0.0005 & 0.0006 & 0.88 \\
+\addlinespace
+\multicolumn{8}{l}{\textit{DGP2: linear error correction, no band}} \\
+Linear $\kappa$, col.\ (1) & 0.0039 & 0.0028 & 0.0012 & 0.00 & 0.0028 & 0.0011 & 0.01 \\
+In-band coefficient, col.\ (3) & 0.0039 & -0.0009 & 0.0049 & 0.00 & -0.0009 & 0.0049 & 0.00 \\
+Median band width (bp) & -- & 32.3 & & & 17.5 & & \\
+\midrule
+ & \multicolumn{3}{c}{In-band $=0$} & \multicolumn{2}{c}{$\kappa^+$ BH incr.\ $=0$} & \multicolumn{2}{c}{DGP2} \\
+\cmidrule(lr){2-4}\cmidrule(lr){5-6}\cmidrule(lr){7-8}
+Rejection rate at 5\% & DGP1 & DGP3 & DGP2 & DGP1 & DGP3 & Flat band & $\sum$LR$\ge$464 \\
+Design A & 0.11 & 0.09 & 0.10 & 1.00 & 0.12 & 1.00 & 0.00 \\
+Design B & 0.17 & 0.12 & 0.10 & 0.99 & 0.11 & 0.24 & 0.00 \\
+A, $t_3$ shocks & 0.10 & 0.12 & 0.07 & 1.00 & 0.11 & 0.99 & 0.00 \\
+A, empirical bands & 0.08 & 0.07 & 0.09 & 0.99 & 0.13 & 1.00 & 0.00 \\
+\bottomrule
+\end{tabular}

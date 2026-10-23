@@ -1,0 +1,513 @@
+{
+ "name": "tcmb_institutions",
+ "type": "desk research with primary-source fetching, no estimation",
+ "access_date": "2026-10-22",
+ "blocked_hosts": [
+  "eftemkt.tcmb.gov.tr (Operational Rule Book)",
+  "fast.tcmb.gov.tr",
+  "www3.tcmb.gov.tr (annual reports)",
+  "odemelerinmerkezi.org",
+  "web.archive.org"
+ ],
+ "urls": {
+  "eft_en": "https://www.tcmb.gov.tr/wps/wcm/connect/EN/TCMB+EN/Main+Menu/Core+Functions/Payment+Systems/Payment+Systems+in+Turkey/Electronic+Fund+Transfer+System+and+Electronic+Securities+Transfer+System",
+  "eft_tr": "https://www.tcmb.gov.tr/wps/wcm/connect/TR/TCMB+TR/Main+Menu/Temel+Faaliyetler/Odeme+Sistemleri/Turkiyedeki+Odeme+Sistemleri/Elektronik+Fon+Transfer+%28EFT%29+Sistemi",
+  "pfmi_en": "https://www.tcmb.gov.tr/wps/wcm/connect/31501641-178e-470b-8888-aa91c2958466/FPAiP_UygunlukRaporu_Yay%C4%B1m4_2021_kamuyabeyan-ING.pdf?MOD=AJPERES",
+  "pfmi_tr": "https://www.tcmb.gov.tr/wps/wcm/connect/c34c2e8a-803a-4713-9c60-842232677d67/FPAiP_UygunlukRaporu_Yay%C4%B1m4_2021_kamuyabeyan.pdf?MOD=AJPERES",
+  "ano2024_12": "https://www.tcmb.gov.tr/wps/wcm/connect/EN/TCMB+EN/Main+Menu/Announcements/Press+Releases/2024/ANO2024-12",
+  "ano2024_16": "https://www.tcmb.gov.tr/wps/wcm/connect/EN/TCMB+EN/Main+Menu/Announcements/Press+Releases/2024/ANO2024-16",
+  "duy2024_16": "https://www.tcmb.gov.tr/wps/wcm/connect/TR/TCMB+TR/Main+Menu/Duyurular/Basin/2024/DUY2024-16",
+  "ano2026_36": "https://www.tcmb.gov.tr/wps/wcm/connect/EN/TCMB+EN/Main+Menu/Announcements/Press+Releases/2026/ANO2026-36",
+  "duy2026_36": "https://www.tcmb.gov.tr/wps/wcm/connect/TR/TCMB+TR/Main+Menu/Duyurular/Basin/2026/DUY2026-36",
+  "duy2024_08": "https://www.tcmb.gov.tr/wps/wcm/connect/TR/TCMB+TR/Main+Menu/Duyurular/Basin/2024/DUY2024-08",
+  "press_lists": "https://www.tcmb.gov.tr/wps/wcm/connect/TR/TCMB+TR/Main+Menu/Duyurular/Basin/{2023,2024,2025,2026}",
+  "faq_tr": "https://www.tcmb.gov.tr/wps/wcm/connect/TR/TCMB+TR/Main+Menu/Banka+Hakkinda/Sikca+Sorulan+Sorular",
+  "kurlar": "https://www.tcmb.gov.tr/kurlar/YYYYMM/DDMMYYYY.xml",
+  "fee_consumer": "https://www.tcmb.gov.tr/wps/wcm/connect/989f1997-5a78-4aa3-99f7-ae816978999d/2023-39+say%C4%B1l%C4%B1+FT+Tebli%C4%9Fi-13+Ocak+2026.pdf?MOD=AJPERES",
+  "fee_commercial": "https://www.tcmb.gov.tr/wps/wcm/connect/217dd206-5e42-4402-8fb0-d466b23e5acf/Bankalarca+Ticari+M%C3%BC%C5%9Fterilerden+Al%C4%B1nabilecek+%C3%9Ccretlere+%C4%B0li%C5%9Fkin+Usul+ve+Esaslar+Hakk%C4%B1nda+2020-4+Say%C4%B1l%C4%B1+Tebli%C4%9F.pdf?MOD=AJPERES",
+  "crypto_reg": "https://www.tcmb.gov.tr/wps/wcm/connect/6937855a-7c29-4d08-a26e-51ef3273c022/%C3%96demelerde+Kripto+Varl%C4%B1klar%C4%B1n+Kullan%C4%B1lmamas%C4%B1na+Dair+Y%C3%B6netmelik.pdf?MOD=AJPERES",
+  "ano2025_34": "https://www.tcmb.gov.tr/wps/wcm/connect/EN/TCMB+EN/Main+Menu/Announcements/Press+Releases/2025/ANO2025-34",
+  "ntv2023": "https://www.ntv.com.tr/ntvpara/fast-limiti-50-bin-tlye-yukseltildi,qXsLOiNgZEeG-YeLUnF9vQ"
+ },
+ "facts": [
+  {
+   "id": "eft_hours",
+   "status": "VERIFIED (primary)",
+   "claim": "The CBRT Payment Systems (interbank EFT, the customer-payment component RPS/POS, and ESTS) open at 08:30 and close at 17:30 on weekdays except public holidays.",
+   "sources": [
+    "https://www.tcmb.gov.tr/wps/wcm/connect/EN/TCMB+EN/Main+Menu/Core+Functions/Payment+Systems/Payment+Systems+in+Turkey/Electronic+Fund+Transfer+System+and+Electronic+Securities+Transfer+System",
+    "https://www.tcmb.gov.tr/wps/wcm/connect/TR/TCMB+TR/Main+Menu/Temel+Faaliyetler/Odeme+Sistemleri/Turkiyedeki+Odeme+Sistemleri/Elektronik+Fon+Transfer+%28EFT%29+Sistemi",
+    "https://www.tcmb.gov.tr/wps/wcm/connect/31501641-178e-470b-8888-aa91c2958466/FPAiP_UygunlukRaporu_Yay%C4%B1m4_2021_kamuyabeyan-ING.pdf?MOD=AJPERES",
+    "https://www.tcmb.gov.tr/wps/wcm/connect/c34c2e8a-803a-4713-9c60-842232677d67/FPAiP_UygunlukRaporu_Yay%C4%B1m4_2021_kamuyabeyan.pdf?MOD=AJPERES"
+   ],
+   "quotes": [
+    "EN page: 'The CBRT Payment Systems operate on week days, except public holidays, between 8:30 a.m. and 5:30 p.m. The systems are open until 1:00 p.m. on half working days.'",
+    "TR page: 'TCMB Odeme Sistemleri; resmi tatiller disinda, hafta ici her gun 08.30-17.30 saatleri arasinda calisir. Yarim is gunlerinde ise saat 13.00'e kadar sistemler aciktir.'",
+    "PFMI disclosure (29 Dec 2021), s.2.9: 'Except for the official holidays, the systems operate every weekday. In business days, systems open automatically at 08:30 ... Systems close automatically at 17:30 on normal working days and at 13:00 on half working days. The CBRT may change operational days and hours.'"
+   ],
+   "note": "Web page undated (read 2026-10-22); PFMI disclosure dated 29 Dec 2021. The systems were rebuilt and relaunched on 23 Feb 2024 (press release 2024-12), which says nothing about hours; no TCMB press release in 2023-2026 announces a change in hours (all titles in the 2023-2026 press lists checked). Hours for 2024-2026 are therefore inferred from a 2021 and a 2026 source that agree. The older TCMB glossary figure of 08:00 is superseded."
+  },
+  {
+   "id": "eft_components",
+   "status": "VERIFIED (primary)",
+   "claim": "EFT has two functional parts: the Turkish Lira Payments System of Customer Payments (RPS, 'POS' in Turkish) and the Turkish Lira Payments System of Interbank Payments (EFT proper). Both run on the same 08:30-17:30 schedule.",
+   "sources": [
+    "https://www.tcmb.gov.tr/wps/wcm/connect/EN/TCMB+EN/Main+Menu/Core+Functions/Payment+Systems/Payment+Systems+in+Turkey/Electronic+Fund+Transfer+System+and+Electronic+Securities+Transfer+System",
+    "https://www.tcmb.gov.tr/wps/wcm/connect/EN/TCMB+EN/Main+Menu/Announcements/Press+Releases/2024/ANO2024-12",
+    "https://www.tcmb.gov.tr/wps/wcm/connect/31501641-178e-470b-8888-aa91c2958466/FPAiP_UygunlukRaporu_Yay%C4%B1m4_2021_kamuyabeyan-ING.pdf?MOD=AJPERES"
+   ],
+   "quotes": [
+    "EN page: 'Custumer payments are settled in Turkish Lira Payments System of Customer Payments whereas; interbank payments and banks' payments related to international correspondent transactions are settled in Turkish Lira Payments System of Interbank Payments.'",
+    "Press release 2024-12 (1 Mar 2024): 'The CBRT Payment Systems, consisting of the Electronic Funds Transfer (EFT) System, Retail Payment System (RPS) and the Electronic Securities Transfer System (ESTS) ... became operational on 23 February 2024 in the redesigned version.'"
+   ]
+  },
+  {
+   "id": "eft_customer_session",
+   "status": "UNVERIFIED",
+   "claim": "Separate (earlier) cut-off for customer payments within the 08:30-17:30 window, and banks' own customer cut-offs.",
+   "sources": [
+    "https://www.tcmb.gov.tr/wps/wcm/connect/EN/TCMB+EN/Main+Menu/Core+Functions/Payment+Systems/Payment+Systems+in+Turkey/Electronic+Fund+Transfer+System+and+Electronic+Securities+Transfer+System"
+   ],
+   "quotes": [
+    "EN page: 'However, the Central Bank may change the operating hours to enable banks to make customer payments.' TR: 'bankalar tarafindan musteri odemelerinin gerceklestirilmesi amaciyla, Merkez Bankasi tarafindan farkli calisma saatleri belirlenebilir.'"
+   ],
+   "note": "TCMB reserves the right to set different hours for customer payments but the public pages give no separate customer-session times. The detailed schedule is in the CBRT Payment Systems Operational Rule Book on eftemkt.tcmb.gov.tr, which was not used, so no customer cut-off time is stated."
+  },
+  {
+   "id": "eft_halfday",
+   "status": "VERIFIED (primary) for EFT; half-day calendar from Law 2429 corroborated by TCMB rate files",
+   "claim": "On half working days the CBRT Payment Systems close at 13:00. The six weekday half-days in the sample are 2024-04-09, 2024-10-28, 2025-06-05, 2025-10-28, 2026-03-19 and 2026-05-26.",
+   "sources": [
+    "https://www.tcmb.gov.tr/wps/wcm/connect/EN/TCMB+EN/Main+Menu/Core+Functions/Payment+Systems/Payment+Systems+in+Turkey/Electronic+Fund+Transfer+System+and+Electronic+Securities+Transfer+System",
+    "https://www.tcmb.gov.tr/wps/wcm/connect/31501641-178e-470b-8888-aa91c2958466/FPAiP_UygunlukRaporu_Yay%C4%B1m4_2021_kamuyabeyan-ING.pdf?MOD=AJPERES",
+    "https://www.tcmb.gov.tr/wps/wcm/connect/TR/TCMB+TR/Main+Menu/Banka+Hakkinda/Sikca+Sorulan+Sorular",
+    "https://www.tcmb.gov.tr/kurlar/YYYYMM/DDMMYYYY.xml"
+   ],
+   "quotes": [
+    "See eft_hours.",
+    "TCMB FAQ: 'resmi tatiller, hafta sonlari ve yarim gun calisilan gunlerde gosterge kur belirlenmez.' (no indicative rate on official holidays, weekends and half working days)"
+   ],
+   "note": "TCMB published no indicative rate on any of the six dates (kurlar XML returns 404), as its FAQ says for half working days; see calendar_check. That arife afternoons and 28 October afternoon are half days comes from Law No. 2429, not fetched (mevzuat.gov.tr not tried; not on www.tcmb.gov.tr). That transfers ordered after 13:00 on arife settle on the next business day is reported by the press (e.g. Ekonomist, March 2026) but is UNVERIFIED in a TCMB source."
+  },
+  {
+   "id": "eft_unsettled_cancelled",
+   "status": "VERIFIED (primary, 2021 document)",
+   "claim": "Payments not settled by the close are cancelled at end of day, not carried over by the CBRT system.",
+   "sources": [
+    "https://www.tcmb.gov.tr/wps/wcm/connect/31501641-178e-470b-8888-aa91c2958466/FPAiP_UygunlukRaporu_Yay%C4%B1m4_2021_kamuyabeyan-ING.pdf?MOD=AJPERES",
+    "https://www.tcmb.gov.tr/wps/wcm/connect/c34c2e8a-803a-4713-9c60-842232677d67/FPAiP_UygunlukRaporu_Yay%C4%B1m4_2021_kamuyabeyan.pdf?MOD=AJPERES"
+   ],
+   "quotes": [
+    "RPS: 'Unsettled payments are cancelled at the end of the day.'",
+    "EFT: 'Payments that cannot be immediately settled are not rejected but rather queued ... Unsettled payments in the queues are cancelled automatically during end of day processing.'"
+   ]
+  },
+  {
+   "id": "fast_hours",
+   "status": "VERIFIED (primary)",
+   "claim": "FAST is an instant payment system, independent of EFT, that accepts payment orders 24/7; funds are available to the payee within seconds; transactions not completed within the time-out are cancelled.",
+   "sources": [
+    "https://www.tcmb.gov.tr/wps/wcm/connect/EN/TCMB+EN/Main+Menu/Core+Functions/Payment+Systems/Payment+Systems+in+Turkey/Electronic+Fund+Transfer+System+and+Electronic+Securities+Transfer+System",
+    "https://www.tcmb.gov.tr/wps/wcm/connect/TR/TCMB+TR/Main+Menu/Temel+Faaliyetler/Odeme+Sistemleri/Turkiyedeki+Odeme+Sistemleri/Elektronik+Fon+Transfer+%28EFT%29+Sistemi",
+    "https://www.tcmb.gov.tr/wps/wcm/connect/EN/TCMB+EN/Main+Menu/Announcements/Press+Releases/2024/ANO2024-16",
+    "https://www.tcmb.gov.tr/wps/wcm/connect/EN/TCMB+EN/Main+Menu/Announcements/Press+Releases/2026/ANO2026-36"
+   ],
+   "quotes": [
+    "EN page: 'The Instant and Continuous Transfer of Funds (FAST) System is an immediate payment system where customers can send payment orders 7x24 via system participants. FAST System, designed as an independent system from EFT, is developed, operated, and owned by the CBRT. Payments in the system are executed within seconds, and the funds are instantly available in the recipient's account. Transactions that are not completed within the specified period are canceled.'",
+    "Press release 2024-16: FAST 'offers secure, fast, and easy payments around-the-clock'."
+   ]
+  },
+  {
+   "id": "fast_participants",
+   "status": "VERIFIED (primary) for eligibility and the 2023 count of 36; '42 in 2024' UNVERIFIED",
+   "claim": "FAST participants are banks, eligible payment and e-money institutions and PTT; 36 participants after 10 payment/e-money institutions joined in 2023.",
+   "sources": [
+    "https://www.tcmb.gov.tr/wps/wcm/connect/TR/TCMB+TR/Main+Menu/Temel+Faaliyetler/Odeme+Sistemleri/Turkiyedeki+Odeme+Sistemleri/Elektronik+Fon+Transfer+%28EFT%29+Sistemi",
+    "https://www.tcmb.gov.tr/wps/wcm/connect/TR/TCMB+TR/Main+Menu/Duyurular/Basin/2024/DUY2024-08"
+   ],
+   "quotes": [
+    "TR page: 'Turkiye'de faaliyette bulunan bankalar, gerekli sartlari karsilayan odeme ve elektronik para kuruluslari ile Posta ve Telgraf Teskilati A.S. (PTT) katilimci olabilir.'",
+    "DUY2024-08: 'FAST Sistemi katilimci sayisi 2023 yilinda 10 Odeme ve Elektronik Para Kurulusunun sisteme katilimi ile 36'ya cikmistir.'"
+   ],
+   "note": "Audit: an earlier draft also stated '42 in 2024'; that number appears in neither cited page and is UNVERIFIED."
+  },
+  {
+   "id": "fast_limit_pre_apr2024",
+   "status": "VERIFIED (primary) for level; start date 21 Dec 2023 secondary only",
+   "claim": "The FAST transaction limit for money transfers was 50,000 TL until 3 April 2024 (merchant FAST-TR QR payments 100,000 TL). It had been raised to 50,000 TL on 21 December 2023.",
+   "sources": [
+    "https://www.tcmb.gov.tr/wps/wcm/connect/EN/TCMB+EN/Main+Menu/Announcements/Press+Releases/2024/ANO2024-16",
+    "https://www.tcmb.gov.tr/wps/wcm/connect/TR/TCMB+TR/Main+Menu/Duyurular/Basin/2024/DUY2024-16",
+    "https://www.ntv.com.tr/ntvpara/fast-limiti-50-bin-tlye-yukseltildi,qXsLOiNgZEeG-YeLUnF9vQ"
+   ],
+   "quotes": [
+    "Press release 2024-16 (2 Apr 2024): 'as of 4 April 2024, the FAST transaction limit for money transfers will be raised to TRY 100,000 from TRY 50,000, and the limit for merchant payments with dynamic verification using FAST-TR QR Code to TRY 250,000 from TRY 100,000.'",
+    "NTV (21 Dec 2023), quoting the TCMB website: '... 21 Aralik 2023 tarihi itibariyle islem basina odemelerin ust limiti 50.000 TL'ye yukseltilmistir.' (secondary)"
+   ],
+   "note": "No TCMB press release in 2023 or Jan-Mar 2024 concerns FAST limits (press lists checked), so the limit was not changed between 1 Jan and 3 Apr 2024 by press release. The 21 Dec 2023 date was posted on the FAST site (fast.tcmb.gov.tr, blocked) and is UNVERIFIED in a primary source; it lies before the sample in any case."
+  },
+  {
+   "id": "fast_limit_apr2024",
+   "status": "VERIFIED (primary)",
+   "claim": "From 4 April 2024: 100,000 TL per money transfer; 250,000 TL for merchant payments with dynamic verification using FAST-TR QR Code.",
+   "sources": [
+    "https://www.tcmb.gov.tr/wps/wcm/connect/EN/TCMB+EN/Main+Menu/Announcements/Press+Releases/2024/ANO2024-16",
+    "https://www.tcmb.gov.tr/wps/wcm/connect/TR/TCMB+TR/Main+Menu/Duyurular/Basin/2024/DUY2024-16"
+   ],
+   "quotes": [
+    "'As of 4 April 2024, the FAST transaction limits will be raised to TRY 100,000 for money transfers and TRY 250,000 for merchant payments using FAST-TR QR Code.'"
+   ],
+   "note": "The paper's '250,000 lira for commercial accounts' is wrong: 250,000 TL is the QR merchant-payment limit. TCMB sets the limit per transaction type, not by individual vs commercial account."
+  },
+  {
+   "id": "fast_limit_aug2026",
+   "status": "VERIFIED (primary)",
+   "claim": "From 26 August 2026: 300,000 TL for money transfers and Request-to-Pay (Odeme Iste) payments, and 300,000 TL for FAST-TR QR merchant payments.",
+   "sources": [
+    "https://www.tcmb.gov.tr/wps/wcm/connect/EN/TCMB+EN/Main+Menu/Announcements/Press+Releases/2026/ANO2026-36",
+    "https://www.tcmb.gov.tr/wps/wcm/connect/TR/TCMB+TR/Main+Menu/Duyurular/Basin/2026/DUY2026-36"
+   ],
+   "quotes": [
+    "Press release 2026-36 (24 Aug 2026): 'as of August 26, 2026, the FAST transaction limits for money transfers and payments via the Request-to-Pay Overlay Service will be raised to TRY 300,000 from TRY 100,000, and the limit for merchant payments with dynamic verification using FAST-TR QR Code to TRY 300,000 from TRY 250,000.'"
+   ],
+   "note": "The 300,000 TL cap covers the last four business days of the sample (26, 27, 28 and 31 August 2026). No other FAST limit change appears in the 2024-2026 press lists."
+  },
+  {
+   "id": "fast_limit_per_transaction",
+   "status": "VERIFIED (primary wording) / bank daily limits UNVERIFIED",
+   "claim": "The TCMB limit is a transaction-amount limit ('islem tutar limiti'), i.e. per transaction. Whether banks add daily ceilings is not covered by TCMB sources.",
+   "sources": [
+    "https://www.tcmb.gov.tr/wps/wcm/connect/TR/TCMB+TR/Main+Menu/Duyurular/Basin/2024/DUY2024-16",
+    "https://www.tcmb.gov.tr/wps/wcm/connect/TR/TCMB+TR/Main+Menu/Duyurular/Basin/2026/DUY2026-36"
+   ],
+   "quotes": [
+    "TR title: 'FAST Sistemi Islem Tutar Limitinin Artirilmasi Hakkinda Basin Duyurusu'."
+   ]
+  },
+  {
+   "id": "after_hours_fx_try",
+   "status": "UNVERIFIED (no TCMB statement found)",
+   "claim": "TCMB statement on settlement of FX or TRY transfers ordered outside EFT hours.",
+   "sources": [
+    "https://www.tcmb.gov.tr/wps/wcm/connect/EN/TCMB+EN/Main+Menu/Core+Functions/Payment+Systems/Payment+Systems+in+Turkey/Electronic+Fund+Transfer+System+and+Electronic+Securities+Transfer+System",
+    "https://www.tcmb.gov.tr/wps/wcm/connect/31501641-178e-470b-8888-aa91c2958466/FPAiP_UygunlukRaporu_Yay%C4%B1m4_2021_kamuyabeyan-ING.pdf?MOD=AJPERES",
+    "https://www.tcmb.gov.tr/wps/wcm/connect/TR/TCMB+TR/Main+Menu/Banka+Hakkinda/Sikca+Sorulan+Sorular",
+    "https://www.tcmb.gov.tr/wps/wcm/connect/TR/TCMB+TR/Main+Menu/Duyurular/Basin/{2023,2024,2025,2026}"
+   ],
+   "quotes": [
+    "The only TCMB statements found are: EFT/RPS hours and end-of-day cancellation (see above); FAST 7x24 'independent from EFT'; and the FAQ: 'Merkez Bankasi disindaki gercek ve tuzel kisiler arasinda yapilan islemlerde ise, hangi kurun uygulanacagina bu kisilerin kendileri karar verir.'"
+   ],
+   "note": "No TCMB page or press release (2023-2026) says how banks treat lira or FX transfer orders placed outside EFT hours. Next-business-day execution of after-hours EFT orders is bank practice reported by the press: UNVERIFIED in a primary source. Interbank FX transfers in Turkey do not settle in TCMB systems (TCMB systems settle Turkish lira only: 'The EFT System provides real time transfer and real time gross settlement of Turkish Lira interbank payments'); the FX transfer system operator was not checked: UNVERIFIED."
+  },
+  {
+   "id": "fx_indicative_rate_hours",
+   "status": "VERIFIED (primary)",
+   "claim": "TCMB sets indicative USD/TRY rates once per business day at 15:30 from bank quotes collected hourly 10:00-15:00; none on weekends, official holidays and half working days.",
+   "sources": [
+    "https://www.tcmb.gov.tr/wps/wcm/connect/TR/TCMB+TR/Main+Menu/Banka+Hakkinda/Sikca+Sorulan+Sorular"
+   ],
+   "quotes": [
+    "'Gosterge Kurlar; Merkez Bankasi tarafindan her is gunu, saat 15.30'da belirlenir.' 'Oncelikle 10.00-15.00 arasinda her saat basi, bankalararasi doviz piyasasinda 1 ABD dolari karsiliginda Turk lirasina kotasyon veren (fiyat veren) bankalarin alim ve satim fiyat ortalamalasini alir.' 'resmi tatiller, hafta sonlari ve yarim gun calisilan gunlerde gosterge kur belirlenmez.'"
+   ]
+  },
+  {
+   "id": "fee_no_offhours_surcharge",
+   "status": "VERIFIED (primary) for current texts; pre-Dec-2023 surcharge secondary",
+   "claim": "TCMB's consolidated fee communiques in force during the sample cap EFT and FAST fees identically and contain no surcharge for transfers outside EFT hours; FAST fees are subject to the EFT caps.",
+   "sources": [
+    "https://www.tcmb.gov.tr/wps/wcm/connect/989f1997-5a78-4aa3-99f7-ae816978999d/2023-39+say%C4%B1l%C4%B1+FT+Tebli%C4%9Fi-13+Ocak+2026.pdf?MOD=AJPERES",
+    "https://www.tcmb.gov.tr/wps/wcm/connect/217dd206-5e42-4402-8fb0-d466b23e5acf/Bankalarca+Ticari+M%C3%BC%C5%9Fterilerden+Al%C4%B1nabilecek+%C3%9Ccretlere+%C4%B0li%C5%9Fkin+Usul+ve+Esaslar+Hakk%C4%B1nda+2020-4+Say%C4%B1l%C4%B1+Tebli%C4%9F.pdf?MOD=AJPERES"
+   ],
+   "quotes": [
+    "Consumer communique 2020/7 as amended by 2023/39 (OG 22/12/2023, No. 32407), Art. 12(6): 'FAST islemleri karsiliginda alinabilecek ucret, bu maddenin ucuncu fikrasinda belirtilen azami ucret sinirlamalarina tabidir.'",
+    "Commercial communique 2020/4 (consolidated to 2026/5), Art. 15(2): '(Mulga: RG-25/11/2023-32380)'; Art. 15(7): FAST fees subject to the EFT caps."
+   ],
+   "note": "Earlier versions (Dec 2020) allowed a 50% higher cap on FAST transfers made outside EFT's official hours; press reports date its removal to 1 December 2023 (secondary). During the sample, the after-hours constraint on lira transfers is the FAST amount cap, not price."
+  },
+  {
+   "id": "pi_emi_crypto_ban",
+   "status": "VERIFIED (primary)",
+   "claim": "Since 30 April 2021 payment and e-money institutions may not intermediate fund transfers to or from crypto-asset platforms.",
+   "sources": [
+    "https://www.tcmb.gov.tr/wps/wcm/connect/6937855a-7c29-4d08-a26e-51ef3273c022/%C3%96demelerde+Kripto+Varl%C4%B1klar%C4%B1n+Kullan%C4%B1lmamas%C4%B1na+Dair+Y%C3%B6netmelik.pdf?MOD=AJPERES"
+   ],
+   "quotes": [
+    "Art. 4(2): 'Odeme ve elektronik para kuruluslari, kripto varliklara iliskin alim satim, saklama, transfer veya ihrac hizmeti sunan platformlara veya bu platformlardan yapilacak fon aktarimlarina aracilik edemez.' Art. 5: 'Bu Yonetmelik hukumleri 30/4/2021 tarihinde yururluge girer.' (OG 16 Apr 2021, No. 31456)"
+   ]
+  },
+  {
+   "id": "papara_2025",
+   "status": "VERIFIED (primary)",
+   "claim": "On 27 May 2025 the SDIF (TMSF) was appointed trustee of Papara Elektronik Para A.S.; payment transactions through it became subject to temporary daily limits.",
+   "sources": [
+    "https://www.tcmb.gov.tr/wps/wcm/connect/EN/TCMB+EN/Main+Menu/Announcements/Press+Releases/2025/ANO2025-34"
+   ],
+   "quotes": [
+    "'the Savings Deposit Insurance Fund (SDIF) has been appointed as trustee of Papara Elektronik Para A.S. ... payment transactions provided through the Institution will be temporarily subject to daily limits.'"
+   ]
+  }
+ ],
+ "bibliography": [
+  {
+   "key": "tcmb_eft",
+   "status": "primary",
+   "accessed": "2026-10-22",
+   "url": "https://www.tcmb.gov.tr/wps/wcm/connect/EN/TCMB+EN/Main+Menu/Core+Functions/Payment+Systems/Payment+Systems+in+Turkey/Electronic+Fund+Transfer+System+and+Electronic+Securities+Transfer+System",
+   "entry": "Central Bank of the Republic of Turkiye (2026a). Electronic Fund Transfer System - Electronic Securities Transfer System - The Instant and Continuous Transfer of Funds (FAST) System. Payment Systems in Turkiye (web page, undated)."
+  },
+  {
+   "key": "tcmb_eft_tr",
+   "status": "primary",
+   "accessed": "2026-10-22",
+   "url": "https://www.tcmb.gov.tr/wps/wcm/connect/TR/TCMB+TR/Main+Menu/Temel+Faaliyetler/Odeme+Sistemleri/Turkiyedeki+Odeme+Sistemleri/Elektronik+Fon+Transfer+%28EFT%29+Sistemi",
+   "entry": "Turkiye Cumhuriyet Merkez Bankasi (2026). Elektronik Fon Transfer Sistemi - Elektronik Menkul Kiymet Transfer Sistemi - Fonlarin Anlik ve Surekli Transferi (FAST) Sistemi (web page, undated)."
+  },
+  {
+   "key": "tcmb_pfmi2021",
+   "status": "primary",
+   "accessed": "2026-10-22",
+   "url": "https://www.tcmb.gov.tr/wps/wcm/connect/31501641-178e-470b-8888-aa91c2958466/FPAiP_UygunlukRaporu_Yay%C4%B1m4_2021_kamuyabeyan-ING.pdf?MOD=AJPERES",
+   "entry": "Central Bank of the Republic of Turkiye (2021). CBRT Payment Systems: Disclosure of the Self-Assessment of Observance of the CPMI-IOSCO Principles for Financial Market Infrastructures, 29 December 2021. Turkish version: https://www.tcmb.gov.tr/wps/wcm/connect/c34c2e8a-803a-4713-9c60-842232677d67/FPAiP_UygunlukRaporu_Yay%C4%B1m4_2021_kamuyabeyan.pdf?MOD=AJPERES"
+  },
+  {
+   "key": "tcmb_redesign2024",
+   "status": "primary",
+   "accessed": "2026-10-22",
+   "url": "https://www.tcmb.gov.tr/wps/wcm/connect/EN/TCMB+EN/Main+Menu/Announcements/Press+Releases/2024/ANO2024-12",
+   "entry": "Central Bank of the Republic of Turkiye (2024a). Press Release on the Redesign of the CBRT Payment Systems, No. 2024-12, 1 March 2024."
+  },
+  {
+   "key": "tcmb_fast2024",
+   "status": "primary",
+   "accessed": "2026-10-22",
+   "url": "https://www.tcmb.gov.tr/wps/wcm/connect/EN/TCMB+EN/Main+Menu/Announcements/Press+Releases/2024/ANO2024-16",
+   "entry": "Central Bank of the Republic of Turkiye (2024b). Press Release on Increasing FAST System Transaction Limits, No. 2024-16, 2 April 2024. Turkish version: https://www.tcmb.gov.tr/wps/wcm/connect/TR/TCMB+TR/Main+Menu/Duyurular/Basin/2024/DUY2024-16"
+  },
+  {
+   "key": "tcmb_fast2026",
+   "status": "primary",
+   "accessed": "2026-10-22",
+   "url": "https://www.tcmb.gov.tr/wps/wcm/connect/EN/TCMB+EN/Main+Menu/Announcements/Press+Releases/2026/ANO2026-36",
+   "entry": "Central Bank of the Republic of Turkiye (2026b). Press Release on Increasing FAST System Transaction Limits, No. 2026-36, 24 August 2026. Turkish version: https://www.tcmb.gov.tr/wps/wcm/connect/TR/TCMB+TR/Main+Menu/Duyurular/Basin/2026/DUY2026-36"
+  },
+  {
+   "key": "tcmb_faq",
+   "status": "primary",
+   "accessed": "2026-10-22",
+   "url": "https://www.tcmb.gov.tr/wps/wcm/connect/TR/TCMB+TR/Main+Menu/Banka+Hakkinda/Sikca+Sorulan+Sorular",
+   "entry": "Turkiye Cumhuriyet Merkez Bankasi (2026). Sikca Sorulan Sorular: Gosterge niteligindeki kurlar (web page, undated)."
+  },
+  {
+   "key": "tcmb_kurlar",
+   "status": "primary (data)",
+   "accessed": "2026-10-22",
+   "url": "https://www.tcmb.gov.tr/kurlar/YYYYMM/DDMMYYYY.xml",
+   "entry": "Turkiye Cumhuriyet Merkez Bankasi. Indicative exchange rate files, one per business day, probed for every weekday 2 Jan 2024 - 31 Aug 2026."
+  },
+  {
+   "key": "tcmb_fee",
+   "status": "primary",
+   "accessed": "2026-10-22",
+   "url": "https://www.tcmb.gov.tr/wps/wcm/connect/989f1997-5a78-4aa3-99f7-ae816978999d/2023-39+say%C4%B1l%C4%B1+FT+Tebli%C4%9Fi-13+Ocak+2026.pdf?MOD=AJPERES",
+   "entry": "Turkiye Cumhuriyet Merkez Bankasi. Finansal Tuketicilerden Alinacak Ucretlere Iliskin Usul ve Esaslar Hakkinda Teblig (Sayi: 2020/7), consolidated as amended by Teblig 2023/39 (Official Gazette No. 32407, 22 December 2023). Commercial-customer communique 2020/4, consolidated to 2026/5: https://www.tcmb.gov.tr/wps/wcm/connect/217dd206-5e42-4402-8fb0-d466b23e5acf/Bankalarca+Ticari+M%C3%BC%C5%9Fterilerden+Al%C4%B1nabilecek+%C3%9Ccretlere+%C4%B0li%C5%9Fkin+Usul+ve+Esaslar+Hakk%C4%B1nda+2020-4+Say%C4%B1l%C4%B1+Tebli%C4%9F.pdf?MOD=AJPERES"
+  },
+  {
+   "key": "tcmb_crypto2021",
+   "status": "primary",
+   "accessed": "2026-10-22",
+   "url": "https://www.tcmb.gov.tr/wps/wcm/connect/6937855a-7c29-4d08-a26e-51ef3273c022/%C3%96demelerde+Kripto+Varl%C4%B1klar%C4%B1n+Kullan%C4%B1lmamas%C4%B1na+Dair+Y%C3%B6netmelik.pdf?MOD=AJPERES",
+   "entry": "Turkiye Cumhuriyet Merkez Bankasi (2021). Odemelerde Kripto Varliklarin Kullanilmamasina Dair Yonetmelik. Official Gazette No. 31456, 16 April 2021, effective 30 April 2021."
+  },
+  {
+   "key": "tcmb_papara2025",
+   "status": "primary",
+   "accessed": "2026-10-22",
+   "url": "https://www.tcmb.gov.tr/wps/wcm/connect/EN/TCMB+EN/Main+Menu/Announcements/Press+Releases/2025/ANO2025-34",
+   "entry": "Central Bank of the Republic of Turkiye (2025). Press Release on Papara Elektronik Para A.S., No. 2025-34, 27 May 2025."
+  },
+  {
+   "key": "ntv2023fast",
+   "status": "UNVERIFIED (secondary; cites TCMB site, not fetched)",
+   "accessed": "not fetched; search snippet 2026-10-22",
+   "url": "https://www.ntv.com.tr/ntvpara/fast-limiti-50-bin-tlye-yukseltildi,qXsLOiNgZEeG-YeLUnF9vQ",
+   "entry": "NTV (2023). FAST limiti 50 bin TL'ye yukseltildi, 21 December 2023."
+  }
+ ],
+ "calendar_check": {
+  "weekdays_probed": 696,
+  "probe_failures": [],
+  "weekdays_without_tcmb_rate": 37,
+  "HOL_days": 31,
+  "HOL_days_with_tcmb_rate (should be empty)": [],
+  "half_days": {
+   "2024-04-09": "Ramazan Bayrami eve",
+   "2024-10-28": "Republic Day eve",
+   "2025-06-05": "Kurban Bayrami eve",
+   "2025-10-28": "Republic Day eve",
+   "2026-03-19": "Ramazan Bayrami eve",
+   "2026-05-26": "Kurban Bayrami eve"
+  },
+  "half_days_with_tcmb_rate (should be empty)": [],
+  "no_rate_days_not_in_HOL_or_half (unexplained)": []
+ },
+ "coding_check": {
+  "intervals_total": 162624,
+  "intervals_bh_eff1_on_half_days_after_13": 288,
+  "share_of_bh_eff1": 0.004539507904733383,
+  "intervals_bh0_inside_EFT_hours_0830_0900_1700_1730": 7559,
+  "share_of_bh0": 0.07829509555129732,
+  "share_of_bh_eff0": 0.076214194250915,
+  "bh_coding (empirics_main col 4, empirics_state, empirics_mxn)": {
+   "open_intervals": 66079,
+   "closed_intervals": 96545,
+   "open_coded_EFT_closed_holiday_0900_1700": 2636,
+   "open_coded_EFT_closed_halfday_after_13": 288,
+   "open_coded_EFT_closed_total": 2924,
+   "share_of_open": 0.04425006431695395,
+   "closed_coded_EFT_open": 7559,
+   "share_of_closed": 0.07829509555129732
+  },
+  "bh_eff_coding (empirics_mech)": {
+   "open_intervals": 63443,
+   "closed_intervals": 99181,
+   "open_coded_EFT_closed_halfday_after_13": 288,
+   "share_of_open": 0.004539507904733383,
+   "closed_coded_EFT_open": 7559,
+   "share_of_closed": 0.076214194250915
+  },
+  "note": "Five-minute interval timestamps converted to Europe/Istanbul; minute-of-day of the interval label. bh in a5.parquet equals 1 exactly on Istanbul 09:00-16:55 labels (checked)."
+ },
+ "audit_ratio_check": {
+  "bh: clock 09:00-17:00 (paper col 4)": {
+   "n_open": 66079,
+   "kappa_up_closed": 0.0024739703746365816,
+   "se_closed": 0.0012819654331123365,
+   "kappa_up_open": 0.01038396830370465,
+   "se_open": 0.0014054883856836075,
+   "diff": 0.00790999792906807,
+   "se_diff": 0.001424472650944677,
+   "ratio": 4.197288864152233,
+   "log_ratio": 1.4344388083238049,
+   "se_log_ratio": 0.4742896246412772
+  },
+  "bh*(1-hol)": {
+   "n_open": 63443,
+   "kappa_up_closed": 0.0022974757128171445,
+   "se_closed": 0.0012740791919796327,
+   "kappa_up_open": 0.012761800874915068,
+   "se_open": 0.0013367222388193426,
+   "diff": 0.010464325162097924,
+   "se_diff": 0.0015635423309121193,
+   "ratio": 5.554705455086905,
+   "log_ratio": 1.7146453982991081,
+   "se_log_ratio": 0.534393139300334
+  },
+  "bh*(1-hol)*(1-halfday_pm)": {
+   "n_open": 63155,
+   "kappa_up_closed": 0.0023017695146495903,
+   "se_closed": 0.0012764931469734732,
+   "kappa_up_open": 0.012749114054585264,
+   "se_open": 0.0013353197538038008,
+   "diff": 0.010447344539935673,
+   "se_diff": 0.0015645678512743232,
+   "ratio": 5.538831743770889,
+   "log_ratio": 1.7117836019459494,
+   "se_log_ratio": 0.5344591203703873
+  },
+  "EFT hours: 08:30-17:30, 13:00 on half days, 0 on holidays": {
+   "n_open": 70750,
+   "kappa_up_closed": 0.0028442759797777874,
+   "se_closed": 0.0012438542024640208,
+   "kappa_up_open": 0.01043198960256657,
+   "se_open": 0.0017306594058473406,
+   "diff": 0.007587713622788783,
+   "se_diff": 0.0019249421270069271,
+   "ratio": 3.667713568140312,
+   "log_ratio": 1.2995684619613084,
+   "se_log_ratio": 0.43653476099861527
+  },
+  "clock 08:30-17:30": {
+   "n_open": 74011,
+   "kappa_up_closed": 0.0031710264560879196,
+   "se_closed": 0.0012344953614401393,
+   "kappa_up_open": 0.008473159124067965,
+   "se_open": 0.0013782669288060108,
+   "diff": 0.005302132667980045,
+   "se_diff": 0.00113380332796416,
+   "ratio": 2.6720556392081516,
+   "log_ratio": 0.9828480785145454,
+   "se_log_ratio": 0.3137539960179798
+  },
+  "clock 08:30-17:00": {
+   "n_open": 69879,
+   "kappa_up_closed": 0.002785512613744661,
+   "se_closed": 0.0012531862998666878,
+   "kappa_up_open": 0.009276246703364747,
+   "se_open": 0.001292274398076742,
+   "diff": 0.006490734089620086,
+   "se_diff": 0.0010996557944821463,
+   "ratio": 3.3301758023254355,
+   "log_ratio": 1.203025096089947,
+   "se_log_ratio": 0.3784209397816351
+  },
+  "clock 09:00-17:30": {
+   "n_open": 70211,
+   "kappa_up_closed": 0.002832057460925476,
+   "se_closed": 0.0012140532115701617,
+   "kappa_up_open": 0.009463085520759272,
+   "se_open": 0.001369228015507162,
+   "diff": 0.006631028059833796,
+   "se_diff": 0.0011073949472997049,
+   "ratio": 3.3414172033313445,
+   "log_ratio": 1.206395029368224,
+   "se_log_ratio": 0.3542748899648287
+  },
+  "note": "Diagnostic: Table emp_main col (4) under alternative state codings. Tests whether coding errors relative to EFT hours bias the open/closed ratio toward one. Holiday correction raises the ratio; adding 08:30-09:00 and 17:00-17:30 to the open state lowers it."
+ },
+ "fast_cap_usd": {
+  "50000_TL": {
+   "months": [
+    "2024-01",
+    "2024-03"
+   ],
+   "usd_min": 1560,
+   "usd_max": 1662,
+   "usdtry_min": 30.09,
+   "usdtry_max": 32.05
+  },
+  "100000_TL": {
+   "months": [
+    "2024-04",
+    "2026-08"
+   ],
+   "usd_min": 2089,
+   "usd_max": 3101,
+   "usdtry_min": 32.25,
+   "usdtry_max": 47.88
+  },
+  "300000_TL": {
+   "months": [
+    "2026-08",
+    "2026-08"
+   ],
+   "usd_min": 6266,
+   "usd_max": 6266,
+   "usdtry_min": 47.88,
+   "usdtry_max": 47.88
+  },
+  "10000_USDT_in_TL": [
+   300892,
+   478809
+  ]
+ },
+ "paragraph_plain": "The lira leg of the arbitrage settles on payment systems owned and operated by the Central Bank of the Republic of Türkiye. Interbank and customer lira payments go through EFT, whose components open at 08:30 and close at 17:30 on weekdays, close at 13:00 on half working days such as the eves of religious holidays, and do not operate on weekends or public holidays. Payments still unsettled at the close are cancelled rather than carried to the next day. On full business days our 09:00–17:00 business-hours window lies inside EFT hours. The FAST instant payment system runs around the clock, independently of EFT, but limits the amount of each money transfer: 50,000 lira until 3 April 2024, 100,000 lira from 4 April 2024 and 300,000 lira from 26 August 2026. At sample exchange rates the limit was worth about USD 1,600–3,100 until the last week of the sample, less than one 10,000-USDT trade. Outside EFT hours, the central bank's systems therefore move lira between banks only through FAST, in transfers of at most a few thousand dollars each.",
+ "paragraph_words": 178,
+ "corrections_to_paper": [
+  "Sec. 5.3 (paper.tex l.373): '100,000 lira for individuals and 250,000 lira for commercial accounts in 2025--2026' is wrong. TCMB sets one money-transfer limit (100,000 TL from 4 Apr 2024 to 25 Aug 2026; 50,000 TL before; 300,000 TL from 26 Aug 2026); 250,000 TL was the FAST-TR QR merchant-payment limit.",
+  "EFT hours are 08:30-17:30 (13:00 on half days), not generic 'business hours'; the paper's 09:00-17:00 window is inside them, so 08:30-09:00 and 17:00-17:30 on full business days are EFT-open but coded closed.",
+  "Six weekday half days (EFT closes 13:00) are coded open 13:00-17:00 in both bh and bh_eff.",
+  "Audit: the headline specifications (Table emp_main col 4, emp_state, emp_mxn) code the open state with the clock indicator bh, so weekday-holiday business hours (EFT closed) are also coded open there; see coding_check.",
+  "Audit: recoding the state to EFT hours does not raise the col (4) speed ratio. Holiday correction raises it (4.2 to 5.6), but adding 08:30-09:00 and 17:00-17:30 to the open state lowers it (EFT-hours coding 3.7; clock 08:30-17:30 2.7); see audit_ratio_check. The 'understates the effect' claim should not be made."
+ ],
+ "suggested_sentence_sec53": "In Turkey, large transfers between banks run through EFT, which operates from 08:30 to 17:30 on weekdays, until 13:00 on half working days, and not on weekends or public holidays; the instant FAST system runs around the clock but limits each money transfer to 100,000 lira from April 2024 to August 2026, about USD 2,100–3,100."
+}

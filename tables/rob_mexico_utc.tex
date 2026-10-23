@@ -1,0 +1,71 @@
+\begin{tabular}{lcccccc}
+\toprule
+\multicolumn{7}{l}{\emph{Panel A. Common UTC windows: W1 = 06:00--14:00 UTC (Turkey open, Mexico closed); W2 = 15:00--20:30 UTC (Turkey closed, Mexico open)}} \\
+ & \multicolumn{2}{c}{Turkey} & \multicolumn{2}{c}{Mexico} & & \\
+\cmidrule(lr){2-3}\cmidrule(lr){4-5}
+ & $\hat\kappa_{W1}$ & $\hat\kappa_{W2}$ & $\hat\kappa_{W1}$ & $\hat\kappa_{W2}$ & & \\
+ & \multicolumn{2}{c}{$\log(\kappa_{W1}/\kappa_{W2})$} & \multicolumn{2}{c}{$\log(\kappa_{W1}/\kappa_{W2})$} & DiD (log) & $N$ \\
+\midrule
+Baseline bands, pooled sides & $0.0216^{***}$ & $0.0120^{***}$ & $0.0259^{***}$ & $0.0399^{***}$ & & \\
+ & $(0.0075)$ & $(0.0027)$ & $(0.0053)$ & $(0.0057)$ & & \\
+ & \multicolumn{2}{c}{$0.59$ $(0.39)$} & \multicolumn{2}{c}{$-0.43^{*}$ $(0.24)$} & $1.02^{**}$ $(0.44)$ & 143,018 \\[2pt]
+Bands by month $\times$ UTC window & $0.0216^{***}$ & $0.0120^{***}$ & $0.0267^{***}$ & $0.0386^{***}$ & & \\
+ & $(0.0075)$ & $(0.0025)$ & $(0.0040)$ & $(0.0049)$ & & \\
+ & \multicolumn{2}{c}{$0.59$ $(0.38)$} & \multicolumn{2}{c}{$-0.37^{**}$ $(0.19)$} & $0.95^{**}$ $(0.42)$ & 143,018 \\[2pt]
+Above the band only & $0.0128^{***}$ & $0.0107^{***}$ & $0.0471^{***}$ & $0.0448^{***}$ & & \\
+ & $(0.0028)$ & $(0.0032)$ & $(0.0097)$ & $(0.0071)$ & & \\
+ & \multicolumn{2}{c}{$0.18$ $(0.35)$} & \multicolumn{2}{c}{$0.05$ $(0.25)$} & $0.13$ $(0.42)$ & 143,018 \\[2pt]
+Below the band only & $0.0345^{***}$ & $0.0178^{***}$ & $0.0224^{***}$ & $0.0656^{***}$ & & \\
+ & $(0.0130)$ & $(0.0036)$ & $(0.0048)$ & $(0.0071)$ & & \\
+ & \multicolumn{2}{c}{$0.66^{*}$ $(0.37)$} & \multicolumn{2}{c}{$-1.07^{***}$ $(0.22)$} & $1.74^{***}$ $(0.43)$ & 143,018 \\[2pt]
+Above the band only, $R$-based & $0.0154^{***}$ & $0.0118^{***}$ & $0.0420^{***}$ & $0.0380^{***}$ & & \\
+ & $(0.0028)$ & $(0.0029)$ & $(0.0100)$ & $(0.0069)$ & & \\
+ & \multicolumn{2}{c}{$0.27$ $(0.31)$} & \multicolumn{2}{c}{$0.10$ $(0.27)$} & $0.16$ $(0.42)$ & 143,018 \\[2pt]
+Below the band only, $R$-based & $0.0340^{***}$ & $0.0122^{***}$ & $0.0173^{***}$ & $0.0442^{***}$ & & \\
+ & $(0.0132)$ & $(0.0047)$ & $(0.0049)$ & $(0.0069)$ & & \\
+ & \multicolumn{2}{c}{$1.02^{**}$ $(0.49)$} & \multicolumn{2}{c}{$-0.94^{***}$ $(0.33)$} & $1.96^{***}$ $(0.59)$ & 143,018 \\[2pt]
+MXN: $\geq$10 trades in $t-1$ and $t$ & $0.0216^{***}$ & $0.0120^{***}$ & $0.0385^{***}$ & $0.0442^{***}$ & & \\
+ & $(0.0075)$ & $(0.0027)$ & $(0.0083)$ & $(0.0061)$ & & \\
+ & \multicolumn{2}{c}{$0.59$ $(0.39)$} & \multicolumn{2}{c}{$-0.14$ $(0.24)$} & $0.72$ $(0.44)$ & 126,455 \\[2pt]
+MXN: volume above cell median in $t-1$ and $t$ & $0.0216^{***}$ & $0.0120^{***}$ & $0.0528^{***}$ & $0.0756^{***}$ & & \\
+ & $(0.0075)$ & $(0.0027)$ & $(0.0175)$ & $(0.0105)$ & & \\
+ & \multicolumn{2}{c}{$0.59$ $(0.39)$} & \multicolumn{2}{c}{$-0.36$ $(0.36)$} & $0.94^{*}$ $(0.51)$ & 90,063 \\[2pt]
+Distance measured from $b_{t-2}$ (both) & $0.0316^{**}$ & $0.0159^{***}$ & $0.0329^{***}$ & $0.0421^{***}$ & & \\
+ & $(0.0142)$ & $(0.0035)$ & $(0.0054)$ & $(0.0059)$ & & \\
+ & \multicolumn{2}{c}{$0.68$ $(0.49)$} & \multicolumn{2}{c}{$-0.25$ $(0.20)$} & $0.93^{*}$ $(0.52)$ & 140,610 \\[2pt]
+Demand-only OFI control (both) & $0.0237^{***}$ & $0.0135^{***}$ & $0.0259^{***}$ & $0.0406^{***}$ & & \\
+ & $(0.0074)$ & $(0.0029)$ & $(0.0053)$ & $(0.0059)$ & & \\
+ & \multicolumn{2}{c}{$0.56$ $(0.36)$} & \multicolumn{2}{c}{$-0.45^{*}$ $(0.24)$} & $1.01^{**}$ $(0.42)$ & 143,018 \\[2pt]
+\midrule
+\multicolumn{7}{l}{\emph{Panel B. Local business hours (Table~\ref{tab:emp_mxn} design): open/closed ratio of the speed outside the band}} \\
+ & \multicolumn{2}{c}{Turkey} & \multicolumn{2}{c}{Mexico} & & \\
+\cmidrule(lr){2-3}\cmidrule(lr){4-5}
+ & ratio & $\log$ ratio & ratio & $\log$ ratio & Difference & $N$ (MXN) \\
+\midrule
+Baseline (Table~\ref{tab:emp_mxn}) & 4.2 & $1.43^{***}$ $(0.44)$ & 1.6 & $0.48^{***}$ $(0.17)$ & $0.94^{**}$ $(0.45)$ & 113,383 \\
+No rollover exclusion & 3.1 & $1.13^{***}$ $(0.39)$ & 1.6 & $0.49^{***}$ $(0.15)$ & $0.64$ $(0.42)$ & 123,549 \\
+No rollover exclusion, MXN only & 4.2 & $1.43^{***}$ $(0.44)$ & 1.6 & $0.49^{***}$ $(0.15)$ & $0.94^{**}$ $(0.46)$ & 123,549 \\
+Aligned local-time exclusion & 4.6 & $1.54^{***}$ $(0.41)$ & 1.6 & $0.47^{***}$ $(0.17)$ & $1.06^{**}$ $(0.42)$ & 102,214 \\
+MXN: $\geq$10 trades in $t-1$ and $t$ & 4.2 & $1.43^{***}$ $(0.44)$ & 1.5 & $0.40^{***}$ $(0.15)$ & $1.02^{**}$ $(0.45)$ & 89,814 \\
+MXN: volume above cell median in $t-1$ and $t$ & 4.2 & $1.43^{***}$ $(0.44)$ & 2.1 & $0.75^{***}$ $(0.18)$ & $0.68$ $(0.45)$ & 38,141 \\
+Both: volume above cell median & 5.5 & $1.71^{***}$ $(0.47)$ & 2.1 & $0.75^{***}$ $(0.18)$ & $0.97^{**}$ $(0.48)$ & 38,141 \\
+Distance measured from $b_{t-2}$ (both) & 3.9 & $1.36^{***}$ $(0.45)$ & 1.4 & $0.37^{**}$ $(0.16)$ & $0.98^{**}$ $(0.48)$ & 110,672 \\
+Demand-only OFI control (both) & 3.7 & $1.32^{***}$ $(0.38)$ & 1.6 & $0.49^{***}$ $(0.17)$ & $0.83^{**}$ $(0.41)$ & 113,383 \\
+\midrule
+\multicolumn{7}{l}{\emph{Panel C. By side of the band, local business hours: closed speed, business-hours increment (level), open/closed}} \\
+ & \multicolumn{2}{c}{Turkey} & \multicolumn{2}{c}{Mexico} & \multicolumn{2}{c}{Difference} \\
+\cmidrule(lr){2-3}\cmidrule(lr){4-5}\cmidrule(lr){6-7}
+ & closed & increment & closed & increment & increment & $\log$ ratio \\
+\midrule
+Above the band ($\kappa^+$) & $0.0042$ $(0.0032)$ & $0.0086^{*}$ $(0.0046)$ & $0.0290^{***}$ $(0.0041)$ & $0.0131^{*}$ $(0.0069)$ & $-0.0045$ $(0.0074)$ & $0.74$ $(0.77)$ \\
+\quad open/closed ratio & \multicolumn{2}{c}{3.1} & \multicolumn{2}{c}{1.5} & & \\
+Below the band ($\kappa^-$) & $0.0091^{***}$ $(0.0017)$ & $0.0253^{**}$ $(0.0127)$ & $0.0223^{***}$ $(0.0039)$ & $0.0420^{***}$ $(0.0068)$ & $-0.0167$ $(0.0144)$ & $0.27$ $(0.42)$ \\
+\quad open/closed ratio & \multicolumn{2}{c}{3.8} & \multicolumn{2}{c}{2.9} & & \\
+Above the band, $R$-based & $0.0042$ $(0.0033)$ & $0.0112^{***}$ $(0.0040)$ & $0.0295^{***}$ $(0.0032)$ & $0.0060$ $(0.0067)$ & $0.0052$ $(0.0074)$ & $1.12$ $(0.77)$ \\
+\quad open/closed ratio & \multicolumn{2}{c}{3.7} & \multicolumn{2}{c}{1.2} & & \\
+Below the band, $R$-based & $0.0060^{***}$ $(0.0017)$ & $0.0280^{**}$ $(0.0129)$ & $0.0200^{***}$ $(0.0029)$ & $0.0269^{***}$ $(0.0075)$ & $0.0011$ $(0.0148)$ & $0.88^{*}$ $(0.47)$ \\
+\quad open/closed ratio & \multicolumn{2}{c}{5.7} & \multicolumn{2}{c}{2.3} & & \\
+Pooled sides ($\kappa$, $R$-based) & $0.0052^{**}$ $(0.0021)$ & $0.0164^{**}$ $(0.0071)$ & $0.0241^{***}$ $(0.0025)$ & $0.0149^{***}$ $(0.0058)$ & $0.0015$ $(0.0093)$ & $0.94^{**}$ $(0.45)$ \\
+\quad open/closed ratio & \multicolumn{2}{c}{4.2} & \multicolumn{2}{c}{1.6} & & \\
+\bottomrule
+\end{tabular}

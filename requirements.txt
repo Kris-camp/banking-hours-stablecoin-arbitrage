@@ -1,0 +1,9 @@
+# Python 3.11. Versions used to produce the tables and figures of the paper.
+numpy==2.4.6
+pandas==3.0.6
+pyarrow==25.0.1
+scipy==1.17.1
+matplotlib==3.11.2
+numba==0.68.0
+llvmlite==0.50.0
+requests==2.34.2

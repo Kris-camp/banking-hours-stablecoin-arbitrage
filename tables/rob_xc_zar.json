@@ -1,0 +1,4340 @@
+{
+ "market": "ZAR",
+ "pair_local": "USDTZAR (Binance)",
+ "pair_fx": "USDZAR (Dukascopy SWFX)",
+ "local_tz": "Africa/Johannesburg",
+ "business_hours": "09:00-17:00 local (07:00-15:00 UTC)",
+ "months": [
+  "2024-01",
+  "2024-02",
+  "2024-03",
+  "2024-04",
+  "2024-05",
+  "2024-06",
+  "2024-07",
+  "2024-08",
+  "2024-09",
+  "2024-10",
+  "2024-11",
+  "2024-12",
+  "2025-01",
+  "2025-02",
+  "2025-03",
+  "2025-04",
+  "2025-05",
+  "2025-06",
+  "2025-07",
+  "2025-08",
+  "2025-09",
+  "2025-10",
+  "2025-11",
+  "2025-12",
+  "2026-01",
+  "2026-02",
+  "2026-03",
+  "2026-04",
+  "2026-05",
+  "2026-06",
+  "2026-07",
+  "2026-08"
+ ],
+ "n_months": 32,
+ "n_intervals": 151733,
+ "n_days": 696,
+ "median_volume_usdt": 55.0,
+ "median_trades_per_minute": 2.0,
+ "share_minutes_with_trades": 0.7409448745911744,
+ "kappa_closed": 0.014999503144877475,
+ "kappa_closed_se": 0.005067050908225275,
+ "increment": -0.005060249347087872,
+ "increment_se": 0.006260217661598997,
+ "kappa_open": 0.009939253797789604,
+ "kappa_open_se": 0.0043268037349316855,
+ "ratio": 0.6626388688870662,
+ "logratio": -0.4115251296731424,
+ "logratio_se": 0.5183695979285313,
+ "above_band": {
+  "spec_y": {
+   "closed": [
+    0.006879132608072997,
+    0.001654299138005459
+   ],
+   "incr": [
+    0.002415499495819989,
+    0.0026626707034815714
+   ],
+   "open": [
+    0.009294632103892985,
+    0.0022475800775241875
+   ],
+   "ratio": 1.3511343120476094,
+   "log_ratio": [
+    0.3009444708001323,
+    0.32462416526985505
+   ]
+  },
+  "spec_R": {
+   "closed": [
+    0.004401779221666132,
+    0.0016836265091289754
+   ],
+   "incr": [
+    0.002008028895059526,
+    0.002803871116827596
+   ],
+   "open": [
+    0.006409808116725658,
+    0.002157491066371202
+   ],
+   "ratio": 1.4561857362531372,
+   "log_ratio": [
+    0.37582050774655407,
+    0.5222905447128049
+   ]
+  }
+ },
+ "below_band": {
+  "spec_y": {
+   "closed": [
+    0.03105933221084302,
+    0.010819193018498091
+   ],
+   "incr": [
+    -0.014129023953684278,
+    0.011893479395648153
+   ],
+   "open": [
+    0.01693030825715874,
+    0.008688126814088223
+   ],
+   "ratio": 0.5450956943384719,
+   "log_ratio": [
+    -0.6067939137901499,
+    0.5362256368805891
+   ]
+  },
+  "spec_R": {
+   "closed": [
+    0.030030424834828602,
+    0.010934008044918474
+   ],
+   "incr": [
+    -0.016410793978578437,
+    0.012245652448865824
+   ],
+   "open": [
+    0.013619630856250165,
+    0.009237589992492705
+   ],
+   "ratio": 0.4535277449839613,
+   "log_ratio": [
+    -0.7906988316203717,
+    0.6769760564380036
+   ]
+  }
+ },
+ "cycle": {
+  "blocks": [
+   {
+    "h": 1,
+    "k": 0.00906507535379418,
+    "se": 0.006011113055626686,
+    "n": 4760,
+    "n_out": 2588
+   },
+   {
+    "h": 3,
+    "k": -0.0005978159493037291,
+    "se": 0.008662367221202177,
+    "n": 7273,
+    "n_out": 3946
+   },
+   {
+    "h": 5,
+    "k": 0.002983003759645896,
+    "se": 0.0020759573156529662,
+    "n": 9025,
+    "n_out": 4826
+   },
+   {
+    "h": 7,
+    "k": 0.0037346107897715786,
+    "se": 0.0017057736723312485,
+    "n": 13820,
+    "n_out": 7576
+   },
+   {
+    "h": 9,
+    "k": 0.026859759190636177,
+    "se": 0.01710090890837797,
+    "n": 15956,
+    "n_out": 9367
+   },
+   {
+    "h": 11,
+    "k": 0.012703455439346346,
+    "se": 0.006117862757769827,
+    "n": 16299,
+    "n_out": 9749
+   },
+   {
+    "h": 13,
+    "k": 0.011520092167503451,
+    "se": 0.0025793895544001955,
+    "n": 16284,
+    "n_out": 9877
+   },
+   {
+    "h": 15,
+    "k": 0.006120381748921536,
+    "se": 0.002664037356791358,
+    "n": 16292,
+    "n_out": 10045
+   },
+   {
+    "h": 17,
+    "k": 0.004678132524443686,
+    "se": 0.004351415893082231,
+    "n": 16214,
+    "n_out": 9438
+   },
+   {
+    "h": 19,
+    "k": 0.012820234643336374,
+    "se": 0.006378489216923953,
+    "n": 16122,
+    "n_out": 9021
+   },
+   {
+    "h": 21,
+    "k": 0.011549853596912522,
+    "se": 0.004698021131644151,
+    "n": 15878,
+    "n_out": 9187
+   },
+   {
+    "h": 23,
+    "k": 0.03740611307880304,
+    "se": 0.02969674499694304,
+    "n": 3810,
+    "n_out": 2209
+   }
+  ],
+  "night_over_day": 0.3753190739374317,
+  "pooled": {
+   "night": [
+    0.0034812432504586275,
+    0.0015627402043992922
+   ],
+   "day": [
+    0.009956897850813357,
+    0.002378901541633057
+   ],
+   "diff_day_minus_night": [
+    0.0064756546003547286,
+    0.0027212658012807233
+   ],
+   "log_day_over_night": [
+    1.0508760764562066,
+    0.48838094374133223
+   ]
+  }
+ },
+ "diff_vs_TRY": {
+  "pooled": {
+   "TRY": {
+    "closed": [
+     0.0037080330223287963,
+     0.0011430561351321634
+    ],
+    "incr": [
+     0.00601339057785047,
+     0.0029333663656957313
+    ],
+    "open": [
+     0.009721423600179267,
+     0.0027025150297434945
+    ],
+    "ratio": 2.621719801749181,
+    "log_ratio": [
+     0.9638305153096683,
+     0.4149163239194236
+    ]
+   },
+   "ZAR": {
+    "closed": [
+     0.014999503144877496,
+     0.005067057232154826
+    ],
+    "incr": [
+     -0.005060249347087887,
+     0.006260225474659525
+    ],
+    "open": [
+     0.009939253797789609,
+     0.0043268091337191625
+    ],
+    "ratio": 0.6626388688870657,
+    "log_ratio": [
+     -0.41152512967314325,
+     0.5183702445450095
+    ]
+   },
+   "diff_log_ratio_TRY_minus_ZAR": {
+    "est": 1.3753556449828115,
+    "se_stacked": 0.6630139717899343,
+    "se_indep": 0.6639753506488624
+   },
+   "diff_increment_level_TRY_minus_ZAR": {
+    "est": 0.011073639924938358,
+    "se_stacked": 0.00691768212281017,
+    "se_indep": 0.006913397227875228,
+    "note": "levels not comparable across markets (lambda differs)"
+   }
+  },
+  "above_band": {
+   "TRY": {
+    "closed": [
+     0.0016802151032087663,
+     0.0015177866611281092
+    ],
+    "incr": [
+     0.006701518903903776,
+     0.0023206701900600926
+    ],
+    "open": [
+     0.008381734007112542,
+     0.0020728483256652894
+    ],
+    "ratio": 4.988488670947932,
+    "log_ratio": [
+     1.6071329923350548,
+     0.8893249283487736
+    ]
+   },
+   "ZAR": {
+    "closed": [
+     0.006879132608072987,
+     0.0016543008248999951
+    ],
+    "incr": [
+     0.0024154994958199994,
+     0.002662673418616075
+    ],
+    "open": [
+     0.009294632103892987,
+     0.0022475823701602012
+    ],
+    "ratio": 1.3511343120476114,
+    "log_ratio": [
+     0.3009444708001338,
+     0.3246244963673805
+    ]
+   },
+   "diff_log_ratio_TRY_minus_ZAR": {
+    "est": 1.306188521534921,
+    "se_stacked": 0.9599867180492334,
+    "se_indep": 0.9467205985673548
+   },
+   "diff_increment_level_TRY_minus_ZAR": {
+    "est": 0.004286019408083776,
+    "se_stacked": 0.003579149445021492,
+    "se_indep": 0.0035320447144625614,
+    "note": "levels not comparable across markets (lambda differs)"
+   }
+  },
+  "below_band": {
+   "TRY": {
+    "closed": [
+     0.006069343517578344,
+     0.0011697465611189238
+    ],
+    "incr": [
+     0.008238113664690199,
+     0.005416393491337017
+    ],
+    "open": [
+     0.014307457182268543,
+     0.005399381247926714
+    ],
+    "ratio": 2.3573319158539223,
+    "log_ratio": [
+     0.8575304353607406,
+     0.40733781745852987
+    ]
+   },
+   "ZAR": {
+    "closed": [
+     0.03105933221084299,
+     0.010819204050866537
+    ],
+    "incr": [
+     -0.014129023953684285,
+     0.011893491523470119
+    ],
+    "open": [
+     0.016930308257158706,
+     0.008688135673401107
+    ],
+    "ratio": 0.5450956943384713,
+    "log_ratio": [
+     -0.6067939137901511,
+     0.5362261836435851
+    ]
+   },
+   "diff_log_ratio_TRY_minus_ZAR": {
+    "est": 1.4643243491508917,
+    "se_stacked": 0.6747358809085666,
+    "se_indep": 0.6733963302172865
+   },
+   "diff_increment_level_TRY_minus_ZAR": {
+    "est": 0.022367137618374486,
+    "se_stacked": 0.013080865070736332,
+    "se_indep": 0.013068758896217982,
+    "note": "levels not comparable across markets (lambda differs)"
+   }
+  },
+  "months": [
+   "2024-01",
+   "2024-02",
+   "2024-03",
+   "2024-04",
+   "2024-05",
+   "2024-06",
+   "2024-07",
+   "2024-08",
+   "2024-09",
+   "2024-10",
+   "2024-11",
+   "2024-12",
+   "2025-01",
+   "2025-02",
+   "2025-03",
+   "2025-04",
+   "2025-05",
+   "2025-06",
+   "2025-07",
+   "2025-08",
+   "2025-09",
+   "2025-10",
+   "2025-11",
+   "2025-12",
+   "2026-01",
+   "2026-02",
+   "2026-03",
+   "2026-04",
+   "2026-05",
+   "2026-06",
+   "2026-07",
+   "2026-08"
+  ],
+  "n": {
+   "TRY": 162624,
+   "ZAR": 151733
+  }
+ },
+ "quality": {
+  "binance_by_month": [
+   {
+    "m": "2024-01",
+    "share_minutes_with_trades": 0.47047491039426526,
+    "median_volume_usdt": 0.0,
+    "mean_volume_usdt": 268.35011200716843,
+    "median_trades": 0.0,
+    "binance_median_price": 19.21,
+    "dukascopy_median_mid": 18.780275,
+    "median_minute_premium_bp": 216.2275577126028
+   },
+   {
+    "m": "2024-02",
+    "share_minutes_with_trades": 0.46594827586206894,
+    "median_volume_usdt": 0.0,
+    "mean_volume_usdt": 220.49755747126437,
+    "median_trades": 0.0,
+    "binance_median_price": 19.24,
+    "dukascopy_median_mid": 18.973375,
+    "median_minute_premium_bp": 121.8128279729023
+   },
+   {
+    "m": "2024-03",
+    "share_minutes_with_trades": 0.5970206093189964,
+    "median_volume_usdt": 20.0,
+    "mean_volume_usdt": 343.570564516129,
+    "median_trades": 1.0,
+    "binance_median_price": 19.4,
+    "dukascopy_median_mid": 18.889115,
+    "median_minute_premium_bp": 263.16908858324587
+   },
+   {
+    "m": "2024-04",
+    "share_minutes_with_trades": 0.5566666666666666,
+    "median_volume_usdt": 12.0,
+    "mean_volume_usdt": 251.03418981481482,
+    "median_trades": 1.0,
+    "binance_median_price": 19.42,
+    "dukascopy_median_mid": 18.847884999999998,
+    "median_minute_premium_bp": 288.46141693414455
+   },
+   {
+    "m": "2024-05",
+    "share_minutes_with_trades": 0.500268817204301,
+    "median_volume_usdt": 6.0,
+    "mean_volume_usdt": 184.42318548387098,
+    "median_trades": 1.0,
+    "binance_median_price": 18.91,
+    "dukascopy_median_mid": 18.416425,
+    "median_minute_premium_bp": 250.9750120621166
+   },
+   {
+    "m": "2024-06",
+    "share_minutes_with_trades": 0.49493055555555554,
+    "median_volume_usdt": 0.0,
+    "mean_volume_usdt": 179.95277777777778,
+    "median_trades": 0.0,
+    "binance_median_price": 18.83,
+    "dukascopy_median_mid": 18.387839999999997,
+    "median_minute_premium_bp": 232.4764401468562
+   },
+   {
+    "m": "2024-07",
+    "share_minutes_with_trades": 0.5255824372759856,
+    "median_volume_usdt": 9.0,
+    "mean_volume_usdt": 186.96926523297492,
+    "median_trades": 1.0,
+    "binance_median_price": 18.6,
+    "dukascopy_median_mid": 18.253324999999997,
+    "median_minute_premium_bp": 181.79375110428728
+   },
+   {
+    "m": "2024-08",
+    "share_minutes_with_trades": 0.567652329749104,
+    "median_volume_usdt": 14.0,
+    "mean_volume_usdt": 287.07152777777776,
+    "median_trades": 1.0,
+    "binance_median_price": 18.32,
+    "dukascopy_median_mid": 18.01151,
+    "median_minute_premium_bp": 200.21494224534246
+   },
+   {
+    "m": "2024-09",
+    "share_minutes_with_trades": 0.5771064814814815,
+    "median_volume_usdt": 16.0,
+    "mean_volume_usdt": 273.22405092592595,
+    "median_trades": 1.0,
+    "binance_median_price": 18.0,
+    "dukascopy_median_mid": 17.657204999999998,
+    "median_minute_premium_bp": 146.82866912131695
+   },
+   {
+    "m": "2024-10",
+    "share_minutes_with_trades": 0.5897401433691756,
+    "median_volume_usdt": 17.0,
+    "mean_volume_usdt": 238.14661738351253,
+    "median_trades": 1.0,
+    "binance_median_price": 17.89,
+    "dukascopy_median_mid": 17.602565000000002,
+    "median_minute_premium_bp": 164.36640674403642
+   },
+   {
+    "m": "2024-11",
+    "share_minutes_with_trades": 0.7344444444444445,
+    "median_volume_usdt": 71.0,
+    "mean_volume_usdt": 486.9706712962963,
+    "median_trades": 2.0,
+    "binance_median_price": 18.23,
+    "dukascopy_median_mid": 18.0614525,
+    "median_minute_premium_bp": 118.22970912434236
+   },
+   {
+    "m": "2024-12",
+    "share_minutes_with_trades": 0.7344310035842294,
+    "median_volume_usdt": 62.0,
+    "mean_volume_usdt": 476.9000224014337,
+    "median_trades": 2.0,
+    "binance_median_price": 18.41,
+    "dukascopy_median_mid": 18.125295,
+    "median_minute_premium_bp": 226.52403890270742
+   },
+   {
+    "m": "2025-01",
+    "share_minutes_with_trades": 0.7230958781362007,
+    "median_volume_usdt": 56.0,
+    "mean_volume_usdt": 431.55383064516127,
+    "median_trades": 2.0,
+    "binance_median_price": 19.09,
+    "dukascopy_median_mid": 18.70963,
+    "median_minute_premium_bp": 175.25384571433568
+   },
+   {
+    "m": "2025-02",
+    "share_minutes_with_trades": 0.6666418650793651,
+    "median_volume_usdt": 37.0,
+    "mean_volume_usdt": 353.20394345238094,
+    "median_trades": 1.0,
+    "binance_median_price": 18.77,
+    "dukascopy_median_mid": 18.45382,
+    "median_minute_premium_bp": 167.40067271842906
+   },
+   {
+    "m": "2025-03",
+    "share_minutes_with_trades": 0.6464605734767025,
+    "median_volume_usdt": 32.0,
+    "mean_volume_usdt": 319.6152105734767,
+    "median_trades": 1.0,
+    "binance_median_price": 18.67,
+    "dukascopy_median_mid": 18.249215,
+    "median_minute_premium_bp": 204.9241850776912
+   },
+   {
+    "m": "2025-04",
+    "share_minutes_with_trades": 0.6428472222222222,
+    "median_volume_usdt": 36.0,
+    "mean_volume_usdt": 368.4758796296296,
+    "median_trades": 1.0,
+    "binance_median_price": 19.02,
+    "dukascopy_median_mid": 18.81734,
+    "median_minute_premium_bp": 105.42591020035096
+   },
+   {
+    "m": "2025-05",
+    "share_minutes_with_trades": 0.6674731182795699,
+    "median_volume_usdt": 51.0,
+    "mean_volume_usdt": 466.65826612903226,
+    "median_trades": 1.0,
+    "binance_median_price": 18.34,
+    "dukascopy_median_mid": 18.08737,
+    "median_minute_premium_bp": 134.18251609607006
+   },
+   {
+    "m": "2025-06",
+    "share_minutes_with_trades": 0.5369907407407407,
+    "median_volume_usdt": 9.0,
+    "mean_volume_usdt": 213.6475462962963,
+    "median_trades": 1.0,
+    "binance_median_price": 18.0,
+    "dukascopy_median_mid": 17.81663,
+    "median_minute_premium_bp": 85.02750074719299
+   },
+   {
+    "m": "2025-07",
+    "share_minutes_with_trades": 0.6684139784946237,
+    "median_volume_usdt": 26.0,
+    "mean_volume_usdt": 320.0173835125448,
+    "median_trades": 1.0,
+    "binance_median_price": 17.86,
+    "dukascopy_median_mid": 17.774340000000002,
+    "median_minute_premium_bp": 50.83396515205396
+   },
+   {
+    "m": "2025-08",
+    "share_minutes_with_trades": 0.8270161290322581,
+    "median_volume_usdt": 31.0,
+    "mean_volume_usdt": 192.01256720430106,
+    "median_trades": 2.0,
+    "binance_median_price": 17.81,
+    "dukascopy_median_mid": 17.69504,
+    "median_minute_premium_bp": 77.0665759092977
+   },
+   {
+    "m": "2025-09",
+    "share_minutes_with_trades": 0.9059259259259259,
+    "median_volume_usdt": 42.0,
+    "mean_volume_usdt": 181.92553240740742,
+    "median_trades": 3.0,
+    "binance_median_price": 17.53,
+    "dukascopy_median_mid": 17.38192,
+    "median_minute_premium_bp": 72.07313708564995
+   },
+   {
+    "m": "2025-10",
+    "share_minutes_with_trades": 0.9920698924731183,
+    "median_volume_usdt": 193.0,
+    "mean_volume_usdt": 341.12838261648744,
+    "median_trades": 11.0,
+    "binance_median_price": 17.39,
+    "dukascopy_median_mid": 17.274175,
+    "median_minute_premium_bp": 55.74735357770479
+   },
+   {
+    "m": "2025-11",
+    "share_minutes_with_trades": 0.9526851851851852,
+    "median_volume_usdt": 75.0,
+    "mean_volume_usdt": 225.0825462962963,
+    "median_trades": 5.0,
+    "binance_median_price": 17.31,
+    "dukascopy_median_mid": 17.197485,
+    "median_minute_premium_bp": 63.287663301003036
+   },
+   {
+    "m": "2025-12",
+    "share_minutes_with_trades": 0.9869847670250896,
+    "median_volume_usdt": 187.0,
+    "mean_volume_usdt": 367.86686827956987,
+    "median_trades": 10.0,
+    "binance_median_price": 16.99,
+    "dukascopy_median_mid": 16.7975,
+    "median_minute_premium_bp": 117.21035951834455
+   },
+   {
+    "m": "2026-01",
+    "share_minutes_with_trades": 0.9914970946537142,
+    "median_volume_usdt": 213.0,
+    "mean_volume_usdt": 420.8145514100464,
+    "median_trades": 11.0,
+    "binance_median_price": 16.44,
+    "dukascopy_median_mid": 16.3778,
+    "median_minute_premium_bp": 75.42856335290107
+   },
+   {
+    "m": "2026-02",
+    "share_minutes_with_trades": 0.998015873015873,
+    "median_volume_usdt": 246.0,
+    "mean_volume_usdt": 402.2267609126984,
+    "median_trades": 12.0,
+    "binance_median_price": 16.08,
+    "dukascopy_median_mid": 15.986675,
+    "median_minute_premium_bp": 47.131268801434686
+   },
+   {
+    "m": "2026-03",
+    "share_minutes_with_trades": 0.9882616487455197,
+    "median_volume_usdt": 248.0,
+    "mean_volume_usdt": 489.4858198924731,
+    "median_trades": 10.0,
+    "binance_median_price": 16.86,
+    "dukascopy_median_mid": 16.7660725,
+    "median_minute_premium_bp": 28.587339254055053
+   },
+   {
+    "m": "2026-04",
+    "share_minutes_with_trades": 0.9812962962962963,
+    "median_volume_usdt": 263.0,
+    "mean_volume_usdt": 544.3783101851852,
+    "median_trades": 10.0,
+    "binance_median_price": 16.59,
+    "dukascopy_median_mid": 16.5079,
+    "median_minute_premium_bp": 60.573621987406355
+   },
+   {
+    "m": "2026-05",
+    "share_minutes_with_trades": 0.9275985663082438,
+    "median_volume_usdt": 146.0,
+    "mean_volume_usdt": 497.0067876344086,
+    "median_trades": 5.0,
+    "binance_median_price": 16.63,
+    "dukascopy_median_mid": 16.459215,
+    "median_minute_premium_bp": 82.88524671999745
+   },
+   {
+    "m": "2026-06",
+    "share_minutes_with_trades": 0.9435648148148148,
+    "median_volume_usdt": 157.0,
+    "mean_volume_usdt": 476.215462962963,
+    "median_trades": 5.0,
+    "binance_median_price": 16.55,
+    "dukascopy_median_mid": 16.417142499999997,
+    "median_minute_premium_bp": 78.70468713661023
+   },
+   {
+    "m": "2026-07",
+    "share_minutes_with_trades": 0.9368503584229391,
+    "median_volume_usdt": 89.0,
+    "mean_volume_usdt": 284.4977598566308,
+    "median_trades": 5.0,
+    "binance_median_price": 16.53,
+    "dukascopy_median_mid": 16.421245,
+    "median_minute_premium_bp": 63.748471747967045
+   },
+   {
+    "m": "2026-08",
+    "share_minutes_with_trades": 0.909923835125448,
+    "median_volume_usdt": 58.0,
+    "mean_volume_usdt": 262.9124327956989,
+    "median_trades": 4.0,
+    "binance_median_price": 16.31,
+    "dukascopy_median_mid": 16.171385,
+    "median_minute_premium_bp": 75.29678112451795
+   }
+  ],
+  "binance_overall": {
+   "ZAR": {
+    "share_minutes_with_trades": 0.7409448745911744,
+    "median_volume_usdt": 55.0,
+    "median_volume_usdt_weekdays": 72.0,
+    "mean_volume_usdt": 329.8957941323058,
+    "median_volume_usdt_minutes_with_trades": 129.0,
+    "median_trades": 2.0,
+    "mean_trades": 4.763552474058694
+   },
+   "TRY_same_window": {
+    "share_minutes_with_trades": 0.9999272758384669,
+    "median_volume_usdt": 29181.0,
+    "mean_volume_usdt": 53722.88853838694,
+    "median_trades": 78.0
+   }
+  },
+  "binance_by_local_hour_weekdays": [
+   {
+    "lh": 0,
+    "share_minutes_with_trades": 0.5996886973180077,
+    "median_volume_usdt": 15.0,
+    "mean_volume_usdt": 125.05466954022988,
+    "median_trades": 1.0
+   },
+   {
+    "lh": 1,
+    "share_minutes_with_trades": 0.5329022988505747,
+    "median_volume_usdt": 8.0,
+    "mean_volume_usdt": 85.81317049808429,
+    "median_trades": 1.0
+   },
+   {
+    "lh": 2,
+    "share_minutes_with_trades": 0.49971264367816093,
+    "median_volume_usdt": 0.0,
+    "mean_volume_usdt": 95.96192528735632,
+    "median_trades": 0.0
+   },
+   {
+    "lh": 3,
+    "share_minutes_with_trades": 0.49372605363984673,
+    "median_volume_usdt": 0.0,
+    "mean_volume_usdt": 97.20675287356322,
+    "median_trades": 0.0
+   },
+   {
+    "lh": 4,
+    "share_minutes_with_trades": 0.5252394636015326,
+    "median_volume_usdt": 7.0,
+    "mean_volume_usdt": 101.23694923371647,
+    "median_trades": 1.0
+   },
+   {
+    "lh": 5,
+    "share_minutes_with_trades": 0.5992337164750958,
+    "median_volume_usdt": 13.0,
+    "mean_volume_usdt": 134.83991858237547,
+    "median_trades": 1.0
+   },
+   {
+    "lh": 6,
+    "share_minutes_with_trades": 0.7045977011494253,
+    "median_volume_usdt": 32.0,
+    "mean_volume_usdt": 221.45996168582374,
+    "median_trades": 2.0
+   },
+   {
+    "lh": 7,
+    "share_minutes_with_trades": 0.7783524904214559,
+    "median_volume_usdt": 75.0,
+    "mean_volume_usdt": 332.5026101532567,
+    "median_trades": 3.0
+   },
+   {
+    "lh": 8,
+    "share_minutes_with_trades": 0.8374521072796934,
+    "median_volume_usdt": 133.0,
+    "mean_volume_usdt": 478.20893199233717,
+    "median_trades": 3.0
+   },
+   {
+    "lh": 9,
+    "share_minutes_with_trades": 0.8693726053639846,
+    "median_volume_usdt": 185.0,
+    "mean_volume_usdt": 558.5187021072796,
+    "median_trades": 4.0
+   },
+   {
+    "lh": 10,
+    "share_minutes_with_trades": 0.882375478927203,
+    "median_volume_usdt": 204.0,
+    "mean_volume_usdt": 578.6503352490422,
+    "median_trades": 4.0
+   },
+   {
+    "lh": 11,
+    "share_minutes_with_trades": 0.8857040229885057,
+    "median_volume_usdt": 210.0,
+    "mean_volume_usdt": 602.2793103448275,
+    "median_trades": 4.0
+   },
+   {
+    "lh": 12,
+    "share_minutes_with_trades": 0.8823036398467433,
+    "median_volume_usdt": 201.0,
+    "mean_volume_usdt": 585.0495210727969,
+    "median_trades": 4.0
+   },
+   {
+    "lh": 13,
+    "share_minutes_with_trades": 0.8793342911877394,
+    "median_volume_usdt": 188.0,
+    "mean_volume_usdt": 536.1096743295019,
+    "median_trades": 4.0
+   },
+   {
+    "lh": 14,
+    "share_minutes_with_trades": 0.8821599616858238,
+    "median_volume_usdt": 201.0,
+    "mean_volume_usdt": 571.4218630268199,
+    "median_trades": 4.0
+   },
+   {
+    "lh": 15,
+    "share_minutes_with_trades": 0.885632183908046,
+    "median_volume_usdt": 206.0,
+    "mean_volume_usdt": 597.7727490421456,
+    "median_trades": 4.0
+   },
+   {
+    "lh": 16,
+    "share_minutes_with_trades": 0.8799090038314177,
+    "median_volume_usdt": 200.0,
+    "mean_volume_usdt": 583.7256944444445,
+    "median_trades": 4.0
+   },
+   {
+    "lh": 17,
+    "share_minutes_with_trades": 0.8746823912939259,
+    "median_volume_usdt": 179.0,
+    "mean_volume_usdt": 522.0260558991323,
+    "median_trades": 4.0
+   },
+   {
+    "lh": 18,
+    "share_minutes_with_trades": 0.869653767820774,
+    "median_volume_usdt": 162.0,
+    "mean_volume_usdt": 485.9112495507368,
+    "median_trades": 4.0
+   },
+   {
+    "lh": 19,
+    "share_minutes_with_trades": 0.8686063218390805,
+    "median_volume_usdt": 163.0,
+    "mean_volume_usdt": 482.45227490421456,
+    "median_trades": 4.0
+   },
+   {
+    "lh": 20,
+    "share_minutes_with_trades": 0.8573275862068965,
+    "median_volume_usdt": 156.0,
+    "mean_volume_usdt": 451.896096743295,
+    "median_trades": 4.0
+   },
+   {
+    "lh": 21,
+    "share_minutes_with_trades": 0.8341714559386973,
+    "median_volume_usdt": 116.0,
+    "mean_volume_usdt": 379.42938218390805,
+    "median_trades": 3.0
+   },
+   {
+    "lh": 22,
+    "share_minutes_with_trades": 0.7828544061302682,
+    "median_volume_usdt": 72.0,
+    "mean_volume_usdt": 300.8204022988506,
+    "median_trades": 2.0
+   },
+   {
+    "lh": 23,
+    "share_minutes_with_trades": 0.6952346743295019,
+    "median_volume_usdt": 34.0,
+    "mean_volume_usdt": 194.21714559386973,
+    "median_trades": 2.0
+   }
+  ],
+  "dukascopy_files": {
+   "bid_days": 696,
+   "ask_days": 696,
+   "empty_files": 0
+  },
+  "dukascopy_by_local_hour_weekdays": [
+   {
+    "lh": 0,
+    "share_minutes_active": 0.7334051724137931,
+    "share_minutes_bid_changed": 0.6794061302681992,
+    "median_spread_bp": 21.001993729740065,
+    "mean_quote_volume": 22.401151657104492
+   },
+   {
+    "lh": 1,
+    "share_minutes_active": 0.7630028735632184,
+    "share_minutes_bid_changed": 0.7006465517241379,
+    "median_spread_bp": 9.880689944527642,
+    "mean_quote_volume": 19.65355682373047
+   },
+   {
+    "lh": 2,
+    "share_minutes_active": 0.9832375478927203,
+    "share_minutes_bid_changed": 0.9305555555555556,
+    "median_spread_bp": 5.957664803060117,
+    "mean_quote_volume": 51.53436279296875
+   },
+   {
+    "lh": 3,
+    "share_minutes_active": 0.9903256704980843,
+    "share_minutes_bid_changed": 0.9583333333333334,
+    "median_spread_bp": 5.310915720781125,
+    "mean_quote_volume": 72.5877685546875
+   },
+   {
+    "lh": 4,
+    "share_minutes_active": 0.9895354406130268,
+    "share_minutes_bid_changed": 0.9553639846743295,
+    "median_spread_bp": 5.186739807713714,
+    "mean_quote_volume": 66.13018798828125
+   },
+   {
+    "lh": 5,
+    "share_minutes_active": 0.9863984674329502,
+    "share_minutes_bid_changed": 0.9412116858237548,
+    "median_spread_bp": 5.1717367409752075,
+    "mean_quote_volume": 54.92076110839844
+   },
+   {
+    "lh": 6,
+    "share_minutes_active": 0.984794061302682,
+    "share_minutes_bid_changed": 0.9370450191570882,
+    "median_spread_bp": 5.0573564749572775,
+    "mean_quote_volume": 50.00249481201172
+   },
+   {
+    "lh": 7,
+    "share_minutes_active": 0.9840277777777777,
+    "share_minutes_bid_changed": 0.9580938697318008,
+    "median_spread_bp": 3.655397741190263,
+    "mean_quote_volume": 58.952598571777344
+   },
+   {
+    "lh": 8,
+    "share_minutes_active": 0.9919300766283525,
+    "share_minutes_bid_changed": 0.97919061302682,
+    "median_spread_bp": 3.367110068846687,
+    "mean_quote_volume": 89.61189270019531
+   },
+   {
+    "lh": 9,
+    "share_minutes_active": 0.9935584291187739,
+    "share_minutes_bid_changed": 0.9889607279693486,
+    "median_spread_bp": 3.186953899201915,
+    "mean_quote_volume": 129.106689453125
+   },
+   {
+    "lh": 10,
+    "share_minutes_active": 0.992816091954023,
+    "share_minutes_bid_changed": 0.9888409961685823,
+    "median_spread_bp": 3.101883335135204,
+    "mean_quote_volume": 132.3560791015625
+   },
+   {
+    "lh": 11,
+    "share_minutes_active": 0.9926005747126436,
+    "share_minutes_bid_changed": 0.9875,
+    "median_spread_bp": 3.089372775598239,
+    "mean_quote_volume": 120.3045883178711
+   },
+   {
+    "lh": 12,
+    "share_minutes_active": 0.9924568965517241,
+    "share_minutes_bid_changed": 0.9859674329501916,
+    "median_spread_bp": 3.082284515480682,
+    "mean_quote_volume": 113.71149444580078
+   },
+   {
+    "lh": 13,
+    "share_minutes_active": 0.9924568965517241,
+    "share_minutes_bid_changed": 0.9861590038314176,
+    "median_spread_bp": 3.092260147964961,
+    "mean_quote_volume": 114.36034393310547
+   },
+   {
+    "lh": 14,
+    "share_minutes_active": 0.9927681992337165,
+    "share_minutes_bid_changed": 0.9886254789272031,
+    "median_spread_bp": 3.1223753593862265,
+    "mean_quote_volume": 138.2684783935547
+   },
+   {
+    "lh": 15,
+    "share_minutes_active": 0.9926724137931034,
+    "share_minutes_bid_changed": 0.9890565134099617,
+    "median_spread_bp": 3.1443048316858135,
+    "mean_quote_volume": 157.83279418945312
+   },
+   {
+    "lh": 16,
+    "share_minutes_active": 0.9926724137931034,
+    "share_minutes_bid_changed": 0.9891522988505748,
+    "median_spread_bp": 3.132727390187317,
+    "mean_quote_volume": 164.96527099609375
+   },
+   {
+    "lh": 17,
+    "share_minutes_active": 0.9926724137931034,
+    "share_minutes_bid_changed": 0.9886015325670499,
+    "median_spread_bp": 3.1410518367945066,
+    "mean_quote_volume": 140.4330291748047
+   },
+   {
+    "lh": 18,
+    "share_minutes_active": 0.9925047892720307,
+    "share_minutes_bid_changed": 0.9839319923371648,
+    "median_spread_bp": 3.6930365501356355,
+    "mean_quote_volume": 128.979248046875
+   },
+   {
+    "lh": 19,
+    "share_minutes_active": 0.9915229885057472,
+    "share_minutes_bid_changed": 0.9791666666666666,
+    "median_spread_bp": 3.8737135660553985,
+    "mean_quote_volume": 111.86742401123047
+   },
+   {
+    "lh": 20,
+    "share_minutes_active": 0.9905890804597701,
+    "share_minutes_bid_changed": 0.9729406130268199,
+    "median_spread_bp": 3.884211186313984,
+    "mean_quote_volume": 99.90947723388672
+   },
+   {
+    "lh": 21,
+    "share_minutes_active": 0.989272030651341,
+    "share_minutes_bid_changed": 0.9666666666666667,
+    "median_spread_bp": 3.8501342237880904,
+    "mean_quote_volume": 82.93926239013672
+   },
+   {
+    "lh": 22,
+    "share_minutes_active": 0.9801484674329501,
+    "share_minutes_bid_changed": 0.9338122605363984,
+    "median_spread_bp": 4.2144935487254385,
+    "mean_quote_volume": 50.860774993896484
+   },
+   {
+    "lh": 23,
+    "share_minutes_active": 0.7746168582375479,
+    "share_minutes_bid_changed": 0.6941091954022989,
+    "median_spread_bp": 19.431016239902718,
+    "mean_quote_volume": 24.52086639404297
+   }
+  ],
+  "dukascopy_overall": {
+   "share_minutes_active": 0.9608327346743295,
+   "share_minutes_bid_changed": 0.9359724217752236,
+   "median_spread_bp": 3.7371618361678745
+  },
+  "dukascopy_night_share_active": 0.9268408764367816,
+  "scale_check": "Dukascopy prices are int32 / 1e5 (build_panel.load_fx); the URL month is 0-based (download_dukascopy.fetch uses month-1). Monthly median Dukascopy mid matches the Binance USDT/ZAR price level month by month (binance_by_month), so neither the scale nor the month offset is off.",
+  "panel_coverage_by_local_hour": [
+   {
+    "lh": 0,
+    "share_intervals_in_sample": 0.3668582375478927
+   },
+   {
+    "lh": 1,
+    "share_intervals_in_sample": 0.3864942528735632
+   },
+   {
+    "lh": 2,
+    "share_intervals_in_sample": 0.43438697318007663
+   },
+   {
+    "lh": 3,
+    "share_intervals_in_sample": 0.4364224137931034
+   },
+   {
+    "lh": 4,
+    "share_intervals_in_sample": 0.476772030651341
+   },
+   {
+    "lh": 5,
+    "share_intervals_in_sample": 0.6038074712643678
+   },
+   {
+    "lh": 6,
+    "share_intervals_in_sample": 0.7726293103448276
+   },
+   {
+    "lh": 7,
+    "share_intervals_in_sample": 0.8820641762452107
+   },
+   {
+    "lh": 8,
+    "share_intervals_in_sample": 0.9437260536398467
+   },
+   {
+    "lh": 9,
+    "share_intervals_in_sample": 0.9667145593869731
+   },
+   {
+    "lh": 10,
+    "share_intervals_in_sample": 0.9741379310344828
+   },
+   {
+    "lh": 11,
+    "share_intervals_in_sample": 0.9773706896551724
+   },
+   {
+    "lh": 12,
+    "share_intervals_in_sample": 0.9743773946360154
+   },
+   {
+    "lh": 13,
+    "share_intervals_in_sample": 0.9753352490421456
+   },
+   {
+    "lh": 14,
+    "share_intervals_in_sample": 0.9768917624521073
+   },
+   {
+    "lh": 15,
+    "share_intervals_in_sample": 0.9737787356321839
+   },
+   {
+    "lh": 16,
+    "share_intervals_in_sample": 0.9722222222222222
+   },
+   {
+    "lh": 17,
+    "share_intervals_in_sample": 0.9691091954022989
+   },
+   {
+    "lh": 18,
+    "share_intervals_in_sample": 0.9659961685823755
+   },
+   {
+    "lh": 19,
+    "share_intervals_in_sample": 0.9643199233716475
+   },
+   {
+    "lh": 20,
+    "share_intervals_in_sample": 0.960727969348659
+   },
+   {
+    "lh": 21,
+    "share_intervals_in_sample": 0.9403735632183908
+   },
+   {
+    "lh": 22,
+    "share_intervals_in_sample": 0.9123563218390804
+   }
+  ],
+  "panel_coverage_overall": 0.8257847875304772,
+  "cells_dropped_lt300": {
+   "TRY": [],
+   "ZAR": []
+  },
+  "months_in_panel": [
+   "2024-01",
+   "2024-02",
+   "2024-03",
+   "2024-04",
+   "2024-05",
+   "2024-06",
+   "2024-07",
+   "2024-08",
+   "2024-09",
+   "2024-10",
+   "2024-11",
+   "2024-12",
+   "2025-01",
+   "2025-02",
+   "2025-03",
+   "2025-04",
+   "2025-05",
+   "2025-06",
+   "2025-07",
+   "2025-08",
+   "2025-09",
+   "2025-10",
+   "2025-11",
+   "2025-12",
+   "2026-01",
+   "2026-02",
+   "2026-03",
+   "2026-04",
+   "2026-05",
+   "2026-06",
+   "2026-07",
+   "2026-08"
+  ],
+  "fx_construction": {
+   "bid_days": 696,
+   "ask_days": 696,
+   "empty_files": 0,
+   "ask_first": "20240101",
+   "ask_last": "20260831",
+   "load_fx_replication_max_rel_diff": 0.0,
+   "note": "baseline: bid-ask mid on days with an ASK file, bid x (1+half median spread) otherwise (load_fx)"
+  }
+ },
+ "beta": 1.617625090322533,
+ "q": [
+  1.796650970040854,
+  0.1345562934604874
+ ],
+ "q_bh": [
+  -0.3314071107078383,
+  0.14403341458010918
+ ],
+ "d_in": [
+  -0.004757784281661847,
+  0.0021915171943121085
+ ],
+ "d_in_bh": [
+  -0.003990809041055268,
+  0.0028218605427434607
+ ],
+ "sd_prem": 90.49164643895637,
+ "mean_prem": 120.2155301827031,
+ "share_out": 0.578839145077208,
+ "width_open": 75.90625,
+ "width_closed": 85.28125,
+ "vol_per_min": 459.6156854474636,
+ "noise_ac1_dy": {
+  "open": 0.17481367598291445,
+  "closed": 0.11273587579979434
+ },
+ "q4_thin10": {
+  "closed": [
+   0.022188166616764756,
+   0.008031750474467263
+  ],
+  "incr": [
+   -0.01128940818457825,
+   0.008761737295331622
+  ],
+  "open": [
+   0.010898758432186507,
+   0.005121822954934052
+  ],
+  "ratio": 0.4911968897850132,
+  "log_ratio": [
+   -0.7109102340401522,
+   0.5423050186032314
+  ],
+  "n": 100796
+ },
+ "q5_eiv_bt2": {
+  "closed": [
+   0.0118643396209711,
+   0.0037102112698070414
+  ],
+  "incr": [
+   0.003135328861914105,
+   0.006401849020175351
+  ],
+  "open": [
+   0.014999668482885205,
+   0.005148641617196719
+  ],
+  "ratio": 1.2642649285234702,
+  "log_ratio": [
+   0.2344908691134755,
+   0.46861618410882877
+  ],
+  "n": 146254
+ },
+ "q6_bid_only": {
+  "primary": {
+   "ZAR": {
+    "closed": [
+     0.015746574378801306,
+     0.0053178587989991775
+    ],
+    "incr": [
+     -0.005924131296384418,
+     0.0063699083686973934
+    ],
+    "open": [
+     0.009822443082416888,
+     0.004203579063118603
+    ],
+    "ratio": 0.6237828524558503,
+    "log_ratio": [
+     -0.47195296403548953,
+     0.5123023285330625
+    ],
+    "n": 151733,
+    "above_band": {
+     "spec_y": {
+      "closed": [
+       0.007666537575410742,
+       0.001936416972774753
+      ],
+      "incr": [
+       0.0018596870829562008,
+       0.0027865059063995916
+      ],
+      "open": [
+       0.009526224658366942,
+       0.0022386240651359767
+      ],
+      "ratio": 1.2425719648098856,
+      "log_ratio": [
+       0.2171833966754782,
+       0.3246151496629375
+      ]
+     },
+     "spec_R": {
+      "closed": [
+       0.004742704083125707,
+       0.002014529199689944
+      ],
+      "incr": [
+       0.001514994088224378,
+       0.0030063816935206903
+      ],
+      "open": [
+       0.006257698171350085,
+       0.0021611785697328275
+      ],
+      "ratio": 1.3194367731300478,
+      "log_ratio": [
+       0.277204958518778,
+       0.5568860831305159
+      ]
+     }
+    },
+    "below_band": {
+     "spec_y": {
+      "closed": [
+       0.029339621827162793,
+       0.010032354076329146
+      ],
+      "incr": [
+       -0.01260153354245227,
+       0.011394170494318314
+      ],
+      "open": [
+       0.016738088284710524,
+       0.008695386438512545
+      ],
+      "ratio": 0.5704943432234121,
+      "log_ratio": [
+       -0.5612520252008356,
+       0.540604070886416
+      ]
+     },
+     "spec_R": {
+      "closed": [
+       0.02795829925552618,
+       0.010169553136131671
+      ],
+      "incr": [
+       -0.014371494528014716,
+       0.011780340141444247
+      ],
+      "open": [
+       0.013586804727511463,
+       0.00921832121918468
+      ],
+      "ratio": 0.48596678229008955,
+      "log_ratio": [
+       -0.7216150066149027,
+       0.679712145946229
+      ]
+     }
+    }
+   },
+   "diff_vs_TRY": {
+    "est": 1.4357834793451605,
+    "se_stacked": 0.6597366959907216,
+    "se_indep": 0.6592494875586227
+   },
+   "cells_dropped": []
+  },
+  "emp_mxn_window": {
+   "ZAR": {
+    "closed": [
+     0.01222465466203168,
+     0.004605602290414636
+    ],
+    "incr": [
+     -0.0033835555509141905,
+     0.008167188011902114
+    ],
+    "open": [
+     0.008841099111117488,
+     0.005451278696461868
+    ],
+    "ratio": 0.7232187211453006,
+    "log_ratio": [
+     -0.32404358369981195,
+     0.8173560941713124
+    ],
+    "n": 110977,
+    "above_band": {
+     "spec_y": {
+      "closed": [
+       0.007973693036536717,
+       0.002664925957662061
+      ],
+      "incr": [
+       0.0007100859437469904,
+       0.0038070055336775397
+      ],
+      "open": [
+       0.008683778980283708,
+       0.002646288695544196
+      ],
+      "ratio": 1.0890535841414093,
+      "log_ratio": [
+       0.08530904764517717,
+       0.45845175455384707
+      ]
+     },
+     "spec_R": {
+      "closed": [
+       0.005089819694983611,
+       0.0030586054363028817
+      ],
+      "incr": [
+       0.0017146568616784224,
+       0.004457499645776966
+      ],
+      "open": [
+       0.006804476556662034,
+       0.00310983151177224
+      ],
+      "ratio": 1.33687968620349,
+      "log_ratio": [
+       0.2903383061899433,
+       0.7709292919381839
+      ]
+     }
+    },
+    "below_band": {
+     "spec_y": {
+      "closed": [
+       0.01995007757520536,
+       0.006508019517288584
+      ],
+      "incr": [
+       -0.006705693438078285,
+       0.013208626734466771
+      ],
+      "open": [
+       0.013244384137127075,
+       0.009770618365015197
+      ],
+      "ratio": 0.6638763226458653,
+      "log_ratio": [
+       -0.40965940792995575,
+       0.8884509791854751
+      ]
+     },
+     "spec_R": {
+      "closed": [
+       0.0181360042089808,
+       0.0066827641095397235
+      ],
+      "incr": [
+       -0.007551633855875116,
+       0.013907455610070295
+      ],
+      "open": [
+       0.010584370353105683,
+       0.01052801950232007
+      ],
+      "ratio": 0.5836109338717727,
+      "log_ratio": [
+       -0.5385207272934966,
+       1.1500847874773594
+      ]
+     }
+    }
+   },
+   "diff_vs_TRY": {
+    "est": 1.749326473444222,
+    "se_stacked": 0.9278189285019213,
+    "se_indep": 0.926655289243042
+   },
+   "cells_dropped": []
+  }
+ },
+ "TRY_common_sample": {
+  "closed": [
+   0.0037080330223287963,
+   0.001143056321620172
+  ],
+  "incr": [
+   0.00601339057785047,
+   0.002933366844270348
+  ],
+  "open": [
+   0.009721423600179267,
+   0.0027025154706550388
+  ],
+  "ratio": 2.621719801749181,
+  "log_ratio": [
+   0.9638305153096683,
+   0.4149163916124411
+  ],
+  "d_in": [
+   -0.0023137382638643493,
+   0.0012745032503241112
+  ],
+  "d_in_bh": [
+   -0.00018924924660287422,
+   0.002621217096420122
+  ],
+  "n": 162624,
+  "days": 694,
+  "above_band": {
+   "spec_y": {
+    "closed": [
+     0.001680215103208768,
+     0.001517786585384235
+    ],
+    "incr": [
+     0.0067015189039037705,
+     0.0023206700742489854
+    ],
+    "open": [
+     0.008381734007112538,
+     0.002072848222221524
+    ],
+    "ratio": 4.988488670947925,
+    "log_ratio": [
+     1.6071329923350532,
+     0.8893248839677561
+    ]
+   },
+   "spec_R": {
+    "closed": [
+     0.0033820099162540944,
+     0.001557893377595051
+    ],
+    "incr": [
+     0.006120578695111438,
+     0.0031789015126254673
+    ],
+    "open": [
+     0.009502588611365532,
+     0.0025520730695139495
+    ],
+    "ratio": 2.809745934125047,
+    "log_ratio": [
+     1.0330940643558622,
+     0.5661958591005744
+    ]
+   }
+  },
+  "below_band": {
+   "spec_y": {
+    "closed": [
+     0.006069343517578347,
+     0.0011697465027436977
+    ],
+    "incr": [
+     0.008238113664690199,
+     0.00541639322103642
+    ],
+    "open": [
+     0.014307457182268547,
+     0.005399380978475098
+    ],
+    "ratio": 2.357331915853922,
+    "log_ratio": [
+     0.8575304353607404,
+     0.4073377971348088
+    ]
+   },
+   "spec_R": {
+    "closed": [
+     0.0041080264375500455,
+     0.0010945560674450565
+    ],
+    "incr": [
+     0.0061249698683995485,
+     0.005566060134588459
+    ],
+    "open": [
+     0.010232996305949593,
+     0.005642387680155862
+    ],
+    "ratio": 2.490976253807259,
+    "log_ratio": [
+     0.912674703439447,
+     0.5711162338364588
+    ]
+   }
+  },
+  "q": [
+   0.6315904504388113,
+   0.03192466837320642
+  ],
+  "q_bh": [
+   -0.047372405836872175,
+   0.035189203319290284
+  ],
+  "sd_prem": 56.34292262680583,
+  "mean_prem": 18.295200703953864,
+  "share_out": 0.6280930243998426,
+  "width_open": 39.5625,
+  "width_closed": 47.59375,
+  "vol_per_min": 64859.35215515546,
+  "beta": 0.6039556832673958,
+  "cycle": {
+   "blocks": [
+    {
+     "h": 1,
+     "k": 0.003917587047163959,
+     "se": 0.005839149382402418,
+     "n": 1488,
+     "n_out": 887
+    },
+    {
+     "h": 3,
+     "k": -0.0016346302381774402,
+     "se": 0.002562699190100444,
+     "n": 10112,
+     "n_out": 5783
+    },
+    {
+     "h": 5,
+     "k": 0.003472890673255569,
+     "se": 0.004646067792974513,
+     "n": 12669,
+     "n_out": 7246
+    },
+    {
+     "h": 7,
+     "k": 0.0007659048922752051,
+     "se": 0.0016618720846767506,
+     "n": 13073,
+     "n_out": 7635
+    },
+    {
+     "h": 9,
+     "k": -0.0017278187040367372,
+     "se": 0.0027472247148092456,
+     "n": 15532,
+     "n_out": 9986
+    },
+    {
+     "h": 11,
+     "k": 0.018619596715972585,
+     "se": 0.004917233814969862,
+     "n": 16564,
+     "n_out": 11254
+    },
+    {
+     "h": 13,
+     "k": 0.009143704852624225,
+     "se": 0.002628100145040026,
+     "n": 16537,
+     "n_out": 11144
+    },
+    {
+     "h": 15,
+     "k": 0.009311705605078368,
+     "se": 0.0033467115332006816,
+     "n": 16543,
+     "n_out": 11130
+    },
+    {
+     "h": 17,
+     "k": 0.0038808629341442317,
+     "se": 0.0022997961117247746,
+     "n": 16538,
+     "n_out": 10497
+    },
+    {
+     "h": 19,
+     "k": 0.011009468519191922,
+     "se": 0.0030838724386407983,
+     "n": 16493,
+     "n_out": 9828
+    },
+    {
+     "h": 21,
+     "k": 0.006357204860267984,
+     "se": 0.002731576917674831,
+     "n": 15861,
+     "n_out": 9769
+    },
+    {
+     "h": 23,
+     "k": 0.004572295728072652,
+     "se": 0.0033252841528492176,
+     "n": 11214,
+     "n_out": 6984
+    }
+   ],
+   "night_over_day": 0.13193023154317848,
+   "pooled": {
+    "night": [
+     0.00145353789084274,
+     0.0020518722561682495
+    ],
+    "day": [
+     0.0135228859666502,
+     0.0035630112321808033
+    ],
+    "diff_day_minus_night": [
+     0.01206934807580746,
+     0.004014987800312352
+    ],
+    "log_day_over_night": [
+     2.2303829975391656,
+     1.4220433415884572
+    ]
+   }
+  },
+  "noise_ac1_dy": {
+   "open": 0.27007376197857913,
+   "closed": 0.2084770886467664
+  },
+  "q4_thin10": {
+   "closed": [
+    0.0037085975145660457,
+    0.0011431110790963582
+   ],
+   "incr": [
+    0.006012826085613215,
+    0.002933396586280924
+   ],
+   "open": [
+    0.00972142360017926,
+    0.0027025154721282197
+   ],
+   "ratio": 2.6213207451056584,
+   "log_ratio": [
+    0.963678291942053,
+    0.41489417729616335
+   ],
+   "n": 162615
+  },
+  "q5_eiv_bt2": {
+   "closed": [
+    0.005895489404682141,
+    0.0013384227936657214
+   ],
+   "incr": [
+    0.007551197908352157,
+    0.004549056661928274
+   ],
+   "open": [
+    0.013446687313034299,
+    0.004372012303983072
+   ],
+   "ratio": 2.2808432667786778,
+   "log_ratio": [
+    0.824545228437571,
+    0.3931673802674198
+   ],
+   "n": 160561
+  }
+ },
+ "verdict": "Mexico-like: business-hours effect significantly smaller than Turkey's",
+ "flags": {
+  "closed_not_sig_positive": false,
+  "eiv_closed_below_half": false,
+  "fx_night_active_below_half": false
+ },
+ "window_emp_mxn": {
+  "months": [
+   "2024-11",
+   "2026-08"
+  ],
+  "ZAR": {
+   "closed": [
+    0.011473132945580413,
+    0.004271503634521998
+   ],
+   "incr": [
+    -0.0023944113640302234,
+    0.008003612416298015
+   ],
+   "open": [
+    0.00907872158155019,
+    0.005598650905991973
+   ],
+   "ratio": 0.7913027439508074,
+   "log_ratio": [
+    -0.23407464872380748,
+    0.8110456532224634
+   ],
+   "d_in": [
+    -0.0066919774075467515,
+    0.0020758465769990563
+   ],
+   "d_in_bh": [
+    -0.005108709278810128,
+    0.004594977405865442
+   ],
+   "n": 110977,
+   "days": 477,
+   "above_band": {
+    "spec_y": {
+     "closed": [
+      0.006851109713540817,
+      0.002056054026074492
+     ],
+     "incr": [
+      0.0017694065109854211,
+      0.0034180405675242518
+     ],
+     "open": [
+      0.008620516224526238,
+      0.0026521871078189437
+     ],
+     "ratio": 1.2582656803011478,
+     "log_ratio": [
+      0.2297343285884549,
+      0.43801297103457065
+     ]
+    },
+    "spec_R": {
+     "closed": [
+      0.0045613364994261125,
+      0.002296489884888047
+     ],
+     "incr": [
+      0.0027070414753850667,
+      0.003967491137838791
+     ],
+     "open": [
+      0.007268377974811179,
+      0.0031185772544725376
+     ],
+     "ratio": 1.5934755034463375,
+     "log_ratio": [
+      0.4659174819590603,
+      0.6781906291949128
+     ]
+    }
+   },
+   "below_band": {
+    "spec_y": {
+     "closed": [
+      0.021146396194762128,
+      0.007041712207341598
+     ],
+     "incr": [
+      -0.007854534021520391,
+      0.013532108688905437
+     ],
+     "open": [
+      0.013291862173241737,
+      0.00975415341264027
+     ],
+     "ratio": 0.6285639430388651,
+     "log_ratio": [
+      -0.4643175170038137,
+      0.8865625466123573
+     ]
+    },
+    "spec_R": {
+     "closed": [
+      0.01972218560575983,
+      0.007178707139964599
+     ],
+     "incr": [
+      -0.009095607121252527,
+      0.014222464854521544
+     ],
+     "open": [
+      0.010626578484507303,
+      0.010579662977049003
+     ],
+     "ratio": 0.5388134305664292,
+     "log_ratio": [
+      -0.6183859079443667,
+      1.1440654095452085
+     ]
+    }
+   },
+   "q": [
+    1.5691632882894435,
+    0.16760624105784871
+   ],
+   "q_bh": [
+    -0.3160103663446427,
+    0.18145619795278153
+   ],
+   "sd_prem": 73.79736642538903,
+   "mean_prem": 89.47881786777648,
+   "share_out": 0.5886985591609072,
+   "width_open": 64.04545454545455,
+   "width_closed": 81.13636363636364,
+   "vol_per_min": 488.94540850806925,
+   "beta": 1.4038659448345032,
+   "cycle": {
+    "blocks": [
+     {
+      "h": 1,
+      "k": 0.009119356024085947,
+      "se": 0.006626445069497379,
+      "n": 4244,
+      "n_out": 2322
+     },
+     {
+      "h": 3,
+      "k": 0.0003558919813028206,
+      "se": 0.009770535829409238,
+      "n": 6722,
+      "n_out": 3654
+     },
+     {
+      "h": 5,
+      "k": 0.0033687372290884796,
+      "se": 0.002344747256559351,
+      "n": 7835,
+      "n_out": 4189
+     },
+     {
+      "h": 7,
+      "k": 0.004080140000695824,
+      "se": 0.002210885926553771,
+      "n": 10464,
+      "n_out": 5716
+     },
+     {
+      "h": 9,
+      "k": 0.009014387558852519,
+      "se": 0.00414946045250678,
+      "n": 11232,
+      "n_out": 6783
+     },
+     {
+      "h": 11,
+      "k": 0.016679346161701424,
+      "se": 0.008561446894905041,
+      "n": 11301,
+      "n_out": 7047
+     },
+     {
+      "h": 13,
+      "k": 0.01266769896983469,
+      "se": 0.0034476608388032417,
+      "n": 11307,
+      "n_out": 7086
+     },
+     {
+      "h": 15,
+      "k": 0.0063786086210811865,
+      "se": 0.0036406914704395182,
+      "n": 11291,
+      "n_out": 7255
+     },
+     {
+      "h": 17,
+      "k": 0.005269261470901555,
+      "se": 0.005223337778332072,
+      "n": 11313,
+      "n_out": 6808
+     },
+     {
+      "h": 19,
+      "k": 0.01674038947537708,
+      "se": 0.00897210230111102,
+      "n": 11281,
+      "n_out": 6313
+     },
+     {
+      "h": 21,
+      "k": 0.012095239223420044,
+      "se": 0.0062970508973259915,
+      "n": 11227,
+      "n_out": 6549
+     },
+     {
+      "h": 23,
+      "k": 0.003093483171068163,
+      "se": 0.007809017624171016,
+      "n": 2760,
+      "n_out": 1610
+     }
+    ],
+    "night_over_day": 0.35529353820291937,
+    "pooled": {
+     "night": [
+      0.00395297679740287,
+      0.0018800778935216095
+     ],
+     "day": [
+      0.011691388078789083,
+      0.0033409722977750206
+     ],
+     "diff_day_minus_night": [
+      0.0077384112813862135,
+      0.0036891740729430664
+     ],
+     "log_day_over_night": [
+      1.084383594455342,
+      0.5332456046495014
+     ]
+    }
+   },
+   "noise_ac1_dy": {
+    "open": 0.1727223546513186,
+    "closed": 0.12791163503363792
+   },
+   "q4_thin10": {
+    "closed": [
+     0.014218876135119534,
+     0.005525982982747707
+    ],
+    "incr": [
+     -0.005274402753810784,
+     0.009779821439883166
+    ],
+    "open": [
+     0.00894447338130875,
+     0.005805037315254292
+    ],
+    "ratio": 0.629056283795636,
+    "log_ratio": [
+     -0.4635345448928093,
+     0.9051090270478415
+    ],
+    "n": 86301
+   },
+   "q5_eiv_bt2": {
+    "closed": [
+     0.012290837409229078,
+     0.00464907446149275
+    ],
+    "incr": [
+     -2.533566023585921e-05,
+     0.00590822682420747
+    ],
+    "open": [
+     0.01226550174899322,
+     0.0031551558241528998
+    ],
+    "ratio": 0.9979386546748366,
+    "log_ratio": [
+     -0.002063472821610912,
+     0.48103256166010566
+    ],
+    "n": 108405
+   }
+  },
+  "TRY": {
+   "closed": [
+    0.0051832945978667905,
+    0.0020553300578680647
+   ],
+   "incr": [
+    0.01637420503024291,
+    0.0071061393191561815
+   ],
+   "open": [
+    0.021557499628109704,
+    0.007483984271215061
+   ],
+   "ratio": 4.159034224483747,
+   "log_ratio": [
+    1.4252828897444079,
+    0.43659611447002566
+   ],
+   "d_in": [
+    -0.005237480270286666,
+    0.0015783941690995893
+   ],
+   "d_in_bh": [
+    0.0038468123692114433,
+    0.005416010886789949
+   ],
+   "n": 113024,
+   "days": 476,
+   "above_band": {
+    "spec_y": {
+     "closed": [
+      0.004198670458229926,
+      0.003195228959580507
+     ],
+     "incr": [
+      0.008634896249616882,
+      0.004617269656036833
+     ],
+     "open": [
+      0.012833566707846808,
+      0.002751675534719932
+     ],
+     "ratio": 3.0565787040255543,
+     "log_ratio": [
+      1.11729621987721,
+      0.8311242957275018
+     ]
+    },
+    "spec_R": {
+     "closed": [
+      0.004180061440161851,
+      0.003291243996270569
+     ],
+     "incr": [
+      0.011182518069510197,
+      0.004001528269264423
+     ],
+     "open": [
+      0.015362579509672049,
+      0.0027557969204343937
+     ],
+     "ratio": 3.6752042355332493,
+     "log_ratio": [
+      1.3016087054153678,
+      0.7839176844095959
+     ]
+    }
+   },
+   "below_band": {
+    "spec_y": {
+     "closed": [
+      0.009135715157198111,
+      0.0016651899234651957
+     ],
+     "incr": [
+      0.02534578554990141,
+      0.012731234968301228
+     ],
+     "open": [
+      0.034481500707099516,
+      0.013017310658412148
+     ],
+     "ratio": 3.774362500776005,
+     "log_ratio": [
+      1.328231494473553,
+      0.3788876244517185
+     ]
+    },
+    "spec_R": {
+     "closed": [
+      0.006001562368074773,
+      0.001678997852794061
+     ],
+     "incr": [
+      0.02800762123175945,
+      0.01294197334811822
+     ],
+     "open": [
+      0.03400918359983422,
+      0.013183349486427225
+     ],
+     "ratio": 5.666721682464819,
+     "log_ratio": [
+      1.7346107640112396,
+      0.4287472331535627
+     ]
+    }
+   },
+   "q": [
+    0.4533852032500109,
+    0.02577672173351452
+   ],
+   "q_bh": [
+    -0.10367171685192188,
+    0.037335393208009396
+   ],
+   "sd_prem": 24.887811334364745,
+   "mean_prem": -0.914957673173512,
+   "share_out": 0.6215847961494904,
+   "width_open": 24.863636363636363,
+   "width_closed": 33.09090909090909,
+   "vol_per_min": 51067.270162797286,
+   "beta": 0.3910195404155808,
+   "cycle": {
+    "blocks": [
+     {
+      "h": 1,
+      "k": 0.0006990663934125577,
+      "se": 0.008458363993108805,
+      "n": 1044,
+      "n_out": 631
+     },
+     {
+      "h": 3,
+      "k": -0.0031689090035640684,
+      "se": 0.0032951905981742284,
+      "n": 7227,
+      "n_out": 4208
+     },
+     {
+      "h": 5,
+      "k": 0.001560373051621974,
+      "se": 0.0015948106546341784,
+      "n": 9141,
+      "n_out": 5158
+     },
+     {
+      "h": 7,
+      "k": 0.005373604629003831,
+      "se": 0.002267510400500407,
+      "n": 9317,
+      "n_out": 5375
+     },
+     {
+      "h": 9,
+      "k": 0.0046201322459514665,
+      "se": 0.006588830479799285,
+      "n": 10884,
+      "n_out": 6716
+     },
+     {
+      "h": 11,
+      "k": 0.03521322507582922,
+      "se": 0.010419591591759685,
+      "n": 11351,
+      "n_out": 7452
+     },
+     {
+      "h": 13,
+      "k": 0.017798297487026778,
+      "se": 0.008618403254086629,
+      "n": 11318,
+      "n_out": 7356
+     },
+     {
+      "h": 15,
+      "k": 0.005821210369047411,
+      "se": 0.001407096688570891,
+      "n": 11321,
+      "n_out": 7395
+     },
+     {
+      "h": 17,
+      "k": 0.009513394089793237,
+      "se": 0.0024782035234769038,
+      "n": 11324,
+      "n_out": 7051
+     },
+     {
+      "h": 19,
+      "k": 0.009660784865132983,
+      "se": 0.00444909110813549,
+      "n": 11300,
+      "n_out": 6844
+     },
+     {
+      "h": 21,
+      "k": 0.017820210596915194,
+      "se": 0.004454370726512822,
+      "n": 10917,
+      "n_out": 6912
+     },
+     {
+      "h": 23,
+      "k": 0.006998346712413057,
+      "se": 0.0033154279899542216,
+      "n": 7880,
+      "n_out": 5156
+     }
+    ],
+    "night_over_day": 0.056908818203822306,
+    "pooled": {
+     "night": [
+      0.002007067088776935,
+      0.0011433377641387565
+     ],
+     "day": [
+      0.025581191648759903,
+      0.00887231122930825
+     ],
+     "diff_day_minus_night": [
+      0.023574124559982968,
+      0.008879707620962149
+     ],
+     "log_day_over_night": [
+      2.5451828835918806,
+      0.6495348064798568
+     ]
+    }
+   },
+   "noise_ac1_dy": {
+    "open": 0.31426680418224606,
+    "closed": 0.19014451814390249
+   },
+   "q4_thin10": {
+    "closed": [
+     0.005184937222781358,
+     0.0020555824807787153
+    ],
+    "incr": [
+     0.016372562405328375,
+     0.007106152554058875
+    ],
+    "open": [
+     0.02155749962810973,
+     0.00748398427974482
+    ],
+    "ratio": 4.157716612920847,
+    "log_ratio": [
+     1.4249660324524958,
+     0.43654915081594375
+    ],
+    "n": 113015
+   },
+   "q5_eiv_bt2": {
+    "closed": [
+     0.008140201869645826,
+     0.0020182418651170193
+    ],
+    "incr": [
+     0.023432182503907235,
+     0.013806406538913267
+    ],
+    "open": [
+     0.03157238437355306,
+     0.01419271023799
+    ],
+    "ratio": 3.878575111421254,
+    "log_ratio": [
+     1.3554678468618886,
+     0.453446768552892
+    ],
+    "n": 111667
+   }
+  },
+  "diff_vs_TRY": {
+   "pooled": {
+    "TRY": {
+     "closed": [
+      0.0051832945978667905,
+      0.0020553303593091655
+     ],
+     "incr": [
+      0.01637420503024291,
+      0.007106140361364683
+     ],
+     "open": [
+      0.021557499628109704,
+      0.007483985368839479
+     ],
+     "ratio": 4.159034224483747,
+     "log_ratio": [
+      1.4252828897444079,
+      0.4365961785025702
+     ]
+    },
+    "ZAR": {
+     "closed": [
+      0.011473132945580432,
+      0.00427151264153283
+     ],
+     "incr": [
+      -0.0023944113640302464,
+      0.008003629292936744
+     ],
+     "open": [
+      0.009078721581550186,
+      0.005598662713958322
+     ],
+     "ratio": 0.7913027439508057,
+     "log_ratio": [
+      -0.2340746487238096,
+      0.8110473636753952
+     ]
+    },
+    "diff_log_ratio_TRY_minus_ZAR": {
+     "est": 1.6593575384682175,
+     "se_stacked": 0.9197924108923656,
+     "se_indep": 0.9210939415352032
+    },
+    "diff_increment_level_TRY_minus_ZAR": {
+     "est": 0.018768616394273158,
+     "se_stacked": 0.010710821607337575,
+     "se_indep": 0.010703051558852374,
+     "note": "levels not comparable across markets (lambda differs)"
+    }
+   },
+   "above_band": {
+    "TRY": {
+     "closed": [
+      0.004198670458229926,
+      0.0031952296865702203
+     ],
+     "incr": [
+      0.008634896249616872,
+      0.004617270706574244
+     ],
+     "open": [
+      0.012833566707846798,
+      0.00275167616079082
+     ],
+     "ratio": 3.056578704025552,
+     "log_ratio": [
+      1.1172962198772094,
+      0.831124484827821
+     ]
+    },
+    "ZAR": {
+     "closed": [
+      0.0068511097135408325,
+      0.0020560581922065414
+     ],
+     "incr": [
+      0.0017694065109854005,
+      0.0034180474934163525
+     ],
+     "open": [
+      0.008620516224526233,
+      0.0026521924818809165
+     ],
+     "ratio": 1.2582656803011443,
+     "log_ratio": [
+      0.22973432858845208,
+      0.43801385859324
+     ]
+    },
+    "diff_log_ratio_TRY_minus_ZAR": {
+     "est": 0.8875618912887573,
+     "se_stacked": 0.9539689620851569,
+     "se_indep": 0.9394807340380068
+    },
+    "diff_increment_level_TRY_minus_ZAR": {
+     "est": 0.006865489738631471,
+     "se_stacked": 0.005776801804460983,
+     "se_indep": 0.005744757387837638,
+     "note": "levels not comparable across markets (lambda differs)"
+    }
+   },
+   "below_band": {
+    "TRY": {
+     "closed": [
+      0.00913571515719811,
+      0.001665190302335056
+     ],
+     "incr": [
+      0.02534578554990138,
+      0.012731237864956535
+     ],
+     "open": [
+      0.03448150070709949,
+      0.01301731362015642
+     ],
+     "ratio": 3.7743625007760024,
+     "log_ratio": [
+      1.3282314944735523,
+      0.37888771065254234
+     ]
+    },
+    "ZAR": {
+     "closed": [
+      0.021146396194762135,
+      0.007041726475791017
+     ],
+     "incr": [
+      -0.007854534021520407,
+      0.013532136108686681
+     ],
+     "open": [
+      0.013291862173241728,
+      0.00975417317724301
+     ],
+     "ratio": 0.6285639430388645,
+     "log_ratio": [
+      -0.4643175170038146,
+      0.8865643430323846
+     ]
+    },
+    "diff_log_ratio_TRY_minus_ZAR": {
+     "est": 1.7925490114773668,
+     "se_stacked": 0.966223036308279,
+     "se_indep": 0.9641328910683741
+    },
+    "diff_increment_level_TRY_minus_ZAR": {
+     "est": 0.03320031957142179,
+     "se_stacked": 0.018567868837948445,
+     "se_indep": 0.018579642761855718,
+     "note": "levels not comparable across markets (lambda differs)"
+    }
+   },
+   "months": [
+    "2024-11",
+    "2024-12",
+    "2025-01",
+    "2025-02",
+    "2025-03",
+    "2025-04",
+    "2025-05",
+    "2025-06",
+    "2025-07",
+    "2025-08",
+    "2025-09",
+    "2025-10",
+    "2025-11",
+    "2025-12",
+    "2026-01",
+    "2026-02",
+    "2026-03",
+    "2026-04",
+    "2026-05",
+    "2026-06",
+    "2026-07",
+    "2026-08"
+   ],
+   "n": {
+    "TRY": 113024,
+    "ZAR": 110977
+   }
+  },
+  "diff_vs_MXN": {
+   "ZAR_minus_MXN": [
+    -0.7152559828105949,
+    0.8279193254075352
+   ],
+   "MXN": {
+    "log_ratio": [
+     0.48118133408678737,
+     0.16629900111611004
+    ],
+    "ratio": 1.6179846540716634
+   },
+   "note": "Mexico from tables/emp_mxn.json; independent-samples s.e."
+  },
+  "TRY_validation_vs_emp_mxn": {
+   "this_script": {
+    "ratio": 4.159034224483747,
+    "log_ratio": [
+     1.4252828897444079,
+     0.43659611447002566
+    ],
+    "closed": [
+     0.0051832945978667905,
+     0.0020553300578680647
+    ],
+    "incr": [
+     0.01637420503024291,
+     0.0071061393191561815
+    ],
+    "n": 113024
+   },
+   "emp_mxn": {
+    "ratio": 4.159026819836953,
+    "log_ratio": [
+     1.4252811093663236,
+     0.43660687612435495
+    ],
+    "closed": [
+     0.005183303807853797,
+     0.002055418498083888
+    ],
+    "incr": [
+     0.016374195744373148,
+     0.007106135555848341
+    ],
+    "n": 113023
+   }
+  },
+  "verdict": "inconclusive",
+  "flags": {
+   "closed_not_sig_positive": false,
+   "eiv_closed_below_half": false,
+   "fx_night_active_below_half": false
+  }
+ },
+ "runtime_s": 65.20334243774414,
+ "audit": {
+  "note": "Influential-day diagnostics A1-A3; see the comment block above the code that computes them. The baseline and the verdict above are unchanged.",
+  "A1_jackknife_day": {
+   "primary": {
+    "closed_ZAR": {
+     "est": 0.014999503144877515,
+     "se_jackknife": 0.005257283165391536,
+     "n_undefined": 0
+    },
+    "incr_ZAR": {
+     "est": -0.0050602493470879506,
+     "se_jackknife": 0.006552046340678593,
+     "n_undefined": 0
+    },
+    "log_ratio_TRY": {
+     "est": 0.9638305153096741,
+     "se_jackknife": 0.44432383725774055,
+     "n_undefined": 0
+    },
+    "log_ratio_ZAR": {
+     "est": -0.4115251296731488,
+     "se_jackknife": 0.5673948906710572,
+     "n_undefined": 0
+    },
+    "diff_log_ratio_TRY_minus_ZAR": {
+     "est": 1.375355644982823,
+     "se_jackknife": 0.7197137401658443,
+     "n_undefined": 0
+    },
+    "t_diff_jackknife": 1.9109759453333468
+   },
+   "emp_mxn_window": {
+    "closed_ZAR": {
+     "est": 0.01147313294558042,
+     "se_jackknife": 0.004693024101818261,
+     "n_undefined": 0
+    },
+    "incr_ZAR": {
+     "est": -0.0023944113640302564,
+     "se_jackknife": 0.008528863978202043,
+     "n_undefined": 0
+    },
+    "log_ratio_TRY": {
+     "est": 1.4252828897444045,
+     "se_jackknife": 0.5190498249404577,
+     "n_undefined": 0
+    },
+    "log_ratio_ZAR": {
+     "est": -0.23407464872381098,
+     "se_jackknife": 0.9635525823977853,
+     "n_undefined": 0
+    },
+    "diff_log_ratio_TRY_minus_ZAR": {
+     "est": 1.6593575384682155,
+     "se_jackknife": 1.0933752182651957,
+     "n_undefined": 0
+    },
+    "t_diff_jackknife": 1.517646925545867
+   }
+  },
+  "A2_drop_dislocation_days": {
+   "thr500bp": {
+    "days_ZAR": [
+     "2024-09-19",
+     "2024-09-23",
+     "2025-02-05",
+     "2025-07-01",
+     "2025-09-30",
+     "2026-01-16"
+    ],
+    "days_TRY": [
+     "2024-04-15",
+     "2025-03-19"
+    ],
+    "primary": {
+     "ZAR_only": {
+      "TRY": {
+       "closed": [
+        0.0037080330223287963,
+        0.001143056321620172
+       ],
+       "incr": [
+        0.00601339057785047,
+        0.002933366844270348
+       ],
+       "ratio": 2.621719801749181,
+       "log_ratio": [
+        0.9638305153096683,
+        0.4149163916124411
+       ],
+       "n": 162624,
+       "above_band_y": {
+        "closed": [
+         0.001680215103208768,
+         0.001517786585384235
+        ],
+        "log_ratio": [
+         1.6071329923350532,
+         0.8893248839677561
+        ]
+       },
+       "below_band_y": {
+        "closed": [
+         0.006069343517578347,
+         0.0011697465027436977
+        ],
+        "log_ratio": [
+         0.8575304353607404,
+         0.4073377971348088
+        ]
+       },
+       "pooled_night_day": {
+        "night": [
+         0.00145353789084274,
+         0.0020518722561682495
+        ],
+        "day": [
+         0.0135228859666502,
+         0.0035630112321808033
+        ],
+        "diff_day_minus_night": [
+         0.01206934807580746,
+         0.004014987800312352
+        ],
+        "log_day_over_night": [
+         2.2303829975391656,
+         1.4220433415884572
+        ]
+       }
+      },
+      "ZAR": {
+       "closed": [
+        0.006753590028880063,
+        0.001589782612640721
+       ],
+       "incr": [
+        0.0034389936975334594,
+        0.0023208831351895207
+       ],
+       "ratio": 1.5092097214707214,
+       "log_ratio": [
+        0.4115861505600534,
+        0.2879163929868093
+       ],
+       "n": 150429,
+       "above_band_y": {
+        "closed": [
+         0.007695758144950262,
+         0.0016819101564202515
+        ],
+        "log_ratio": [
+         0.9352369172446109,
+         0.2605565993966042
+        ]
+       },
+       "below_band_y": {
+        "closed": [
+         0.011798520016302466,
+         0.0027866652408250554
+        ],
+        "log_ratio": [
+         0.02646171840110635,
+         0.29509454646742705
+        ]
+       },
+       "pooled_night_day": {
+        "night": [
+         0.004012358757609489,
+         0.0016598802775115835
+        ],
+        "day": [
+         0.010796673057781512,
+         0.0020028117011463894
+        ],
+        "diff_day_minus_night": [
+         0.006784314300172023,
+         0.002355618615452167
+        ],
+        "log_day_over_night": [
+         0.9898587492267349,
+         0.4212446811898432
+        ]
+       }
+      },
+      "diff_vs_TRY": {
+       "pooled": {
+        "est": 0.5522443647496114,
+        "se_stacked": 0.508315003473517,
+        "se_indep": 0.5050253303694338
+       },
+       "above_band": {
+        "est": 0.6718960750904412,
+        "se_stacked": 0.9389009567379967,
+        "se_indep": 0.9267081333908417
+       },
+       "below_band": {
+        "est": 0.8310687169596358,
+        "se_stacked": 0.5047555609837884,
+        "se_indep": 0.5029950187889191
+       }
+      },
+      "verdict_rule": "inconclusive"
+     },
+     "both": {
+      "TRY": {
+       "closed": [
+        0.0033498537907581906,
+        0.0012510090302910654
+       ],
+       "incr": [
+        0.003859878118607439,
+        0.0018280395116841667
+       ],
+       "ratio": 2.1522527130158156,
+       "log_ratio": [
+        0.7665150671037748,
+        0.37581373555955966
+       ],
+       "n": 162145,
+       "above_band_y": {
+        "closed": [
+         0.0014270058896167098,
+         0.001433107385243744
+        ],
+        "log_ratio": [
+         1.5585040993768808,
+         0.909693601167637
+        ]
+       },
+       "below_band_y": {
+        "closed": [
+         0.005920755848967787,
+         0.001154543371976993
+        ],
+        "log_ratio": [
+         0.9780704691112097,
+         0.24409859228031974
+        ]
+       },
+       "pooled_night_day": {
+        "night": [
+         0.0032624261674830428,
+         0.001535983138378616
+        ],
+        "day": [
+         0.010026860387583252,
+         0.0026516203899709196
+        ],
+        "diff_day_minus_night": [
+         0.0067644342201002095,
+         0.0025773247103273436
+        ],
+        "log_day_over_night": [
+         1.1227963890608317,
+         0.45563020219717454
+        ]
+       }
+      },
+      "ZAR": {
+       "closed": [
+        0.006753590028880063,
+        0.001589782612640721
+       ],
+       "incr": [
+        0.0034389936975334594,
+        0.0023208831351895207
+       ],
+       "ratio": 1.5092097214707214,
+       "log_ratio": [
+        0.4115861505600534,
+        0.2879163929868093
+       ],
+       "n": 150429,
+       "above_band_y": {
+        "closed": [
+         0.007695758144950262,
+         0.0016819101564202515
+        ],
+        "log_ratio": [
+         0.9352369172446109,
+         0.2605565993966042
+        ]
+       },
+       "below_band_y": {
+        "closed": [
+         0.011798520016302466,
+         0.0027866652408250554
+        ],
+        "log_ratio": [
+         0.02646171840110635,
+         0.29509454646742705
+        ]
+       },
+       "pooled_night_day": {
+        "night": [
+         0.004012358757609489,
+         0.0016598802775115835
+        ],
+        "day": [
+         0.010796673057781512,
+         0.0020028117011463894
+        ],
+        "diff_day_minus_night": [
+         0.006784314300172023,
+         0.002355618615452167
+        ],
+        "log_day_over_night": [
+         0.9898587492267349,
+         0.4212446811898432
+        ]
+       }
+      },
+      "diff_vs_TRY": {
+       "pooled": {
+        "est": 0.3549289165437173,
+        "se_stacked": 0.4743001954885411,
+        "se_indep": 0.4734240744894794
+       },
+       "above_band": {
+        "est": 0.6232671821322712,
+        "se_stacked": 0.9537762687711149,
+        "se_indep": 0.9462706770714994
+       },
+       "below_band": {
+        "est": 0.951608750710106,
+        "se_stacked": 0.38496476999375945,
+        "se_indep": 0.3829670463379222
+       }
+      },
+      "verdict_rule": "inconclusive"
+     }
+    },
+    "emp_mxn_window": {
+     "ZAR_only": {
+      "TRY": {
+       "closed": [
+        0.0051832945978667905,
+        0.0020553300578680647
+       ],
+       "incr": [
+        0.01637420503024291,
+        0.0071061393191561815
+       ],
+       "ratio": 4.159034224483747,
+       "log_ratio": [
+        1.4252828897444079,
+        0.43659611447002566
+       ],
+       "n": 113024,
+       "above_band_y": {
+        "closed": [
+         0.004198670458229926,
+         0.003195228959580507
+        ],
+        "log_ratio": [
+         1.11729621987721,
+         0.8311242957275018
+        ]
+       },
+       "below_band_y": {
+        "closed": [
+         0.009135715157198111,
+         0.0016651899234651957
+        ],
+        "log_ratio": [
+         1.328231494473553,
+         0.3788876244517185
+        ]
+       },
+       "pooled_night_day": {
+        "night": [
+         0.002007067088776935,
+         0.0011433377641387565
+        ],
+        "day": [
+         0.025581191648759903,
+         0.00887231122930825
+        ],
+        "diff_day_minus_night": [
+         0.023574124559982968,
+         0.008879707620962149
+        ],
+        "log_day_over_night": [
+         2.5451828835918806,
+         0.6495348064798568
+        ]
+       }
+      },
+      "ZAR": {
+       "closed": [
+        0.006497381876732189,
+        0.0019118609613169317
+       ],
+       "incr": [
+        0.007470128364644965,
+        0.0031701409661806855
+       ],
+       "ratio": 2.14971360870696,
+       "log_ratio": [
+        0.7653346280143871,
+        0.34434754317885063
+       ],
+       "n": 110092,
+       "above_band_y": {
+        "closed": [
+         0.007479104410185541,
+         0.0019773441157151872
+        ],
+        "log_ratio": [
+         0.9735901685923739,
+         0.3250967453352156
+        ]
+       },
+       "below_band_y": {
+        "closed": [
+         0.01222311663532927,
+         0.0035534243232676907
+        ],
+        "log_ratio": [
+         0.258482682551216,
+         0.3638886084829302
+        ]
+       },
+       "pooled_night_day": {
+        "night": [
+         0.004149421703581587,
+         0.0018745650109182768
+        ],
+        "day": [
+         0.01475561502782596,
+         0.0029970957598094592
+        ],
+        "diff_day_minus_night": [
+         0.010606193324244374,
+         0.0031883825016413487
+        ],
+        "log_day_over_night": [
+         1.2686547142001046,
+         0.4552801219414171
+        ]
+       }
+      },
+      "diff_vs_TRY": {
+       "pooled": {
+        "est": 0.6599482617300205,
+        "se_stacked": 0.560317874402247,
+        "se_indep": 0.5560484327387866
+       },
+       "above_band": {
+        "est": 0.1437060512848395,
+        "se_stacked": 0.9046919372013418,
+        "se_indep": 0.8924429789040067
+       },
+       "below_band": {
+        "est": 1.0697488119223335,
+        "se_stacked": 0.5286531655542819,
+        "se_indep": 0.5253275230779103
+       }
+      },
+      "verdict_rule": "Turkey-like: significant business-hours effect, not significantly different from Turkey"
+     },
+     "both": {
+      "TRY": {
+       "closed": [
+        0.005178701862253642,
+        0.0020661593767512137
+       ],
+       "incr": [
+        0.010089802718020796,
+        0.0024577977130535353
+       ],
+       "ratio": 2.948326624392694,
+       "log_ratio": [
+        1.0812377634382893,
+        0.40575603303723834
+       ],
+       "n": 112788,
+       "above_band_y": {
+        "closed": [
+         0.004293599520627983,
+         0.003141964079812001
+        ],
+        "log_ratio": [
+         1.1875560492869102,
+         0.758118123784407
+        ]
+       },
+       "below_band_y": {
+        "closed": [
+         0.0089864989750191,
+         0.0015278830020855364
+        ],
+        "log_ratio": [
+         0.5084023730851361,
+         0.2778191402149893
+        ]
+       },
+       "pooled_night_day": {
+        "night": [
+         0.0019357274876352565,
+         0.0011438514015710412
+        ],
+        "day": [
+         0.016786817180247347,
+         0.0035283235190009207
+        ],
+        "diff_day_minus_night": [
+         0.01485108969261209,
+         0.004331865561589238
+        ],
+        "log_day_over_night": [
+         2.1601106682979103,
+         0.7399077905851487
+        ]
+       }
+      },
+      "ZAR": {
+       "closed": [
+        0.006497381876732189,
+        0.0019118609613169317
+       ],
+       "incr": [
+        0.007470128364644965,
+        0.0031701409661806855
+       ],
+       "ratio": 2.14971360870696,
+       "log_ratio": [
+        0.7653346280143871,
+        0.34434754317885063
+       ],
+       "n": 110092,
+       "above_band_y": {
+        "closed": [
+         0.007479104410185541,
+         0.0019773441157151872
+        ],
+        "log_ratio": [
+         0.9735901685923739,
+         0.3250967453352156
+        ]
+       },
+       "below_band_y": {
+        "closed": [
+         0.01222311663532927,
+         0.0035534243232676907
+        ],
+        "log_ratio": [
+         0.258482682551216,
+         0.3638886084829302
+        ]
+       },
+       "pooled_night_day": {
+        "night": [
+         0.004149421703581587,
+         0.0018745650109182768
+        ],
+        "day": [
+         0.01475561502782596,
+         0.0029970957598094592
+        ],
+        "diff_day_minus_night": [
+         0.010606193324244374,
+         0.0031883825016413487
+        ],
+        "log_day_over_night": [
+         1.2686547142001046,
+         0.4552801219414171
+        ]
+       }
+      },
+      "diff_vs_TRY": {
+       "pooled": {
+        "est": 0.31590313542389914,
+        "se_stacked": 0.5362440513677214,
+        "se_indep": 0.5321756386754818
+       },
+       "above_band": {
+        "est": 0.2139658806945357,
+        "se_stacked": 0.8359884175543228,
+        "se_indep": 0.8248801883235267
+       },
+       "below_band": {
+        "est": 0.2499196905339165,
+        "se_stacked": 0.4618449319634712,
+        "se_indep": 0.4578168496724787
+       }
+      },
+      "verdict_rule": "Turkey-like: significant business-hours effect, not significantly different from Turkey"
+     }
+    }
+   },
+   "thr400bp": {
+    "days_ZAR": [
+     "2024-09-19",
+     "2024-09-23",
+     "2024-11-13",
+     "2024-12-05",
+     "2025-02-05",
+     "2025-06-30",
+     "2025-07-01",
+     "2025-09-30",
+     "2025-10-09",
+     "2026-01-16"
+    ],
+    "days_TRY": [
+     "2024-04-15",
+     "2024-08-05",
+     "2025-03-19"
+    ],
+    "primary": {
+     "ZAR_only": {
+      "TRY": {
+       "closed": [
+        0.0037080330223287963,
+        0.001143056321620172
+       ],
+       "incr": [
+        0.00601339057785047,
+        0.002933366844270348
+       ],
+       "ratio": 2.621719801749181,
+       "log_ratio": [
+        0.9638305153096683,
+        0.4149163916124411
+       ],
+       "n": 162624,
+       "above_band_y": {
+        "closed": [
+         0.001680215103208768,
+         0.001517786585384235
+        ],
+        "log_ratio": [
+         1.6071329923350532,
+         0.8893248839677561
+        ]
+       },
+       "below_band_y": {
+        "closed": [
+         0.006069343517578347,
+         0.0011697465027436977
+        ],
+        "log_ratio": [
+         0.8575304353607404,
+         0.4073377971348088
+        ]
+       },
+       "pooled_night_day": {
+        "night": [
+         0.00145353789084274,
+         0.0020518722561682495
+        ],
+        "day": [
+         0.0135228859666502,
+         0.0035630112321808033
+        ],
+        "diff_day_minus_night": [
+         0.01206934807580746,
+         0.004014987800312352
+        ],
+        "log_day_over_night": [
+         2.2303829975391656,
+         1.4220433415884572
+        ]
+       }
+      },
+      "ZAR": {
+       "closed": [
+        0.005824159430228395,
+        0.0014929383647024274
+       ],
+       "incr": [
+        0.003602804960875637,
+        0.0022796916774994722
+       ],
+       "ratio": 1.6185965552688095,
+       "log_ratio": [
+        0.4815594498607223,
+        0.3186627241533933
+       ],
+       "n": 149499,
+       "above_band_y": {
+        "closed": [
+         0.00787114325280743,
+         0.0016386307414748827
+        ],
+        "log_ratio": [
+         0.8737174829188163,
+         0.25205531895756106
+        ]
+       },
+       "below_band_y": {
+        "closed": [
+         0.009540545534640253,
+         0.0022265326593670282
+        ],
+        "log_ratio": [
+         0.06287749151617568,
+         0.31781537539416294
+        ]
+       },
+       "pooled_night_day": {
+        "night": [
+         0.002737125001792555,
+         0.0016806445345975338
+        ],
+        "day": [
+         0.009793375602714203,
+         0.00188615948129769
+        ],
+        "diff_day_minus_night": [
+         0.007056250600921648,
+         0.002351525543757088
+        ],
+        "log_day_over_night": [
+         1.2747980980939118,
+         0.6183111834674471
+        ]
+       }
+      },
+      "diff_vs_TRY": {
+       "pooled": {
+        "est": 0.4822710654489495,
+        "se_stacked": 0.5281652489020852,
+        "se_indep": 0.5231630958700195
+       },
+       "above_band": {
+        "est": 0.733415509416236,
+        "se_stacked": 0.937424628365105,
+        "se_indep": 0.9243536616066692
+       },
+       "below_band": {
+        "est": 0.7946529438445634,
+        "se_stacked": 0.5161718260910562,
+        "se_indep": 0.5166515411987777
+       }
+      },
+      "verdict_rule": "inconclusive"
+     },
+     "both": {
+      "TRY": {
+       "closed": [
+        0.0029093236396842952,
+        0.0011942746133548798
+       ],
+       "incr": [
+        0.0035429037892567993,
+        0.001904526265577322
+       ],
+       "ratio": 2.2177757541066336,
+       "log_ratio": [
+        0.7965047810697135,
+        0.4396907754396874
+       ],
+       "n": 161904,
+       "above_band_y": {
+        "closed": [
+         0.0010718240576041583,
+         0.0013382190115730176
+        ],
+        "log_ratio": [
+         1.769884522549904,
+         1.1610135228013547
+        ]
+       },
+       "below_band_y": {
+        "closed": [
+         0.005996361487565873,
+         0.0011427583395844302
+        ],
+        "log_ratio": [
+         0.9726754527349619,
+         0.2393063733375359
+        ]
+       },
+       "pooled_night_day": {
+        "night": [
+         0.001784870244039472,
+         0.0009016298699158604
+        ],
+        "day": [
+         0.008218825233301759,
+         0.0022103065989839948
+        ],
+        "diff_day_minus_night": [
+         0.006433954989262287,
+         0.002617963644539216
+        ],
+        "log_day_over_night": [
+         1.5270815630234333,
+         0.637385640030031
+        ]
+       }
+      },
+      "ZAR": {
+       "closed": [
+        0.005824159430228395,
+        0.0014929383647024274
+       ],
+       "incr": [
+        0.003602804960875637,
+        0.0022796916774994722
+       ],
+       "ratio": 1.6185965552688095,
+       "log_ratio": [
+        0.4815594498607223,
+        0.3186627241533933
+       ],
+       "n": 149499,
+       "above_band_y": {
+        "closed": [
+         0.00787114325280743,
+         0.0016386307414748827
+        ],
+        "log_ratio": [
+         0.8737174829188163,
+         0.25205531895756106
+        ]
+       },
+       "below_band_y": {
+        "closed": [
+         0.009540545534640253,
+         0.0022265326593670282
+        ],
+        "log_ratio": [
+         0.06287749151617568,
+         0.31781537539416294
+        ]
+       },
+       "pooled_night_day": {
+        "night": [
+         0.002737125001792555,
+         0.0016806445345975338
+        ],
+        "day": [
+         0.009793375602714203,
+         0.00188615948129769
+        ],
+        "diff_day_minus_night": [
+         0.007056250600921648,
+         0.002351525543757088
+        ],
+        "log_day_over_night": [
+         1.2747980980939118,
+         0.6183111834674471
+        ]
+       }
+      },
+      "diff_vs_TRY": {
+       "pooled": {
+        "est": 0.3149453312089936,
+        "se_stacked": 0.545321732577389,
+        "se_indep": 0.5430200507907931
+       },
+       "above_band": {
+        "est": 0.8961670396310841,
+        "se_stacked": 1.1983296886310297,
+        "se_indep": 1.1880551432525284
+       },
+       "below_band": {
+        "est": 0.909797961218788,
+        "se_stacked": 0.3981488417040791,
+        "se_indep": 0.39783398852552665
+       }
+      },
+      "verdict_rule": "inconclusive"
+     }
+    },
+    "emp_mxn_window": {
+     "ZAR_only": {
+      "TRY": {
+       "closed": [
+        0.0051832945978667905,
+        0.0020553300578680647
+       ],
+       "incr": [
+        0.01637420503024291,
+        0.0071061393191561815
+       ],
+       "ratio": 4.159034224483747,
+       "log_ratio": [
+        1.4252828897444079,
+        0.43659611447002566
+       ],
+       "n": 113024,
+       "above_band_y": {
+        "closed": [
+         0.004198670458229926,
+         0.003195228959580507
+        ],
+        "log_ratio": [
+         1.11729621987721,
+         0.8311242957275018
+        ]
+       },
+       "below_band_y": {
+        "closed": [
+         0.009135715157198111,
+         0.0016651899234651957
+        ],
+        "log_ratio": [
+         1.328231494473553,
+         0.3788876244517185
+        ]
+       },
+       "pooled_night_day": {
+        "night": [
+         0.002007067088776935,
+         0.0011433377641387565
+        ],
+        "day": [
+         0.025581191648759903,
+         0.00887231122930825
+        ],
+        "diff_day_minus_night": [
+         0.023574124559982968,
+         0.008879707620962149
+        ],
+        "log_day_over_night": [
+         2.5451828835918806,
+         0.6495348064798568
+        ]
+       }
+      },
+      "ZAR": {
+       "closed": [
+        0.005264029854334754,
+        0.0017964798269326193
+       ],
+       "incr": [
+        0.00767929957723124,
+        0.0031776433326737596
+       ],
+       "ratio": 2.458825232707902,
+       "log_ratio": [
+        0.8996836882023487,
+        0.40248181108393316
+       ],
+       "n": 109162,
+       "above_band_y": {
+        "closed": [
+         0.00771421780124271,
+         0.0019164484017543733
+        ],
+        "log_ratio": [
+         0.8654953660749046,
+         0.3164817155164437
+        ]
+       },
+       "below_band_y": {
+        "closed": [
+         0.009228676637651326,
+         0.0028963313785947756
+        ],
+        "log_ratio": [
+         0.3304770104873815,
+         0.4144478482708584
+        ]
+       },
+       "pooled_night_day": {
+        "night": [
+         0.002640481435618016,
+         0.001961649833838913
+        ],
+        "day": [
+         0.013424415861321716,
+         0.002932619396645855
+        ],
+        "diff_day_minus_night": [
+         0.0107839344257037,
+         0.003225978143349971
+        ],
+        "log_day_over_night": [
+         1.6261138656785117,
+         0.7362424097781517
+        ]
+       }
+      },
+      "diff_vs_TRY": {
+       "pooled": {
+        "est": 0.525599201542058,
+        "se_stacked": 0.601939118468545,
+        "se_indep": 0.593803609563724
+       },
+       "above_band": {
+        "est": 0.2518008538023061,
+        "se_stacked": 0.9011279523794447,
+        "se_indep": 0.8893400049512865
+       },
+       "below_band": {
+        "est": 0.9977544839861752,
+        "se_stacked": 0.5682203799083834,
+        "se_indep": 0.561531348036694
+       }
+      },
+      "verdict_rule": "Turkey-like: significant business-hours effect, not significantly different from Turkey"
+     },
+     "both": {
+      "TRY": {
+       "closed": [
+        0.005178701862253642,
+        0.0020661593767512137
+       ],
+       "incr": [
+        0.010089802718020796,
+        0.0024577977130535353
+       ],
+       "ratio": 2.948326624392694,
+       "log_ratio": [
+        1.0812377634382893,
+        0.40575603303723834
+       ],
+       "n": 112788,
+       "above_band_y": {
+        "closed": [
+         0.004293599520627983,
+         0.003141964079812001
+        ],
+        "log_ratio": [
+         1.1875560492869102,
+         0.758118123784407
+        ]
+       },
+       "below_band_y": {
+        "closed": [
+         0.0089864989750191,
+         0.0015278830020855364
+        ],
+        "log_ratio": [
+         0.5084023730851361,
+         0.2778191402149893
+        ]
+       },
+       "pooled_night_day": {
+        "night": [
+         0.0019357274876352565,
+         0.0011438514015710412
+        ],
+        "day": [
+         0.016786817180247347,
+         0.0035283235190009207
+        ],
+        "diff_day_minus_night": [
+         0.01485108969261209,
+         0.004331865561589238
+        ],
+        "log_day_over_night": [
+         2.1601106682979103,
+         0.7399077905851487
+        ]
+       }
+      },
+      "ZAR": {
+       "closed": [
+        0.005264029854334754,
+        0.0017964798269326193
+       ],
+       "incr": [
+        0.00767929957723124,
+        0.0031776433326737596
+       ],
+       "ratio": 2.458825232707902,
+       "log_ratio": [
+        0.8996836882023487,
+        0.40248181108393316
+       ],
+       "n": 109162,
+       "above_band_y": {
+        "closed": [
+         0.00771421780124271,
+         0.0019164484017543733
+        ],
+        "log_ratio": [
+         0.8654953660749046,
+         0.3164817155164437
+        ]
+       },
+       "below_band_y": {
+        "closed": [
+         0.009228676637651326,
+         0.0028963313785947756
+        ],
+        "log_ratio": [
+         0.3304770104873815,
+         0.4144478482708584
+        ]
+       },
+       "pooled_night_day": {
+        "night": [
+         0.002640481435618016,
+         0.001961649833838913
+        ],
+        "day": [
+         0.013424415861321716,
+         0.002932619396645855
+        ],
+        "diff_day_minus_night": [
+         0.0107839344257037,
+         0.003225978143349971
+        ],
+        "log_day_over_night": [
+         1.6261138656785117,
+         0.7362424097781517
+        ]
+       }
+      },
+      "diff_vs_TRY": {
+       "pooled": {
+        "est": 0.1815540752359398,
+        "se_stacked": 0.5802325057510916,
+        "se_indep": 0.5715100836555653
+       },
+       "above_band": {
+        "est": 0.3220606832120029,
+        "se_stacked": 0.8320601981766129,
+        "se_indep": 0.8215220477680824
+       },
+       "below_band": {
+        "est": 0.17792536259775626,
+        "se_stacked": 0.5052271455218301,
+        "se_indep": 0.4989435885616239
+       }
+      },
+      "verdict_rule": "Turkey-like: significant business-hours effect, not significantly different from Turkey"
+     }
+    }
+   },
+   "thr300bp": {
+    "days_ZAR": [
+     "2024-09-19",
+     "2024-09-23",
+     "2024-11-12",
+     "2024-11-13",
+     "2024-12-05",
+     "2025-01-31",
+     "2025-02-05",
+     "2025-04-08",
+     "2025-05-28",
+     "2025-05-30",
+     "2025-06-30",
+     "2025-07-01",
+     "2025-07-03",
+     "2025-09-30",
+     "2025-10-01",
+     "2025-10-07",
+     "2025-10-08",
+     "2025-10-09",
+     "2026-01-16"
+    ],
+    "days_TRY": [
+     "2024-04-12",
+     "2024-04-15",
+     "2024-06-18",
+     "2024-08-05",
+     "2025-02-03",
+     "2025-03-19"
+    ],
+    "primary": {
+     "ZAR_only": {
+      "TRY": {
+       "closed": [
+        0.0037080330223287963,
+        0.001143056321620172
+       ],
+       "incr": [
+        0.00601339057785047,
+        0.002933366844270348
+       ],
+       "ratio": 2.621719801749181,
+       "log_ratio": [
+        0.9638305153096683,
+        0.4149163916124411
+       ],
+       "n": 162624,
+       "above_band_y": {
+        "closed": [
+         0.001680215103208768,
+         0.001517786585384235
+        ],
+        "log_ratio": [
+         1.6071329923350532,
+         0.8893248839677561
+        ]
+       },
+       "below_band_y": {
+        "closed": [
+         0.006069343517578347,
+         0.0011697465027436977
+        ],
+        "log_ratio": [
+         0.8575304353607404,
+         0.4073377971348088
+        ]
+       },
+       "pooled_night_day": {
+        "night": [
+         0.00145353789084274,
+         0.0020518722561682495
+        ],
+        "day": [
+         0.0135228859666502,
+         0.0035630112321808033
+        ],
+        "diff_day_minus_night": [
+         0.01206934807580746,
+         0.004014987800312352
+        ],
+        "log_day_over_night": [
+         2.2303829975391656,
+         1.4220433415884572
+        ]
+       }
+      },
+      "ZAR": {
+       "closed": [
+        0.008792772098005178,
+        0.0014358194155011108
+       ],
+       "incr": [
+        0.0017212953485400064,
+        0.001983065447001823
+       ],
+       "ratio": 1.195762534199029,
+       "log_ratio": [
+        0.17878408581396724,
+        0.2035768798429752
+       ],
+       "n": 147439,
+       "above_band_y": {
+        "closed": [
+         0.013710164202754936,
+         0.0018611782330294477
+        ],
+        "log_ratio": [
+         0.2958308177539318,
+         0.20501740782865704
+        ]
+       },
+       "below_band_y": {
+        "closed": [
+         0.008403878996545832,
+         0.0016960762204419385
+        ],
+        "log_ratio": [
+         0.2500290893174764,
+         0.22291733142814427
+        ]
+       },
+       "pooled_night_day": {
+        "night": [
+         0.0062005445593129906,
+         0.0015562389100657016
+        ],
+        "day": [
+         0.0112557972883146,
+         0.0021595656231685263
+        ],
+        "diff_day_minus_night": [
+         0.005055252729001609,
+         0.00218976601595132
+        ],
+        "log_day_over_night": [
+         0.5962461900970677,
+         0.25881459690794734
+        ]
+       }
+      },
+      "diff_vs_TRY": {
+       "pooled": {
+        "est": 0.7850464294956967,
+        "se_stacked": 0.4712939563316071,
+        "se_indep": 0.46216617551931277
+       },
+       "above_band": {
+        "est": 1.3113021745811217,
+        "se_stacked": 0.9280980607996967,
+        "se_indep": 0.9126498328462115
+       },
+       "below_band": {
+        "est": 0.6075013460432634,
+        "se_stacked": 0.46656024716835764,
+        "se_indep": 0.46434296122669366
+       }
+      },
+      "verdict_rule": "inconclusive"
+     },
+     "both": {
+      "TRY": {
+       "closed": [
+        0.004773100278737857,
+        0.0008138608666907691
+       ],
+       "incr": [
+        0.004572172431497432,
+        0.0021688330878640028
+       ],
+       "ratio": 1.9579041219528797,
+       "log_ratio": [
+        0.6718745755717286,
+        0.28092837883124905
+       ],
+       "n": 161248,
+       "above_band_y": {
+        "closed": [
+         0.003964009056052588,
+         0.0009898263591584062
+        ],
+        "log_ratio": [
+         1.4237673160330098,
+         0.2862849730250186
+        ]
+       },
+       "below_band_y": {
+        "closed": [
+         0.0059044542736746315,
+         0.0011226144460196926
+        ],
+        "log_ratio": [
+         0.39199660795867924,
+         0.2770620585325053
+        ]
+       },
+       "pooled_night_day": {
+        "night": [
+         0.0019388482453517961,
+         0.0009716550676781491
+        ],
+        "day": [
+         0.009662840938378306,
+         0.001666879207459385
+        ],
+        "diff_day_minus_night": [
+         0.00772399269302651,
+         0.001986641557936288
+        ],
+        "log_day_over_night": [
+         1.6061935891776182,
+         0.541178091716956
+        ]
+       }
+      },
+      "ZAR": {
+       "closed": [
+        0.008792772098005178,
+        0.0014358194155011108
+       ],
+       "incr": [
+        0.0017212953485400064,
+        0.001983065447001823
+       ],
+       "ratio": 1.195762534199029,
+       "log_ratio": [
+        0.17878408581396724,
+        0.2035768798429752
+       ],
+       "n": 147439,
+       "above_band_y": {
+        "closed": [
+         0.013710164202754936,
+         0.0018611782330294477
+        ],
+        "log_ratio": [
+         0.2958308177539318,
+         0.20501740782865704
+        ]
+       },
+       "below_band_y": {
+        "closed": [
+         0.008403878996545832,
+         0.0016960762204419385
+        ],
+        "log_ratio": [
+         0.2500290893174764,
+         0.22291733142814427
+        ]
+       },
+       "pooled_night_day": {
+        "night": [
+         0.0062005445593129906,
+         0.0015562389100657016
+        ],
+        "day": [
+         0.0112557972883146,
+         0.0021595656231685263
+        ],
+        "diff_day_minus_night": [
+         0.005055252729001609,
+         0.00218976601595132
+        ],
+        "log_day_over_night": [
+         0.5962461900970677,
+         0.25881459690794734
+        ]
+       }
+      },
+      "diff_vs_TRY": {
+       "pooled": {
+        "est": 0.4930904897577598,
+        "se_stacked": 0.3488743555833944,
+        "se_indep": 0.3469318721210899
+       },
+       "above_band": {
+        "est": 1.1279364982790758,
+        "se_stacked": 0.3598097241959837,
+        "se_indep": 0.35212015897641313
+       },
+       "below_band": {
+        "est": 0.14196751864120283,
+        "se_stacked": 0.35780667482401274,
+        "se_indep": 0.35560184307416814
+       }
+      },
+      "verdict_rule": "inconclusive"
+     }
+    },
+    "emp_mxn_window": {
+     "ZAR_only": {
+      "TRY": {
+       "closed": [
+        0.0051832945978667905,
+        0.0020553300578680647
+       ],
+       "incr": [
+        0.01637420503024291,
+        0.0071061393191561815
+       ],
+       "ratio": 4.159034224483747,
+       "log_ratio": [
+        1.4252828897444079,
+        0.43659611447002566
+       ],
+       "n": 113024,
+       "above_band_y": {
+        "closed": [
+         0.004198670458229926,
+         0.003195228959580507
+        ],
+        "log_ratio": [
+         1.11729621987721,
+         0.8311242957275018
+        ]
+       },
+       "below_band_y": {
+        "closed": [
+         0.009135715157198111,
+         0.0016651899234651957
+        ],
+        "log_ratio": [
+         1.328231494473553,
+         0.3788876244517185
+        ]
+       },
+       "pooled_night_day": {
+        "night": [
+         0.002007067088776935,
+         0.0011433377641387565
+        ],
+        "day": [
+         0.025581191648759903,
+         0.00887231122930825
+        ],
+        "diff_day_minus_night": [
+         0.023574124559982968,
+         0.008879707620962149
+        ],
+        "log_day_over_night": [
+         2.5451828835918806,
+         0.6495348064798568
+        ]
+       }
+      },
+      "ZAR": {
+       "closed": [
+        0.009111230481361414,
+        0.001964122517259219
+       ],
+       "incr": [
+        0.007213997804703791,
+        0.003044083563515589
+       ],
+       "ratio": 1.7917698733953948,
+       "log_ratio": [
+        0.5832038874421533,
+        0.22576626260657184
+       ],
+       "n": 107102,
+       "above_band_y": {
+        "closed": [
+         0.01669080501672504,
+         0.0028977608159244037
+        ],
+        "log_ratio": [
+         0.02253408579259292,
+         0.29058185689997934
+        ]
+       },
+       "below_band_y": {
+        "closed": [
+         0.007662787722895549,
+         0.0019600734210235625
+        ],
+        "log_ratio": [
+         0.7108561310869862,
+         0.2623652063166179
+        ]
+       },
+       "pooled_night_day": {
+        "night": [
+         0.007078793343033598,
+         0.0019401856512782293
+        ],
+        "day": [
+         0.01768273589457492,
+         0.004122355676156487
+        ],
+        "diff_day_minus_night": [
+         0.010603942551541321,
+         0.003544013534950905
+        ],
+        "log_day_over_night": [
+         0.915485329000396,
+         0.25293622116183123
+        ]
+       }
+      },
+      "diff_vs_TRY": {
+       "pooled": {
+        "est": 0.8420790023022506,
+        "se_stacked": 0.508063075181978,
+        "se_indep": 0.4915109043496963
+       },
+       "above_band": {
+        "est": 1.0947621340846148,
+        "se_stacked": 0.9057453476941139,
+        "se_indep": 0.8804544527177579
+       },
+       "below_band": {
+        "est": 0.6173753633865626,
+        "se_stacked": 0.4715695777295663,
+        "se_indep": 0.46085399505614666
+       }
+      },
+      "verdict_rule": "Turkey-like: significant business-hours effect, not significantly different from Turkey"
+     },
+     "both": {
+      "TRY": {
+       "closed": [
+        0.0073620064397200554,
+        0.0013741059312771563
+       ],
+       "incr": [
+        0.007571818821764743,
+        0.003106660757627178
+       ],
+       "ratio": 2.028499347801802,
+       "log_ratio": [
+        0.7072962821468383,
+        0.28796191997050835
+       ],
+       "n": 112531,
+       "above_band_y": {
+        "closed": [
+         0.00856159506596395,
+         0.0019114769014866172
+        ],
+        "log_ratio": [
+         0.49745139511961484,
+         0.4129388384595367
+        ]
+       },
+       "below_band_y": {
+        "closed": [
+         0.008509034479108191,
+         0.0014748428303869986
+        ],
+        "log_ratio": [
+         0.5089012767171938,
+         0.2551478171562324
+        ]
+       },
+       "pooled_night_day": {
+        "night": [
+         0.003022910745160537,
+         0.0011234119454312309
+        ],
+        "day": [
+         0.010937312413806882,
+         0.002292854398949055
+        ],
+        "diff_day_minus_night": [
+         0.007914401668646345,
+         0.0026980559248042323
+        ],
+        "log_day_over_night": [
+         1.2859599106904407,
+         0.4528276781865716
+        ]
+       }
+      },
+      "ZAR": {
+       "closed": [
+        0.009111230481361414,
+        0.001964122517259219
+       ],
+       "incr": [
+        0.007213997804703791,
+        0.003044083563515589
+       ],
+       "ratio": 1.7917698733953948,
+       "log_ratio": [
+        0.5832038874421533,
+        0.22576626260657184
+       ],
+       "n": 107102,
+       "above_band_y": {
+        "closed": [
+         0.01669080501672504,
+         0.0028977608159244037
+        ],
+        "log_ratio": [
+         0.02253408579259292,
+         0.29058185689997934
+        ]
+       },
+       "below_band_y": {
+        "closed": [
+         0.007662787722895549,
+         0.0019600734210235625
+        ],
+        "log_ratio": [
+         0.7108561310869862,
+         0.2623652063166179
+        ]
+       },
+       "pooled_night_day": {
+        "night": [
+         0.007078793343033598,
+         0.0019401856512782293
+        ],
+        "day": [
+         0.01768273589457492,
+         0.004122355676156487
+        ],
+        "diff_day_minus_night": [
+         0.010603942551541321,
+         0.003544013534950905
+        ],
+        "log_day_over_night": [
+         0.915485329000396,
+         0.25293622116183123
+        ]
+       }
+      },
+      "diff_vs_TRY": {
+       "pooled": {
+        "est": 0.12409239470468203,
+        "se_stacked": 0.3750062076473128,
+        "se_indep": 0.36590714908585603
+       },
+       "above_band": {
+        "est": 0.4749173093270232,
+        "se_stacked": 0.5229501960476699,
+        "se_indep": 0.5049244769265104
+       },
+       "below_band": {
+        "est": -0.20195485436979566,
+        "se_stacked": 0.3788644797536044,
+        "se_indep": 0.36596489171368446
+       }
+      },
+      "verdict_rule": "Turkey-like: significant business-hours effect, not significantly different from Turkey"
+     }
+    }
+   }
+  },
+  "A3_eiv_bt2_diff_vs_TRY": {
+   "primary": {
+    "TRY_log_ratio": [
+     0.824545228437571,
+     0.3931673802674198
+    ],
+    "ZAR_log_ratio": [
+     0.2344908691134755,
+     0.46861618410882877
+    ],
+    "ZAR_ratio": 1.2642649285234702,
+    "diff_log_ratio_TRY_minus_ZAR": {
+     "est": 0.590054359324098,
+     "se_stacked": 0.6144515458710099,
+     "se_indep": 0.6117046183807515
+    }
+   },
+   "emp_mxn_window": {
+    "TRY_log_ratio": [
+     1.3554678468618886,
+     0.453446768552892
+    ],
+    "ZAR_log_ratio": [
+     -0.002063472821610912,
+     0.48103256166010566
+    ],
+    "ZAR_ratio": 0.9979386546748366,
+    "diff_log_ratio_TRY_minus_ZAR": {
+     "est": 1.3575313196835064,
+     "se_stacked": 0.6651245457488614,
+     "se_indep": 0.6610653198190226
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,295 @@
+{
+  "country": "Turkey",
+  "currency": "TRY",
+  "retrieved": "2026-10-22",
+  "method": "Desk research only, no estimation. Primary sources read directly from www.tcmb.gov.tr. fast.tcmb.gov.tr, binance.com/binance.tr, Reuters, Bloomberg, resmigazete.gov.tr, bddk.org.tr and Turkish news sites were not accessed directly, so those are cited only where a search snippet was seen and are flagged. No file in stablecoin_paper/tables was read.",
+  "rtgs": {
+    "name": "EFT (Elektronik Fon Transfer) System, part of the CBRT Payment Systems (EFT + Retail Payment System RPS for customer TRY transfers + ESTS/EMKT securities); owned and operated by the CBRT (TCMB); RTGS in central-bank money",
+    "hours_local": "Weekdays except official public holidays, 08:30-17:30 Turkey time (TRT, UTC+3, no DST); half working days close at 13:00 (which days are half days, e.g. holiday eves, is UNVERIFIED here); closed Saturdays, Sundays and public holidays. The CBRT may set different hours for customer payments / change operating days and hours.",
+    "hours_2024_2026_changes": "No change to these hours found for 2024-2026. The CBRT Payment Systems were relaunched in a redesigned architecture on 23 Feb 2024 (press release 2024-12, 1 Mar 2024), which does not mention an hours change; the CBRT page as retrieved 2026-10-22 still states 08:30-17:30.",
+    "facts": [
+      {
+        "fact": "CBRT Payment Systems operate weekdays except public holidays 08:30-17:30; open until 13:00 on half working days; CBRT may change hours for customer payments",
+        "url": "https://www.tcmb.gov.tr/wps/wcm/connect/EN/TCMB+EN/Main+Menu/Core+Functions/Payment+Systems/Payment+Systems+in+Turkey/Electronic+Fund+Transfer+System+and+Electronic+Securities+Transfer+System"
+      },
+      {
+        "fact": "Same statement in Turkish ('hafta ici her gun 08.30-17.30 ... Yarim is gunlerinde ise saat 13.00'e kadar')",
+        "url": "https://www.tcmb.gov.tr/wps/wcm/connect/TR/TCMB+TR/Main+Menu/Temel+Faaliyetler/Odeme+Sistemleri/Turkiyedeki+Odeme+Sistemleri/Elektronik+Fon+Transfer+%28EFT%29+Sistemi"
+      },
+      {
+        "fact": "Systems open automatically at 08:30 and close automatically at 17:30 on normal working days and 13:00 on half working days; RPS = Retail Payment System (Customers' Turkish Lira Transfer System) follows the same daily cycle; CBRT may change operational days and hours (PFMI disclosure, 29 Dec 2021, section 2.9)",
+        "url": "https://www.tcmb.gov.tr/wps/wcm/connect/31501641-178e-470b-8888-aa91c2958466/FPAiP_UygunlukRaporu_Yay%C4%B1m4_2021_kamuyabeyan-ING.pdf?MOD=AJPERES"
+      },
+      {
+        "fact": "EFT provides real-time transfer and real-time gross settlement of TRY interbank payments; interbank payments settle in <1 second, retail customer payments in ~30 seconds on average",
+        "url": "https://www.tcmb.gov.tr/wps/wcm/connect/EN/TCMB+EN/Main+Menu/Core+Functions/Payment+Systems/Payment+Systems+in+Turkey/Electronic+Fund+Transfer+System+and+Electronic+Securities+Transfer+System"
+      },
+      {
+        "fact": "Redesigned CBRT Payment Systems (EFT, RPS, ESTS) operational from 23 Feb 2024",
+        "url": "https://www.tcmb.gov.tr/wps/wcm/connect/EN/TCMB+EN/Main+Menu/Announcements/Press+Releases/2024/ANO2024-12"
+      }
+    ],
+    "bank_level_customer_cutoff": "UNVERIFIED: retail-facing sources say banks accept customer EFT orders roughly 09:00-17:00 and charge 'late EFT' fees after 17:00 (hesap.com, DenizBank fee document; seen only as search snippets, not opened)."
+  },
+  "instant_systems": [
+    {
+      "name": "FAST (Fonlarin Anlik ve Surekli Transferi / Instant and Continuous Transfer of Funds)",
+      "operator": "CBRT (TCMB); independent of EFT",
+      "hours": "24/7/365",
+      "settlement": "Payments complete within seconds and funds are immediately usable by the payee; transactions not completed within the time-out are cancelled. Participants: banks, and since 2023 qualifying payment and e-money institutions, and PTT.",
+      "per_transaction_limit_history_TRY": [
+        {
+          "effective": "2021-01-08",
+          "money_transfer_limit": 50,
+          "note": "launch limit, to be raised gradually to 1,000",
+          "url": "https://www.tcmb.gov.tr/wps/wcm/connect/4ee9264d-b580-4cce-bd9b-7e325fa1c173/DUY2021-01.pdf?MOD=AJPERES"
+        },
+        {
+          "effective": "2021-01-29",
+          "money_transfer_limit": 1000,
+          "url": "https://www.tcmb.gov.tr/wps/wcm/connect/06a86fad-07db-448a-b523-79ee491d28a1/DUY2021-06.pdf?MOD=AJPERES"
+        },
+        {
+          "effective": "2021-08-04",
+          "money_transfer_limit": 2000,
+          "url": "https://www.tcmb.gov.tr/wps/wcm/connect/13ed79e7-635d-4473-9137-a471f8f3a932/DUY2021-28.pdf?MOD=AJPERES"
+        },
+        {
+          "effective": "2022-02-21",
+          "money_transfer_limit": 5000,
+          "previous": "2,000",
+          "note": "AUDIT ADDITION. Press release 2022-13 (14 Feb 2022) states the money-transfer limit of TRY 2,000 is raised to TRY 5,000 as of 21 Feb 2022; the same release caps FAST-TR QR merchant payments at TRY 10,000 per transaction. Also listed in the CBRT Financial Stability Report May 2022 (No. 34) measures table.",
+          "url": "https://www.tcmb.gov.tr/wps/wcm/connect/ee288a18-1107-48a9-946f-e19e37411b6d/DUY2022-13.pdf?MOD=AJPERES"
+        },
+        {
+          "effective": "between 2022-02-22 and 2024-04-03 (intermediate steps)",
+          "money_transfer_limit": "rose stepwise from 5,000 to 50,000",
+          "note": "UNVERIFIED dates and sizes of the steps between TRY 5,000 (21 Feb 2022) and TRY 50,000. No CBRT press release on them appears in the 2022 or 2023 press-release indexes (the 2023 index has no FAST item at all), and the May 2022, Nov 2022, May 2023 and Nov 2023 Financial Stability Reports do not mention them. ANO2024-16 confirms the limit was TRY 50,000 immediately before 4 Apr 2024.",
+          "url": "https://www.tcmb.gov.tr/wps/wcm/connect/EN/TCMB+EN/Main+Menu/Announcements/Press+Releases/2024/ANO2024-16"
+        },
+        {
+          "effective": "2024-04-04",
+          "money_transfer_limit": 100000,
+          "qr_merchant_dynamic_verification_limit": 250000,
+          "previous": "50,000 transfers / 100,000 QR merchant",
+          "announced": "2024-04-02 (press release 2024-16); planned and announced to participants Dec 2023",
+          "url": "https://www.tcmb.gov.tr/wps/wcm/connect/EN/TCMB+EN/Main+Menu/Announcements/Press+Releases/2024/ANO2024-16"
+        },
+        {
+          "effective": "2026-08-26",
+          "money_transfer_limit": 300000,
+          "request_to_pay_limit": 300000,
+          "qr_merchant_dynamic_verification_limit": 300000,
+          "previous": "100,000 transfers and Request-to-Pay / 250,000 QR merchant",
+          "announced": "2026-08-24 (press release 2026-36)",
+          "url": "https://www.tcmb.gov.tr/wps/wcm/connect/EN/TCMB+EN/Main+Menu/Announcements/Press+Releases/2026/ANO2026-36"
+        }
+      ],
+      "limit_in_force_by_period_TRY": {
+        "2024-01-01_to_2024-04-03": 50000,
+        "2024-04-04_to_2026-08-25": 100000,
+        "2026-08-26_onward": 300000
+      },
+      "daily_limit": "No system-level daily value cap found in CBRT sources; daily limits are set by individual banks/apps (UNVERIFIED, bank-specific).",
+      "night_time_limit": "None found. No CBRT press release in 2024, 2025 or 2026 introduces a time-of-day (night) limit on FAST (indexes checked); unlike Brazil's PIX night limit, no Turkish equivalent was located. Any bank-level or BDDK anti-fraud night restrictions: UNVERIFIED (BDDK and Resmi Gazete sites not accessed).",
+      "other_changes": [
+        {
+          "date": "2024-02-05",
+          "change": "FAST Request-to-Pay (Odeme Iste) overlay service launched (person-to-person first)",
+          "url": "https://www.tcmb.gov.tr/wps/wcm/connect/TR/TCMB+TR/Main+Menu/Duyurular/Basin/2024/DUY2024-08"
+        },
+        {
+          "date": "2024-05-31",
+          "change": "AUDIT CORRECTION (was 'title only seen'). FAST Secure Payment Transaction (Guvenli Odeme Islemi, escrow) overlay service live from 31 May 2024 (press release 2024-32, 5 Jun 2024). It holds the amount at a FAST participant until an authorised body approves/registers the underlying deal (first use case: second-hand vehicle sales) and has an initial per-transaction limit of TRY 2 million. It is conditional escrow, not an on-demand interbank credit transfer, so it does not change the 02:00 classification. Whether the TRY 2m limit changed later: UNVERIFIED.",
+          "url": "https://www.tcmb.gov.tr/wps/wcm/connect/TR/TCMB+TR/Main+Menu/Duyurular/Basin/2024/DUY2024-32"
+        },
+        {
+          "date": "2022-12-26",
+          "change": "Announcement that payment and e-money institutions join FAST directly in 2023; FAST described as 7/24/365",
+          "url": "https://www.tcmb.gov.tr/wps/wcm/connect/cbcc43f8-b6f2-4cff-8adc-f7147a1606cd/DUY2022-53.pdf?MOD=AJPERES"
+        },
+        {
+          "date": "2025-01-18",
+          "change": "AUDIT ADDITION. Request-to-Pay overlay extended to corporate users, with partial, early and deferred payment functions (press release 2025-06, 24 Jan 2025). No limit change.",
+          "url": "https://www.tcmb.gov.tr/wps/wcm/connect/TR/TCMB+TR/Main+Menu/Duyurular/Basin/2025/DUY2025-06"
+        },
+        {
+          "date": "2025-12-05",
+          "change": "AUDIT ADDITION. CBRT launched the 'Odemelerin Merkezi' payments website, which lists a 'Siper' security overlay service for FAST among CBRT payment projects (press release 2025-62). What Siper does (e.g., fraud screening, any time-of-day controls) is UNVERIFIED: odemelerinmerkezi.org was not accessed.",
+          "url": "https://www.tcmb.gov.tr/wps/wcm/connect/TR/TCMB+TR/Main+Menu/Duyurular/Basin/2025/DUY2025-62"
+        }
+      ],
+      "facts": [
+        {
+          "fact": "FAST lets customers send payment orders 7x24; independent of EFT; developed, operated and owned by the CBRT; pilot 18 Dec 2020, public launch 8 Jan 2021",
+          "url": "https://www.tcmb.gov.tr/wps/wcm/connect/EN/TCMB+EN/Main+Menu/Core+Functions/Payment+Systems/Payment+Systems+in+Turkey/Electronic+Fund+Transfer+System+and+Electronic+Securities+Transfer+System"
+        }
+      ]
+    },
+    {
+      "name": "Intra-bank transfers (havale) and card schemes (BKM)",
+      "note": "Not interbank settlement outside RTGS hours: same-bank book transfers (havale) do not cross banks. BKM operates the Domestic Clearing and Settlement System (YTHS), which provides clearing and reconciliation of card transactions among banks (CBRT BKM page); AUDIT NOTE: that YTHS positions settle net through the CBRT systems is not stated on the CBRT page and is UNVERIFIED, but card clearing is deferred and is not an on-demand interbank credit transfer either way. No other 24/7 interbank TRY settlement system appears on the CBRT list of payment systems in Turkey (EFT/EMKT/FAST, BKM, Takasbank, MKK, GOSAS, Paycore, Bilesim).",
+      "url": "https://www.tcmb.gov.tr/wps/wcm/connect/TR/TCMB+TR/Main+Menu/Temel+Faaliyetler/Odeme+Sistemleri",
+      "url_bkm": "https://www.tcmb.gov.tr/wps/wcm/connect/TR/TCMB+TR/Main+Menu/Temel+Faaliyetler/Odeme+Sistemleri/Turkiyedeki+Odeme+Sistemleri/Bankalararasi+Kart+Merkezi+%28BKM%29"
+    }
+  ],
+  "usd50k_in_try": {
+    "source": "CBRT indicative USD forex selling rates",
+    "points": [
+      {
+        "date": "2024-01-02",
+        "usdtry": 29.7209,
+        "try": 1486045,
+        "fast_txns_needed": 30,
+        "cap": 50000,
+        "url": "https://www.tcmb.gov.tr/kurlar/202401/02012024.xml"
+      },
+      {
+        "date": "2024-04-03",
+        "usdtry": 31.9968,
+        "try": 1599840,
+        "fast_txns_needed": 32,
+        "cap": 50000,
+        "note": "AUDIT ADDITION: last day of the TRY 50,000 cap",
+        "url": "https://www.tcmb.gov.tr/kurlar/202404/03042024.xml"
+      },
+      {
+        "date": "2024-04-04",
+        "usdtry": 31.897,
+        "try": 1594850,
+        "fast_txns_needed": 16,
+        "cap": 100000,
+        "note": "AUDIT ADDITION: first day of the TRY 100,000 cap",
+        "url": "https://www.tcmb.gov.tr/kurlar/202404/04042024.xml"
+      },
+      {
+        "date": "2025-01-02",
+        "usdtry": 35.316,
+        "try": 1765800,
+        "fast_txns_needed": 18,
+        "cap": 100000,
+        "url": "https://www.tcmb.gov.tr/kurlar/202501/02012025.xml"
+      },
+      {
+        "date": "2026-01-02",
+        "usdtry": 42.9582,
+        "try": 2147910,
+        "fast_txns_needed": 22,
+        "cap": 100000,
+        "url": "https://www.tcmb.gov.tr/kurlar/202601/02012026.xml"
+      },
+      {
+        "date": "2026-08-25",
+        "usdtry": 48.0982,
+        "try": 2404910,
+        "fast_txns_needed": 25,
+        "cap": 100000,
+        "note": "AUDIT ADDITION: last day of the TRY 100,000 cap",
+        "url": "https://www.tcmb.gov.tr/kurlar/202608/25082026.xml"
+      },
+      {
+        "date": "2026-08-26",
+        "usdtry": 48.1157,
+        "try": 2405785,
+        "fast_txns_needed": 9,
+        "cap": 300000,
+        "url": "https://www.tcmb.gov.tr/kurlar/202608/26082026.xml"
+      },
+      {
+        "date": "2026-10-21",
+        "usdtry": 49.6015,
+        "try": 2480075,
+        "fast_txns_needed": 9,
+        "cap": 300000,
+        "url": "https://www.tcmb.gov.tr/kurlar/today.xml"
+      }
+    ]
+  },
+  "classification": "LIMITED",
+  "classification_question": "On an ordinary weekday at 02:00 local time, can a transfer of USD 50,000 equivalent settle between two banks within minutes?",
+  "classification_rationale": "At 02:00 on a weekday EFT/RPS (RTGS) is closed (opens 08:30). The only interbank TRY system running is FAST (24/7, settles in seconds), but it has a binding per-transaction cap: TRY 50,000 until 3 Apr 2024, TRY 100,000 from 4 Apr 2024 to 25 Aug 2026, TRY 300,000 from 26 Aug 2026. USD 50,000 was about TRY 1.49m-2.48m over 2024 to Oct 2026, so it must be split into roughly 30-32 (Jan to 3 Apr 2024), 16-25 (4 Apr 2024 to 25 Aug 2026) or 9 (from 26 Aug 2026) FAST payments. The FAST escrow overlay (TRY 2m limit from 31 May 2024) does not help: it releases funds only after an authorised approval/registration of the underlying deal. The classification is LIMITED throughout 2024-2026. Whether a bank allows that many back-to-back FAST payments at night depends on the bank's own daily limits (UNVERIFIED).",
+  "binance_fiat_rails": {
+    "documented_regulatory_constraint": {
+      "fact": "Since 30 Apr 2021 (Regulation on the Disuse of Crypto Assets in Payments, Official Gazette 16 Apr 2021 no. 31456), payment and e-money institutions may not intermediate fund transfers to or from crypto-asset trading, custody, transfer or issuance platforms. So TRY legs to and from exchanges must go through bank accounts (EFT/FAST/havale) or peer-to-peer.",
+      "url": "https://www.tcmb.gov.tr/wps/wcm/connect/6937855a-7c29-4d08-a26e-51ef3273c022/%C3%96demelerde+Kripto+Varl%C4%B1klar%C4%B1n+Kullan%C4%B1lmamas%C4%B1na+Dair+Y%C3%B6netmelik.pdf?MOD=AJPERES"
+    },
+    "papara_note": {
+      "fact": "CBRT press release 2025-34 (27 May 2025): following investigation 2024/231483, the court appointed SDIF as trustee of Papara Elektronik Para A.S. (an e-money institution), and its payment transactions became temporarily subject to daily limits.",
+      "url": "https://www.tcmb.gov.tr/wps/wcm/connect/EN/TCMB+EN/Main+Menu/Announcements/Press+Releases/2025/ANO2025-34",
+      "relevance": "UNVERIFIED that Papara was a Binance TRY channel; under the 2021 regulation it could not legally intermediate exchange deposits after 30 Apr 2021."
+    },
+    "typical_channels": "UNVERIFIED (binance.com, binance.tr and news sources not accessed): (a) Binance TR (local entity, BN Teknoloji A.S.) takes TRY deposits and withdrawals by bank transfer from the user's own Turkish bank account (EFT during EFT hours, FAST 24/7 within the FAST cap, havale with its partner bank); (b) Binance.com lists TRY spot pairs (e.g., USDT/TRY) and runs a large TRY P2P market whose ads settle the fiat leg by Turkish bank transfer (bank names, FAST/IBAN); (c) since Law 7518 (July 2024) crypto-asset service providers in Turkey need Capital Markets Board (SPK) authorisation, which shapes which Binance entity serves Turkish residents. Not confirmed from primary sources here."
+  },
+  "unverified": [
+    "Dates and sizes of the FAST limit steps between TRY 5,000 (21 Feb 2022, verified) and TRY 50,000 (in force before 4 Apr 2024, verified).",
+    "Whether the 26 Aug 2026 TRY 300,000 limit was implemented on schedule (only the 24 Aug 2026 CBRT announcement was read; secondary snippets from bloomberght.com and forbes.com.tr reportedly agree but were not re-checked in the audit).",
+    "Bank-level customer EFT cut-off (~17:00) and late-EFT fees.",
+    "Bank-level daily FAST limits and any bank or BDDK anti-fraud night-time restrictions; no CBRT system-level night limit is announced in the CBRT press releases of 2024, 2025 or 2026 (all titles checked in the audit). Function of the 'Siper' FAST security overlay is unknown.",
+    "Which days are half working days (13:00 close).",
+    "Whether BKM YTHS card positions settle net through the CBRT systems.",
+    "Whether the FAST escrow (Secure Payment Transaction) TRY 2m limit changed after June 2024.",
+    "All Binance-specific fiat channel details (Binance TR bank deposits, P2P payment methods, Binance.com TRY deposit partners, SPK licensing under Law 7518). binance.tr / binance.com not accessed."
+  ],
+  "sources": [
+    "https://hesap.com/hesap-defteri/fast-nedir-limiti-ne-kadar",
+    "https://www.bloomberght.com/tcmb-fast-islem-limitini-artirdi-3786250",
+    "https://www.denizbank.com/medium/document-file-11015.vsf",
+    "https://www.forbes.com.tr/ekonomi/fast-ta-islem-limitleri-300-bin-liraya-yukseltiliyor",
+    "https://www.paradergi.com.tr/finans/2024/04/02/fast-islem-tutar-limiti-yukseltildi",
+    "https://www.tcmb.gov.tr/kurlar/202401/02012024.xml",
+    "https://www.tcmb.gov.tr/kurlar/202501/02012025.xml",
+    "https://www.tcmb.gov.tr/kurlar/202601/02012026.xml",
+    "https://www.tcmb.gov.tr/kurlar/202608/26082026.xml",
+    "https://www.tcmb.gov.tr/kurlar/today.xml",
+    "https://www.tcmb.gov.tr/wps/wcm/connect/06a86fad-07db-448a-b523-79ee491d28a1/DUY2021-06.pdf?MOD=AJPERES",
+    "https://www.tcmb.gov.tr/wps/wcm/connect/13ed79e7-635d-4473-9137-a471f8f3a932/DUY2021-28.pdf?MOD=AJPERES",
+    "https://www.tcmb.gov.tr/wps/wcm/connect/31501641-178e-470b-8888-aa91c2958466/FPAiP_UygunlukRaporu_Yay%C4%B1m4_2021_kamuyabeyan-ING.pdf?MOD=AJPERES",
+    "https://www.tcmb.gov.tr/wps/wcm/connect/4ee9264d-b580-4cce-bd9b-7e325fa1c173/DUY2021-01.pdf?MOD=AJPERES",
+    "https://www.tcmb.gov.tr/wps/wcm/connect/6937855a-7c29-4d08-a26e-51ef3273c022/%C3%96demelerde+Kripto+Varl%C4%B1klar%C4%B1n+Kullan%C4%B1lmamas%C4%B1na+Dair+Y%C3%B6netmelik.pdf?MOD=AJPERES",
+    "https://www.tcmb.gov.tr/wps/wcm/connect/EN/TCMB+EN/Main+Menu/Announcements/Press+Releases/2024",
+    "https://www.tcmb.gov.tr/wps/wcm/connect/EN/TCMB+EN/Main+Menu/Announcements/Press+Releases/2024/ANO2024-12",
+    "https://www.tcmb.gov.tr/wps/wcm/connect/EN/TCMB+EN/Main+Menu/Announcements/Press+Releases/2024/ANO2024-16",
+    "https://www.tcmb.gov.tr/wps/wcm/connect/EN/TCMB+EN/Main+Menu/Announcements/Press+Releases/2025",
+    "https://www.tcmb.gov.tr/wps/wcm/connect/EN/TCMB+EN/Main+Menu/Announcements/Press+Releases/2025/ANO2025-34",
+    "https://www.tcmb.gov.tr/wps/wcm/connect/EN/TCMB+EN/Main+Menu/Announcements/Press+Releases/2026",
+    "https://www.tcmb.gov.tr/wps/wcm/connect/EN/TCMB+EN/Main+Menu/Announcements/Press+Releases/2026/ANO2026-36",
+    "https://www.tcmb.gov.tr/wps/wcm/connect/EN/TCMB+EN/Main+Menu/Core+Functions/Payment+Systems/Payment+Systems+in+Turkey/Electronic+Fund+Transfer+System+and+Electronic+Securities+Transfer+System",
+    "https://www.tcmb.gov.tr/wps/wcm/connect/TR/TCMB+TR/Main+Menu/Duyurular/Basin/2024/DUY2024-08",
+    "https://www.tcmb.gov.tr/wps/wcm/connect/TR/TCMB+TR/Main+Menu/Temel+Faaliyetler/Odeme+Sistemleri/Turkiyedeki+Odeme+Sistemleri/Elektronik+Fon+Transfer+%28EFT%29+Sistemi",
+    "https://www.tcmb.gov.tr/wps/wcm/connect/cbcc43f8-b6f2-4cff-8adc-f7147a1606cd/DUY2022-53.pdf?MOD=AJPERES",
+    "https://www.tcmb.gov.tr/wps/wcm/connect/ee288a18-1107-48a9-946f-e19e37411b6d/DUY2022-13.pdf?MOD=AJPERES",
+    "https://www.tcmb.gov.tr/wps/wcm/connect/TR/TCMB+TR/Main+Menu/Duyurular/Basin/2024/DUY2024-32",
+    "https://www.tcmb.gov.tr/wps/wcm/connect/TR/TCMB+TR/Main+Menu/Duyurular/Basin/2025/DUY2025-06",
+    "https://www.tcmb.gov.tr/wps/wcm/connect/TR/TCMB+TR/Main+Menu/Duyurular/Basin/2025/DUY2025-62",
+    "https://www.tcmb.gov.tr/wps/wcm/connect/9ee6b07f-da12-436b-9054-9c150589003b/Tam+Metin.pdf?MOD=AJPERES",
+    "https://www.tcmb.gov.tr/wps/wcm/connect/TR/TCMB+TR/Main+Menu/Temel+Faaliyetler/Odeme+Sistemleri/Turkiyedeki+Odeme+Sistemleri/Bankalararasi+Kart+Merkezi+%28BKM%29",
+    "https://www.tcmb.gov.tr/wps/wcm/connect/TR/TCMB+TR/Main+Menu/Duyurular/Basin/2022",
+    "https://www.tcmb.gov.tr/wps/wcm/connect/EN/TCMB+EN/Main+Menu/Announcements/Press+Releases/2023",
+    "https://www.tcmb.gov.tr/wps/wcm/connect/TR/TCMB+TR/Main+Menu/Duyurular/Basin/2026",
+    "https://www.tcmb.gov.tr/kurlar/202404/03042024.xml",
+    "https://www.tcmb.gov.tr/kurlar/202404/04042024.xml",
+    "https://www.tcmb.gov.tr/kurlar/202608/25082026.xml"
+  ],
+  "audit": {
+    "date": "2026-10-22",
+    "result": "Classification LIMITED confirmed.",
+    "method": "Independent re-check by re-reading the cited CBRT primary sources (EFT pages EN/TR, PFMI disclosure section 2.9, press releases 2021-01, 2021-06, 2021-28, 2022-13, 2022-53, 2024-08, 2024-12, 2024-16, 2024-32, 2025-06, 2025-34, 2025-62, 2026-36, crypto regulation PDF, CBRT USD rates XML), the 2022-2026 Turkish and English press-release indexes, and the CBRT Financial Stability Reports May 2022-Nov 2023. No new web searches were made, and binance.tr, odemelerinmerkezi.org, www3.tcmb.gov.tr, bddk.org.tr, resmigazete.gov.tr, spk.gov.tr and fast.tcmb.gov.tr were not accessed. No estimation results were read.",
+    "confirmed": [
+      "EFT/RPS/ESTS hours: weekdays except public holidays 08:30-17:30, half days to 13:00; CBRT may change hours (EN and TR pages re-retrieved 2026-10-22; PFMI disclosure 29 Dec 2021, section 2.9 'Working Principles'). EFT and RPS are RTGS systems (PFMI).",
+      "Redesigned CBRT Payment Systems live 23 Feb 2024 (press release 2024-12, 1 Mar 2024); no hours change mentioned.",
+      "FAST: 7x24, independent of EFT, CBRT-owned, settles in seconds; pilot 18 Dec 2020, public 8 Jan 2021.",
+      "FAST limits: TRY 50 at launch (2021-01), 1,000 from 29 Jan 2021 (2021-06), 2,000 from 4 Aug 2021 (2021-28), 50,000 -> 100,000 from 4 Apr 2024 (2024-16, 2 Apr 2024; QR 100,000 -> 250,000), 100,000 -> 300,000 from 26 Aug 2026 for transfers and Request-to-Pay, QR 250,000 -> 300,000 (2026-36, 24 Aug 2026).",
+      "Request-to-Pay launched 5 Feb 2024 (2024-08).",
+      "Papara: SDIF appointed trustee, payments temporarily subject to daily limits (2025-34, 27 May 2025).",
+      "Crypto regulation: Official Gazette 16 Apr 2021 no. 31456; Article 4(2) bars payment and e-money institutions from intermediating fund transfers to/from crypto trading, custody, transfer or issuance platforms; in force 30 Apr 2021 (Article 5).",
+      "All CBRT USD selling rates and the TRY amounts / number of FAST payments in the original table."
+    ],
+    "corrections": [
+      "Added verified FAST limit step TRY 2,000 -> 5,000 on 21 Feb 2022 (press release 2022-13; FSR May 2022). The original listed 2022-13 only for the TRY 10,000 QR cap and left all steps after 2,000 unverified.",
+      "FAST escrow (2024-32): now described from the release itself: live 31 May 2024, TRY 2m initial limit, conditional on approval/registration of the underlying deal (second-hand vehicles first). Original had only the index title.",
+      "Pre-April-2024 split refined from 'roughly 30' to 30-32 payments (USD/TRY 29.72 on 2 Jan 2024, 32.00 on 3 Apr 2024).",
+      "BKM 'settles net through the CBRT systems' downgraded to UNVERIFIED (CBRT BKM page only says YTHS provides clearing and reconciliation).",
+      "Added Request-to-Pay corporate features (18 Jan 2025, 2025-06) and the 'Siper' FAST security overlay mention (2025-62, function UNVERIFIED)."
+    ]
+  }
+}

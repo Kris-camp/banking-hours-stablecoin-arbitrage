@@ -1,0 +1,5 @@
+# raw data and panels are rebuilt by the download scripts (see data_raw/README.md)
+data_raw/*
+!data_raw/README.md
+__pycache__/
+*.pyc
